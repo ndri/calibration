@@ -11,9 +11,10 @@
 	calibration: having the appropriate amount of confidence in your beliefs. This is a tool to
 	automatically score your calibration on the questions from Julia Galef's
 	<em>The Scout Mindset</em>
-	<Link href="https://juliagalef.com/calibration/">calibration exercise</Link>. Please support the
-	author by purchasing
-	<Link href="https://search.worldcat.org/title/1164823768"><em>The Scout Mindset</em></Link>.
+	<Link href="https://juliagalef.com/calibration/" newTab>calibration exercise</Link>. Please
+	support the author by purchasing
+	<Link href="https://search.worldcat.org/title/1164823768" newTab><em>The Scout Mindset</em></Link
+	>.
 </Paragraph>
 <Heading level={2}>How to use</Heading>
 <Paragraph>
