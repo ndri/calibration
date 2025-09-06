@@ -21,8 +21,8 @@
 	class={[
 		'inline-flex items-center',
 		'underline',
-		'text-orange-600 hover:text-orange-700',
-		'dark:text-orange-400 dark:hover:text-orange-300',
+		'text-accent-600 hover:text-accent-700',
+		'dark:text-accent-400 dark:hover:text-accent-300',
 		iconSize === 'sm' && 'gap-0.5',
 		iconSize === 'md' && 'gap-1',
 		iconSize === 'lg' && 'gap-1',
