@@ -2,6 +2,7 @@
 	import Heading from '$lib/components/Heading.svelte';
 	import Link from '$lib/components/Link.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
+	import ScoutMindsetQuiz from '$lib/components/ScoutMindsetQuiz.svelte';
 </script>
 
 <Heading level={1}>Scout Mindset Calibration Practice</Heading>
@@ -18,7 +19,7 @@
 </Paragraph>
 <Heading level={2}>How to use</Heading>
 <Paragraph>
-	For each question, select an answer and then select how sure you are by circling a confidence
+	For each question, select an answer and then select how sure you are by selecting a confidence
 	level.
 </Paragraph>
 <Paragraph>
@@ -28,7 +29,7 @@
 </Paragraph>
 <Paragraph>
 	For the sake of simplicity, there are five confidence levels between those extremes: 55%, 65%,
-	75%, 85%, and 95%. Just circle the one that best represents how sure you are.
+	75%, 85%, and 95%. Just select the one that best represents how sure you are.
 </Paragraph>
 <Heading level={2}>How to read your results</Heading>
 <Paragraph>
@@ -38,3 +39,5 @@
 	that's possible to achieve in reality. Still, it's a useful benchmark against which to compare
 	yourself.
 </Paragraph>
+
+<ScoutMindsetQuiz />

@@ -2,7 +2,7 @@
 	import type { Snippet } from 'svelte';
 
 	interface Props {
-		level: 1 | 2;
+		level: 1 | 2 | 3;
 		children: Snippet;
 	}
 
@@ -19,4 +19,8 @@
 	<h2 class={['text-lg font-medium', colourClasses]}>
 		{@render children()}
 	</h2>
+{:else if level === 3}
+	<h3 class={['text-md font-medium', colourClasses]}>
+		{@render children()}
+	</h3>
 {/if}
