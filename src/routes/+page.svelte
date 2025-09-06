@@ -1,2 +1,39 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Heading from '$lib/components/Heading.svelte';
+	import Link from '$lib/components/Link.svelte';
+	import Paragraph from '$lib/components/Paragraph.svelte';
+</script>
+
+<Heading level={1}>Scout Mindset Calibration Practice</Heading>
+<Heading level={2}>About</Heading>
+<Paragraph>
+	In Chapter Six of <em>The Scout Mindset</em> by Julia Galef, she discusses the skill of
+	calibration: having the appropriate amount of confidence in your beliefs. This is a tool to
+	automatically score your calibration on the questions from Julia Galef's
+	<em>The Scout Mindset</em>
+	<Link href="https://juliagalef.com/calibration/">calibration exercise</Link>. Please support the
+	author by purchasing
+	<Link href="https://search.worldcat.org/title/1164823768"><em>The Scout Mindset</em></Link>.
+</Paragraph>
+<Heading level={2}>How to use</Heading>
+<Paragraph>
+	For each question, select an answer and then select how sure you are by circling a confidence
+	level.
+</Paragraph>
+<Paragraph>
+	Since these questions have only two possible answers, your confidence level could range from 50
+	percent if you truly have no clue (i.e., you might as well be guessing the outcome of a coin flip)
+	to 100 percent if you think there is no chance you could be wrong.
+</Paragraph>
+<Paragraph>
+	For the sake of simplicity, there are five confidence levels between those extremes: 55%, 65%,
+	75%, 85%, and 95%. Just circle the one that best represents how sure you are.
+</Paragraph>
+<Heading level={2}>How to read your results</Heading>
+<Paragraph>
+	Being perfectly calibrated would mean that your “50% sure” claims are in fact correct 50 percent
+	of the time, your “60% sure” claims are correct 60 percent of the time, your “70% sure” claims are
+	correct 70 percent of the time, and so on. Perfect calibration is an abstract ideal, not something
+	that's possible to achieve in reality. Still, it's a useful benchmark against which to compare
+	yourself.
+</Paragraph>
