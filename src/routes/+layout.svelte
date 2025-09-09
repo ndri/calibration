@@ -16,7 +16,7 @@
 		'dark:bg-main-800 dark:text-main-100'
 	]}
 >
-	<main class="flex w-full max-w-3xl flex-col gap-4">
+	<main class="flex w-full max-w-xl flex-col gap-4">
 		{@render children?.()}
 	</main>
 </div>

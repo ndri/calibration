@@ -4,14 +4,15 @@
 	import ConfidenceSelector from '$lib/components/ConfidenceSelector.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
+	import ProgressBar from '$lib/components/ProgressBar.svelte';
 	import questions from '$lib/data/scout_mindset_questions.json';
 	import { addAnswer, getQuestionSetProgress } from '$lib/db';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 
-	const questionIndexQuery = stateQuery(() =>
-		getQuestionSetProgress('Scout Mindset Calibration Practice')
-	);
+	const QUESTION_SET = 'Scout Mindset Calibration Practice';
+
+	const questionIndexQuery = stateQuery(() => getQuestionSetProgress(QUESTION_SET));
 	const questionIndex = $derived(questionIndexQuery.current);
 	const currentQuestion = $derived(
 		questionIndex !== undefined ? questions[questionIndex] : undefined
@@ -22,14 +23,13 @@
 
 	function nextQuestion() {
 		if (!currentQuestion || !selectedAnswer || !selectedConfidence) return;
-		if (questionIndex === questions.length - 1) return;
 
 		addAnswer({
 			question: currentQuestion.question,
 			correctAnswer: currentQuestion.answer,
 			answer: selectedAnswer,
 			confidence: selectedConfidence,
-			questionSet: 'Scout Mindset Calibration Practice'
+			questionSet: QUESTION_SET
 		});
 
 		selectedAnswer = undefined;
@@ -40,6 +40,8 @@
 {#if questionIndex !== undefined && currentQuestion}
 	<div class="flex flex-col gap-10">
 		<Heading level={1}>Scout Mindset Calibration Practice</Heading>
+
+		<ProgressBar progress={questionIndex} total={questions.length} size="sm" />
 
 		<div class="flex flex-col gap-4">
 			<Heading level={2}>{questionIndex + 1}. {currentQuestion.question}</Heading>
