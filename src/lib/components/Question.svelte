@@ -12,7 +12,7 @@
 	let selectedOption = $state<(typeof question.options)[0]>();
 </script>
 
-<div class="flex flex-col gap-4">
+<div class="flex flex-col gap-2">
 	<div>{question.question}</div>
 	<div class="flex gap-2">
 		<ButtonGroup values={question.options} />
