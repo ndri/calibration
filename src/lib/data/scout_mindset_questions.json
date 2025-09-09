@@ -1,254 +1,234 @@
 [
 	{
-		"title": "Are these animal facts true or false?",
-		"questions": [
-			{
-				"question": "The elephant is the world's largest mammal.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "The blue whale, not the elephant, is the largest mammal."
-			},
-			{
-				"question": "Sea otters sometimes hold hands while they sleep.",
-				"options": ["True", "False"],
-				"answer": "True"
-			},
-			{
-				"question": "Centipedes have more legs than any other animal.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "The millipede is the animal with the most legs — some have as many as 750 legs. The centipede can have up to 354 legs."
-			},
-			{
-				"question": "Mammals and dinosaurs coexisted.",
-				"options": ["True", "False"],
-				"answer": "True",
-				"explanation": "The first mammals appeared roughly 200 million years ago. Dinosaurs went extinct roughly 65 million years ago."
-			},
-			{
-				"question": "Bears can't climb trees.",
-				"options": ["True", "False"],
-				"answer": "False"
-			},
-			{
-				"question": "Camels store water in their humps.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "Camels store fat, not water, in their humps."
-			},
-			{
-				"question": "Flamingos are pink because they eat shrimp.",
-				"options": ["True", "False"],
-				"answer": "True"
-			},
-			{
-				"question": "The giant panda eats mostly bamboo.",
-				"options": ["True", "False"],
-				"answer": "True",
-				"explanation": "A giant panda's diet is almost entirely bamboo."
-			},
-			{
-				"question": "The platypus is the only mammal that lays eggs.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "The platypus is one of two mammals that lay eggs. The other is the echidna."
-			},
-			{
-				"question": "A mule is a cross between a male donkey and a female horse.",
-				"options": ["True", "False"],
-				"answer": "True"
-			}
-		]
+		"question": "The elephant is the world's largest mammal.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The blue whale, not the elephant, is the largest mammal."
 	},
 	{
-		"title": "Which historical figure was born first?",
-		"questions": [
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Julius Caesar", "Confucius"],
-				"answer": "Confucius",
-				"explanation": "Confucius (551 BC) was born before Julius Caesar (100 BC)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Fidel Castro", "Mahatma Gandhi"],
-				"answer": "Mahatma Gandhi",
-				"explanation": "Mahatma Gandhi (1869) was born before Fidel Castro (1926)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Nelson Mandela", "Anne Frank"],
-				"answer": "Nelson Mandela",
-				"explanation": "Nelson Mandela (1918) was born before Anne Frank (1929)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Cleopatra", "Muhammad"],
-				"answer": "Cleopatra",
-				"explanation": "Cleopatra (69 BC) was born before Muhammad (circa 570)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["William Shakespeare", "Joan of Arc"],
-				"answer": "Joan of Arc",
-				"explanation": "Joan of Arc (circa 1412) was born before William Shakespeare (1564)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["George Washington", "Sun Tzu"],
-				"answer": "Sun Tzu",
-				"explanation": "Sun Tzu (544 BC) was born before George Washington (1732)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Genghis Khan", "Leonardo da Vinci"],
-				"answer": "Genghis Khan",
-				"explanation": "Genghis Khan (circa 1160) was born before Leonardo da Vinci (1452)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Queen Victoria", "Karl Marx"],
-				"answer": "Karl Marx",
-				"explanation": "Karl Marx (1818) was born before Queen Victoria (1819)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Saddam Hussein", "Marilyn Monroe"],
-				"answer": "Marilyn Monroe",
-				"explanation": "Marilyn Monroe (1926) was born before Saddam Hussein (1937)."
-			},
-			{
-				"question": "Which historical figure was born first?",
-				"options": ["Albert Einstein", "Mao Zedong"],
-				"answer": "Albert Einstein",
-				"explanation": "Albert Einstein (1879) was born before Mao Zedong (1893)."
-			}
-		]
+		"question": "Sea otters sometimes hold hands while they sleep.",
+		"options": ["True", "False"],
+		"answer": "True"
 	},
 	{
-		"title": "Which country had more people in 2019?",
-		"questions": [
-			{
-				"question": "Germany or France?",
-				"options": ["Germany", "France"],
-				"answer": "Germany",
-				"explanation": "Germany (84 million) has more people than France (65 million)."
-			},
-			{
-				"question": "Japan or South Korea?",
-				"options": ["Japan", "South Korea"],
-				"answer": "Japan",
-				"explanation": "Japan (127 million) has more people than South Korea (51 million)."
-			},
-			{
-				"question": "Brazil or Argentina?",
-				"options": ["Brazil", "Argentina"],
-				"answer": "Brazil",
-				"explanation": "Brazil (211 million) has more people than Argentina (45 million)."
-			},
-			{
-				"question": "Egypt or Botswana?",
-				"options": ["Egypt", "Botswana"],
-				"answer": "Egypt",
-				"explanation": "Egypt (100 million) has more people than Botswana (2 million)."
-			},
-			{
-				"question": "Mexico or Guatemala?",
-				"options": ["Mexico", "Guatemala"],
-				"answer": "Mexico",
-				"explanation": "Mexico (128 million) has more people than Guatemala (18 million)."
-			},
-			{
-				"question": "Panama or Belize?",
-				"options": ["Panama", "Belize"],
-				"answer": "Panama",
-				"explanation": "Panama (4 million) has more people than Belize (390,000)."
-			},
-			{
-				"question": "Jamaica or Haiti?",
-				"options": ["Jamaica", "Haiti"],
-				"answer": "Haiti",
-				"explanation": "Haiti (11 million) has more people than Jamaica (3 million)."
-			},
-			{
-				"question": "Greece or Norway?",
-				"options": ["Greece", "Norway"],
-				"answer": "Greece",
-				"explanation": "Greece (10 million) has more people than Norway (5 million)."
-			},
-			{
-				"question": "China or India?",
-				"options": ["China", "India"],
-				"answer": "China",
-				"explanation": "China (1.43 billion) has more people than India (1.37 billion)."
-			},
-			{
-				"question": "Iraq or Iran?",
-				"options": ["Iraq", "Iran"],
-				"answer": "Iran",
-				"explanation": "Iran (83 million) has more people than Iraq (39 million)."
-			}
-		]
+		"question": "Centipedes have more legs than any other animal.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The millipede is the animal with the most legs — some have as many as 750 legs. The centipede can have up to 354 legs."
 	},
 	{
-		"title": "Are these science facts true or false?",
-		"questions": [
-			{
-				"question": "Mars has one moon, just like Earth.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "Mars has two moons, Phobos and Deimos."
-			},
-			{
-				"question": "Scurvy is caused by a deficit of vitamin C.",
-				"options": ["True", "False"],
-				"answer": "True"
-			},
-			{
-				"question": "Brass is made from iron and copper.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "Brass is made of zinc and copper, not iron and copper."
-			},
-			{
-				"question": "One tablespoon of oil has more calories than one tablespoon of butter.",
-				"options": ["True", "False"],
-				"answer": "True",
-				"explanation": "One tablespoon of oil has roughly 120 calories, while one tablespoon of butter can contain up to 110 calories."
-			},
-			{
-				"question": "Helium is the lightest element.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "The lightest element is hydrogen, not helium."
-			},
-			{
-				"question": "The common cold is caused by bacteria.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "The common cold is caused by viruses, not bacteria."
-			},
-			{
-				"question": "The deepest place on Earth is in the Pacific Ocean.",
-				"options": ["True", "False"],
-				"answer": "True"
-			},
-			{
-				"question": "Seasons are caused by the earth orbiting the sun in an elliptical path.",
-				"options": ["True", "False"],
-				"answer": "False",
-				"explanation": "Seasons are caused by the tilt of the earth's axis."
-			},
-			{
-				"question": "Jupiter is the largest planet in our solar system.",
-				"options": ["True", "False"],
-				"answer": "True"
-			},
-			{
-				"question": "The atoms in a solid are more densely packed than the atoms in a gas.",
-				"options": ["True", "False"],
-				"answer": "True"
-			}
-		]
+		"question": "Mammals and dinosaurs coexisted.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first mammals appeared roughly 200 million years ago. Dinosaurs went extinct roughly 65 million years ago."
+	},
+	{
+		"question": "Bears can't climb trees.",
+		"options": ["True", "False"],
+		"answer": "False"
+	},
+	{
+		"question": "Camels store water in their humps.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Camels store fat, not water, in their humps."
+	},
+	{
+		"question": "Flamingos are pink because they eat shrimp.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "The giant panda eats mostly bamboo.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "A giant panda's diet is almost entirely bamboo."
+	},
+	{
+		"question": "The platypus is the only mammal that lays eggs.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The platypus is one of two mammals that lay eggs. The other is the echidna."
+	},
+	{
+		"question": "A mule is a cross between a male donkey and a female horse.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Julius Caesar", "Confucius"],
+		"answer": "Confucius",
+		"explanation": "Confucius (551 BC) was born before Julius Caesar (100 BC)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Fidel Castro", "Mahatma Gandhi"],
+		"answer": "Mahatma Gandhi",
+		"explanation": "Mahatma Gandhi (1869) was born before Fidel Castro (1926)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Nelson Mandela", "Anne Frank"],
+		"answer": "Nelson Mandela",
+		"explanation": "Nelson Mandela (1918) was born before Anne Frank (1929)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Cleopatra", "Muhammad"],
+		"answer": "Cleopatra",
+		"explanation": "Cleopatra (69 BC) was born before Muhammad (circa 570)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["William Shakespeare", "Joan of Arc"],
+		"answer": "Joan of Arc",
+		"explanation": "Joan of Arc (circa 1412) was born before William Shakespeare (1564)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["George Washington", "Sun Tzu"],
+		"answer": "Sun Tzu",
+		"explanation": "Sun Tzu (544 BC) was born before George Washington (1732)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Genghis Khan", "Leonardo da Vinci"],
+		"answer": "Genghis Khan",
+		"explanation": "Genghis Khan (circa 1160) was born before Leonardo da Vinci (1452)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Queen Victoria", "Karl Marx"],
+		"answer": "Karl Marx",
+		"explanation": "Karl Marx (1818) was born before Queen Victoria (1819)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Saddam Hussein", "Marilyn Monroe"],
+		"answer": "Marilyn Monroe",
+		"explanation": "Marilyn Monroe (1926) was born before Saddam Hussein (1937)."
+	},
+	{
+		"question": "Which historical figure was born first?",
+		"options": ["Albert Einstein", "Mao Zedong"],
+		"answer": "Albert Einstein",
+		"explanation": "Albert Einstein (1879) was born before Mao Zedong (1893)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Germany", "France"],
+		"answer": "Germany",
+		"explanation": "Germany (84 million) has more people than France (65 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Japan", "South Korea"],
+		"answer": "Japan",
+		"explanation": "Japan (127 million) has more people than South Korea (51 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Brazil", "Argentina"],
+		"answer": "Brazil",
+		"explanation": "Brazil (211 million) has more people than Argentina (45 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Egypt", "Botswana"],
+		"answer": "Egypt",
+		"explanation": "Egypt (100 million) has more people than Botswana (2 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Mexico", "Guatemala"],
+		"answer": "Mexico",
+		"explanation": "Mexico (128 million) has more people than Guatemala (18 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Panama", "Belize"],
+		"answer": "Panama",
+		"explanation": "Panama (4 million) has more people than Belize (390,000)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Jamaica", "Haiti"],
+		"answer": "Haiti",
+		"explanation": "Haiti (11 million) has more people than Jamaica (3 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Greece", "Norway"],
+		"answer": "Greece",
+		"explanation": "Greece (10 million) has more people than Norway (5 million)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["China", "India"],
+		"answer": "China",
+		"explanation": "China (1.43 billion) has more people than India (1.37 billion)."
+	},
+	{
+		"question": "Which country has more people as of 2025?",
+		"options": ["Iraq", "Iran"],
+		"answer": "Iran",
+		"explanation": "Iran (83 million) has more people than Iraq (39 million)."
+	},
+	{
+		"question": "Mars has one moon, just like Earth.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Mars has two moons, Phobos and Deimos."
+	},
+	{
+		"question": "Scurvy is caused by a deficit of vitamin C.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Brass is made from iron and copper.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Brass is made of zinc and copper, not iron and copper."
+	},
+	{
+		"question": "One tablespoon of oil has more calories than one tablespoon of butter.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "One tablespoon of oil has roughly 120 calories, while one tablespoon of butter can contain up to 110 calories."
+	},
+	{
+		"question": "Helium is the lightest element.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The lightest element is hydrogen, not helium."
+	},
+	{
+		"question": "The common cold is caused by bacteria.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The common cold is caused by viruses, not bacteria."
+	},
+	{
+		"question": "The deepest place on Earth is in the Pacific Ocean.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Seasons are caused by the earth orbiting the sun in an elliptical path.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Seasons are caused by the tilt of the earth's axis."
+	},
+	{
+		"question": "Jupiter is the largest planet in our solar system.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "The atoms in a solid are more densely packed than the atoms in a gas.",
+		"options": ["True", "False"],
+		"answer": "True"
 	}
 ]

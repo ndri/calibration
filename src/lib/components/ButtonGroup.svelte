@@ -3,11 +3,10 @@
 
 	interface Props {
 		values: string[];
+		selectedValue?: string | undefined;
 	}
 
-	const { values }: Props = $props();
-
-	let selectedValue = $state<string | undefined>();
+	let { values, selectedValue = $bindable() }: Props = $props();
 </script>
 
 <div class="flex">
