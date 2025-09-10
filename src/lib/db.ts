@@ -3,7 +3,7 @@ import Dexie, { type EntityTable } from 'dexie';
 export interface Answer {
 	id: number;
 	question: string;
-	answer: string;
+	userAnswer: string;
 	correctAnswer: string;
 	confidence: number;
 	questionSet: 'Scout Mindset Calibration Practice';
@@ -24,20 +24,27 @@ class CalibrationDB extends Dexie {
 
 export const db = new CalibrationDB();
 
-export async function getAnswers() {
+export async function getAllAnswers() {
 	return db.answers.orderBy('answeredAt').toArray();
+}
+
+export async function getAnswersForQuestionSet(questionSet: string) {
+	return db.answers
+		.orderBy('answeredAt')
+		.filter((answer) => answer.questionSet === questionSet)
+		.toArray();
 }
 
 export async function addAnswer({
 	question,
-	answer,
+	userAnswer,
 	correctAnswer,
 	confidence,
 	questionSet
 }: Omit<Answer, 'id' | 'answeredAt'>) {
 	return db.answers.add({
 		question,
-		answer,
+		userAnswer,
 		correctAnswer,
 		confidence,
 		questionSet,

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import Button from '$lib/components/Button.svelte';
 	import ButtonGroup from '$lib/components/ButtonGroup.svelte';
 	import ConfidenceSelector from '$lib/components/ConfidenceSelector.svelte';
@@ -27,7 +28,7 @@
 		addAnswer({
 			question: currentQuestion.question,
 			correctAnswer: currentQuestion.answer,
-			answer: selectedAnswer,
+			userAnswer: selectedAnswer,
 			confidence: selectedConfidence,
 			questionSet: QUESTION_SET
 		});
@@ -35,12 +36,18 @@
 		selectedAnswer = undefined;
 		selectedConfidence = undefined;
 	}
+
+	$effect(() => {
+		if (questionIndex !== undefined && questionIndex >= questions.length) {
+			goto('/scoutmindset/results');
+		}
+	});
 </script>
 
-{#if questionIndex !== undefined && currentQuestion}
-	<div class="flex flex-col gap-10">
-		<Heading level={1}>Scout Mindset Calibration Practice</Heading>
+<div class="flex flex-col gap-10">
+	<Heading level={1}>Scout Mindset Calibration Practice</Heading>
 
+	{#if questionIndex !== undefined && currentQuestion}
 		<ProgressBar progress={questionIndex} total={questions.length} size="sm" />
 
 		<div class="flex flex-col gap-4">
@@ -61,5 +68,5 @@
 				Next question
 			</Button>
 		</div>
-	</div>
-{/if}
+	{/if}
+</div>
