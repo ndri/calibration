@@ -4,6 +4,7 @@
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import questions from '$lib/data/scout_mindset_questions.json';
 	import { goto } from '$app/navigation';
+	import AccuracyChart from '$lib/components/AccuracyChart.svelte';
 
 	const QUESTION_SET = 'Scout Mindset Calibration Practice';
 
@@ -48,6 +49,7 @@
 	<Heading level={2}>Results</Heading>
 
 	{#if answers && results}
+		<AccuracyChart accuracyMap={results} />
 		<table
 			class={[
 				'[&_*]:border-main-200 [&_*]:dark:border-main-700 [&_th,td]:border',
