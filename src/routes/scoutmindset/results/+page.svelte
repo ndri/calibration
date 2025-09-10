@@ -46,13 +46,20 @@
 <div class="flex flex-col gap-10">
 	<Heading level={1}>Scout Mindset Calibration Practice</Heading>
 	<Heading level={2}>Results</Heading>
+
 	{#if answers && results}
-		<table>
-			<thead>
-				<tr>
+		<table
+			class={[
+				'[&_*]:border-main-200 [&_*]:dark:border-main-700 [&_th,td]:border',
+				'[&_th,td]:first-of-type:border-l-0 [&_th,td]:last-of-type:border-r-0',
+				'[&_tr:first-child>th]:border-t-0 [&_tr:last-child>td]:border-b-0',
+				'[&_th,td]:w-1/3 [&_th,td]:p-2'
+			]}
+		>
+			<thead class="font-bold">
+				<tr class="border-b-3 text-center">
 					<th>Confidence</th>
-					<th>Correct</th>
-					<th>Total</th>
+					<th>Correct / Total</th>
 					<th>Accuracy</th>
 				</tr>
 			</thead>
@@ -60,12 +67,18 @@
 				{#each confidences as confidence}
 					{@const correct = results.get(confidence)?.correct ?? 0}
 					{@const total = results.get(confidence)?.total ?? 0}
-					{@const accuracy = total > 0 ? (correct / total) * 100 : Infinity}
-					<tr>
+					{@const accuracy = (correct / total) * 100}
+					<tr class="text-center text-sm [&>td]:border">
 						<td>{Math.round(confidence * 100)}%</td>
-						<td>{correct}</td>
-						<td>{total}</td>
-						<td>{Math.round(accuracy)}%</td>
+						<td>{correct} / {total}</td>
+
+						<td class="font-bold">
+							{#if isNaN(accuracy)}
+								N/A
+							{:else}
+								{Math.round(accuracy)}%
+							{/if}
+						</td>
 					</tr>
 				{/each}
 			</tbody>
