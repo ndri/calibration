@@ -5,6 +5,7 @@ export interface Answer {
 	question: string;
 	userAnswer: string;
 	correctAnswer: string;
+	explanation?: string;
 	confidence: number;
 	questionSet: 'Scout Mindset Calibration Practice';
 	answeredAt: Date;
@@ -17,7 +18,8 @@ class CalibrationDB extends Dexie {
 		super('Calibration');
 
 		this.version(1).stores({
-			answers: '++id, question, answer, correctAnswer, confidence, answeredAt, questionSet'
+			answers:
+				'++id, question, answer, correctAnswer, explanation, confidence, answeredAt, questionSet'
 		});
 	}
 }
@@ -39,6 +41,7 @@ export async function addAnswer({
 	question,
 	userAnswer,
 	correctAnswer,
+	explanation,
 	confidence,
 	questionSet
 }: Omit<Answer, 'id' | 'answeredAt'>) {
@@ -47,6 +50,7 @@ export async function addAnswer({
 		userAnswer,
 		correctAnswer,
 		confidence,
+		explanation,
 		questionSet,
 		answeredAt: new Date()
 	});

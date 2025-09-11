@@ -29,6 +29,7 @@
 			question: currentQuestion.question,
 			correctAnswer: currentQuestion.answer,
 			userAnswer: selectedAnswer,
+			explanation: currentQuestion.explanation,
 			confidence: selectedConfidence,
 			questionSet: QUESTION_SET
 		});

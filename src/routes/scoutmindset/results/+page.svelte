@@ -86,25 +86,33 @@
 			</tbody>
 		</table>
 		<Heading level={3}>All answers</Heading>
-		<table>
-			<thead>
-				<tr>
-					<th>Question</th>
-					<th>Your Answer</th>
-					<th>Correct Answer</th>
-					<th>Your Confidence</th>
-				</tr>
-			</thead>
-			<tbody>
-				{#each answers as answer}
-					<tr>
-						<td>{answer.question}</td>
-						<td>{answer.userAnswer}</td>
-						<td>{answer.correctAnswer}</td>
-						<td>{Math.round(answer.confidence * 100)}%</td>
-					</tr>
-				{/each}
-			</tbody>
-		</table>
+		<div class="flex flex-col gap-4">
+			{#each [...answers].reverse() as answer}
+				<div class="flex flex-col gap-3 rounded-xl bg-white p-3 text-sm dark:bg-main-700">
+					<div>
+						<span class="text-main-600 dark:text-main-300">Question:</span>
+						<span class="font-medium">{answer.question}</span>
+					</div>
+					<div>
+						<span class="text-main-600 dark:text-main-300">Your answer:</span>
+						<span
+							class={[
+								'font-medium',
+								answer.userAnswer === answer.correctAnswer
+									? 'text-green-600 dark:text-green-400'
+									: 'text-red-600 dark:text-red-400'
+							]}>{answer.userAnswer}</span
+						>
+						<span>({Math.round(answer.confidence * 100)}% confidence)</span>
+					</div>
+					{#if answer.userAnswer !== answer.correctAnswer}
+						<div>
+							<span class="text-main-600 dark:text-main-300">Correct answer:</span>
+							<span class={['font-semibold']}>{answer.correctAnswer}</span>
+						</div>
+					{/if}
+				</div>
+			{/each}
+		</div>
 	{/if}
 </div>
