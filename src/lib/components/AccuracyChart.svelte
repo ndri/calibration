@@ -13,6 +13,13 @@
 </script>
 
 <div class="flex gap-3">
+	<div class="flex w-3 flex-col justify-center text-center">
+		<div
+			class="flex h-4 origin-left -translate-y-5 -rotate-90 justify-center text-sm text-nowrap text-main-500 dark:text-main-400"
+		>
+			...you're right ___ of the time
+		</div>
+	</div>
 	<div class="flex flex-col">
 		{#each yAxis as y, i (y)}
 			<div class="flex h-8 w-10 items-center justify-end text-sm">{Math.round(y * 100)}%</div>
@@ -62,6 +69,9 @@
 					{Math.round(x * 100)}%
 				</div>
 			{/each}
+		</div>
+		<div class="text-center text-sm text-main-500 dark:text-main-400">
+			When you feel ___ sure of your answer...
 		</div>
 	</div>
 </div>
