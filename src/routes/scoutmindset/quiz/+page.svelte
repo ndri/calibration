@@ -66,7 +66,11 @@
 				onclick={nextQuestion}
 				disabled={!selectedAnswer || !selectedConfidence}
 			>
-				Next question
+				{#if questionIndex < questions.length - 1}
+					Next question
+				{:else}
+					Finish
+				{/if}
 			</Button>
 		</div>
 	{/if}
