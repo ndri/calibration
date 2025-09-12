@@ -13,7 +13,7 @@
 	class={[
 		'flex min-h-full justify-center px-4 py-12 sm:px-8',
 		'bg-main-100 text-main-900',
-		'dark:bg-main-900 dark:text-main-100'
+		'dark:bg-main-900 dark:text-main-50'
 	]}
 >
 	<main class="flex w-full max-w-2xl flex-col gap-5">

@@ -34,10 +34,7 @@
 		{/if}
 	</button>
 	{#if show}
-		<div
-			class="-mx-3 flex flex-col gap-3 p-3 text-main-500 dark:text-main-400"
-			transition:slide={{ duration: 500 }}
-		>
+		<div class="-mx-3 flex flex-col gap-3 p-3" transition:slide={{ duration: 500 }}>
 			{@render children()}
 		</div>
 	{/if}

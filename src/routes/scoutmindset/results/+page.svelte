@@ -6,6 +6,9 @@
 	import { goto } from '$app/navigation';
 	import AccuracyChart from '$lib/components/AccuracyChart.svelte';
 	import Disclosure from '$lib/components/Disclosure.svelte';
+	import Button from '$lib/components/Button.svelte';
+	import { HomeIcon, HomeModernIcon } from '@sidekickicons/svelte/20/solid';
+	import Link from '$lib/components/Link.svelte';
 
 	const QUESTION_SET = 'Scout Mindset Calibration Practice';
 
@@ -94,7 +97,7 @@
 			</Disclosure>
 			<Disclosure>
 				{#snippet question()}
-					<Heading level={3}>All answers</Heading>
+					<Heading level={2}>All answers</Heading>
 				{/snippet}
 				<div class="flex flex-col gap-3">
 					{#each answers as answer, i}
@@ -131,6 +134,58 @@
 					{/each}
 				</div>
 			</Disclosure>
+			<Disclosure expandedByDefault>
+				{#snippet question()}
+					<Heading level={2}>What's next?</Heading>
+				{/snippet}
+				<ul class="ml-4 list-disc leading-8 marker:text-main-600">
+					<li>
+						Read <Link href="https://search.worldcat.org/title/1164823768" newTab
+							><em>The Scout Mindset</em></Link
+						> by Julia Galef.
+					</li>
+					<li>
+						Read <Link href="https://search.worldcat.org/title/1401648718" newTab
+							><em>Superforecasting</em></Link
+						>
+						by Philip E. Tetlock and Dan M. Gardner.
+					</li>
+					<li>
+						Try other calibration tools:
+						<ul class="ml-4 list-disc">
+							<li>
+								<Link href="https://www.quantifiedintuitions.org/calibration" newTab
+									>Quantified Intuitions' calibration tool</Link
+								>
+							</li>
+							<li>
+								<Link href="https://www.paulframpton.com/calibration/" newTab
+									>Clearer Thinking's <em>Calibrate Your Judgement</em> tool</Link
+								>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Make predictions about your own life with <Link href="https://fatebook.io/" newTab
+							>Fatebook</Link
+						>
+					</li>
+					<li>
+						Forecast future events with others at <Link href="https://www.metaculus.com/" newTab
+							>Metaculus</Link
+						>.
+					</li>
+					<li>
+						Use a prediction market like <Link href="https://manifold.markets?r=YW5kcmk" newTab
+							>Manifold Markets</Link
+						> and bet on future events.
+					</li>
+				</ul>
+			</Disclosure>
 		</div>
 	{/if}
+
+	<div class="flex justify-end">
+		<Button size="lg" onclick={() => goto('/')} LeftIcon={HomeIcon}>Home</Button>
+	</div>
 </div>
