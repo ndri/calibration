@@ -40,7 +40,7 @@
 		if (!answers) return;
 
 		if (answers.length !== questions.length) {
-			goto('/scoutmindset/practice');
+			goto('/scoutmindset/quiz');
 		}
 	});
 </script>

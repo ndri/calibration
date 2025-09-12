@@ -3,10 +3,10 @@
 	import Heading from '$lib/components/Heading.svelte';
 	import Link from '$lib/components/Link.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
-	import { ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
+	import { ArrowLeftIcon, ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 </script>
 
-<Heading level={1}>Scout Mindset Calibration Practice</Heading>
+<Heading level={1}>Scout Mindset Quiz</Heading>
 <Heading level={2}>About</Heading>
 <Paragraph>
 	In Chapter Six of <em>The Scout Mindset</em> by Julia Galef, she discusses the skill of
@@ -34,15 +34,14 @@
 </Paragraph>
 <Heading level={2}>How to read your results</Heading>
 <Paragraph>
-	Being perfectly calibrated would mean that your “50% sure” claims are in fact correct 50 percent
-	of the time, your “60% sure” claims are correct 60 percent of the time, your “70% sure” claims are
-	correct 70 percent of the time, and so on. Perfect calibration is an abstract ideal, not something
-	that's possible to achieve in reality. Still, it's a useful benchmark against which to compare
-	yourself.
+	Being perfectly calibrated would mean that your “X% sure” claims are in fact correct X percent of
+	the time. Perfect calibration is an abstract ideal, not something that's possible to achieve in
+	reality. Still, it's a useful benchmark against which to compare yourself.
 </Paragraph>
 
-<div class="flex justify-end">
-	<Button href="/scoutmindset/practice" size="lg" RightIcon={ArrowRightIcon} variant="secondary">
-		Let's calibrate!
+<div class="flex justify-between">
+	<Button href="/" size="lg" LeftIcon={ArrowLeftIcon} variant="secondary">Back</Button>
+	<Button href="/scoutmindset/quiz" size="lg" RightIcon={ArrowRightIcon} variant="primary">
+		Continue
 	</Button>
 </div>

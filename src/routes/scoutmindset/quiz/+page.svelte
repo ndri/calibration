@@ -58,11 +58,11 @@
 			<ConfidenceSelector bind:selectedConfidence />
 		</div>
 
-		<div class="flex justify-start">
+		<div class="flex justify-between">
 			<Button
 				size="lg"
 				RightIcon={ArrowRightIcon}
-				variant="secondary"
+				variant="primary"
 				onclick={nextQuestion}
 				disabled={!selectedAnswer || !selectedConfidence}
 			>

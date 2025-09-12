@@ -48,7 +48,11 @@
 	} as const;
 
 	const variantClasses = {
-		primary: ['bg-accent-600 hover:bg-accent-500', 'text-white'],
+		primary: [
+			'bg-accent-600 hover:bg-accent-500',
+			'dark:bg-accent-900 dark:hover:bg-accent-800',
+			'text-white'
+		],
 		secondary: [
 			'bg-white dark:bg-main-800 hover:bg-main-100 dark:hover:bg-main-700',
 			'text-main-900 dark:text-white',
