@@ -10,7 +10,7 @@
 	import { HomeIcon, HomeModernIcon } from '@sidekickicons/svelte/20/solid';
 	import Link from '$lib/components/Link.svelte';
 
-	const QUESTION_SET = 'Scout Mindset Calibration Practice';
+	const QUESTION_SET = 'Scout Mindset';
 
 	const answersQuery = stateQuery(() => getAnswersForQuestionSet(QUESTION_SET));
 	const answers = $derived(answersQuery.current);
@@ -49,7 +49,7 @@
 </script>
 
 <div class="flex flex-col gap-10">
-	<Heading level={1}>Scout Mindset Calibration Practice</Heading>
+	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if answers && results}
 		<div class="flex flex-col">

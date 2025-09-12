@@ -6,9 +6,7 @@
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { ArrowRightIcon, CheckIcon } from '@sidekickicons/svelte/20/solid';
 
-	const scoutMindsetProgressQuery = stateQuery(() =>
-		getQuestionSetProgress('Scout Mindset Calibration Practice')
-	);
+	const scoutMindsetProgressQuery = stateQuery(() => getQuestionSetProgress('Scout Mindset'));
 	const scoutMindsetProgress = $derived(scoutMindsetProgressQuery.current);
 </script>
 
@@ -24,7 +22,7 @@
 	href="/scoutmindset"
 >
 	<div class="flex items-center gap-2">
-		<Heading level={2}>Scout Mindset Quiz</Heading>
+		<Heading level={2}>Scout Mindset Calibration Quiz</Heading>
 		<ArrowRightIcon class="text-main-500" />
 	</div>
 	<Paragraph>

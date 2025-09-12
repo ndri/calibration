@@ -7,7 +7,7 @@ export interface Answer {
 	correctAnswer: string;
 	explanation?: string;
 	confidence: number;
-	questionSet: 'Scout Mindset Calibration Practice';
+	questionSet: 'Scout Mindset';
 	answeredAt: Date;
 }
 

@@ -6,7 +6,7 @@
 	import { ArrowLeftIcon, ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 </script>
 
-<Heading level={1}>Scout Mindset Quiz</Heading>
+<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 <Heading level={2}>About</Heading>
 <Paragraph>
 	In Chapter Six of <em>The Scout Mindset</em> by Julia Galef, she discusses the skill of

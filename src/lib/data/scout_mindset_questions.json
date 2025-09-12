@@ -119,13 +119,13 @@
 		"question": "Which country has more people as of 2025?",
 		"options": ["Germany", "France"],
 		"answer": "Germany",
-		"explanation": "Germany (84 million) has more people than France (65 million)."
+		"explanation": "Germany (84 million) has more people than France (66 million)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["Japan", "South Korea"],
 		"answer": "Japan",
-		"explanation": "Japan (127 million) has more people than South Korea (51 million)."
+		"explanation": "Japan (125 million) has more people than South Korea (51 million)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
@@ -137,43 +137,43 @@
 		"question": "Which country has more people as of 2025?",
 		"options": ["Egypt", "Botswana"],
 		"answer": "Egypt",
-		"explanation": "Egypt (100 million) has more people than Botswana (2 million)."
+		"explanation": "Egypt (114 million) has more people than Botswana (2.5 million)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["Mexico", "Guatemala"],
 		"answer": "Mexico",
-		"explanation": "Mexico (128 million) has more people than Guatemala (18 million)."
+		"explanation": "Mexico (129 million) has more people than Guatemala (18 million)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["Panama", "Belize"],
 		"answer": "Panama",
-		"explanation": "Panama (4 million) has more people than Belize (390,000)."
+		"explanation": "Panama (4.5 million) has more people than Belize (410,000)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["Jamaica", "Haiti"],
 		"answer": "Haiti",
-		"explanation": "Haiti (11 million) has more people than Jamaica (3 million)."
+		"explanation": "Haiti (12 million) has more people than Jamaica (2.8 million)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["Greece", "Norway"],
 		"answer": "Greece",
-		"explanation": "Greece (10 million) has more people than Norway (5 million)."
+		"explanation": "Greece (10 million) has more people than Norway (5.5 million)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["China", "India"],
-		"answer": "China",
-		"explanation": "China (1.43 billion) has more people than India (1.37 billion)."
+		"answer": "India",
+		"explanation": "India (1.44 billion) has more people than China (1.42 billion)."
 	},
 	{
 		"question": "Which country has more people as of 2025?",
 		"options": ["Iraq", "Iran"],
 		"answer": "Iran",
-		"explanation": "Iran (83 million) has more people than Iraq (39 million)."
+		"explanation": "Iran (90 million) has more people than Iraq (45 million)."
 	},
 	{
 		"question": "Mars has one moon, just like Earth.",

@@ -11,7 +11,7 @@
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 
-	const QUESTION_SET = 'Scout Mindset Calibration Practice';
+	const QUESTION_SET = 'Scout Mindset';
 
 	const questionIndexQuery = stateQuery(() => getQuestionSetProgress(QUESTION_SET));
 	const questionIndex = $derived(questionIndexQuery.current);
@@ -46,7 +46,7 @@
 </script>
 
 <div class="flex flex-col gap-10">
-	<Heading level={1}>Scout Mindset Calibration Practice</Heading>
+	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if questionIndex !== undefined && currentQuestion}
 		<ProgressBar progress={questionIndex} total={questions.length} size="sm" />
