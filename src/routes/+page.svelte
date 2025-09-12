@@ -44,3 +44,5 @@
 		{/if}
 	{/if}
 </a>
+
+<Paragraph>More coming soon!</Paragraph>
