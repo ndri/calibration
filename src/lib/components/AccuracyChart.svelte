@@ -15,17 +15,17 @@
 <div class="flex gap-3">
 	<div class="flex w-3 flex-col justify-center text-center">
 		<div
-			class="flex h-4 origin-left -translate-y-5 -rotate-90 justify-center text-sm text-nowrap text-main-500 dark:text-main-400"
+			class="flex h-4 origin-left translate-x-1 -translate-y-5 -rotate-90 justify-center text-sm text-nowrap text-main-500 dark:text-main-400"
 		>
-			...you're right ___ of the time
+			...you're right ____ of the time
 		</div>
 	</div>
 	<div class="flex flex-col">
 		{#each yAxis as y, i (y)}
-			<div class="flex h-8 w-10 items-center justify-end text-sm">{Math.round(y * 100)}%</div>
+			<div class="flex h-8 w-9 items-center justify-end text-sm">{Math.round(y * 100)}%</div>
 		{/each}
 	</div>
-	<div class="flex grow flex-col gap-6 py-4">
+	<div class="flex grow flex-col gap-5 py-4">
 		<div class="relative flex flex-col gap-[31px] border-l border-main-300 dark:border-main-700">
 			{#each yAxis as y, i (y)}
 				<div class="flex items-start justify-end text-sm">
@@ -71,7 +71,7 @@
 			{/each}
 		</div>
 		<div class="text-center text-sm text-main-500 dark:text-main-400">
-			When you feel ___ sure of your answer...
+			When you feel ____ sure of your answer...
 		</div>
 	</div>
 </div>
