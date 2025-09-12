@@ -18,10 +18,10 @@
 </script>
 
 <div class="relative w-full">
-	<div class={['relative w-full rounded-lg bg-main-200 dark:bg-main-900', sizeClasses]}>
+	<div class={['relative w-full rounded-lg bg-main-200 dark:bg-main-800', sizeClasses]}>
 		<div
 			class={[
-				'absolute top-0 left-0 h-full rounded-lg bg-accent-500 dark:bg-accent-600',
+				'absolute top-0 left-0 h-full rounded-lg bg-accent-500 dark:bg-accent-700',
 				'transition-[width] duration-300 ease-out'
 			]}
 			style="width: {percentage}%;"

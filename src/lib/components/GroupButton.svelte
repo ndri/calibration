@@ -18,7 +18,7 @@
 		'first-of-type:rounded-l-lg last-of-type:rounded-r-lg last-of-type:border-r',
 		selected
 			? 'bg-accent-200 dark:bg-accent-900'
-			: 'bg-white hover:bg-main-100 dark:bg-main-700 dark:hover:bg-main-600'
+			: 'bg-white hover:bg-main-100 dark:bg-main-800 dark:hover:bg-main-700'
 	]}
 	{onclick}
 >

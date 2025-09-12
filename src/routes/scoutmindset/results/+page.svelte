@@ -90,7 +90,7 @@
 			<Heading level={3}>All answers</Heading>
 			<div class="flex flex-col gap-3">
 				{#each answers as answer, i}
-					<div class="flex flex-col gap-3 rounded-xl bg-white p-4 text-sm dark:bg-main-700">
+					<div class="flex flex-col gap-3 rounded-xl bg-white p-4 text-sm dark:bg-main-800">
 						<div>
 							<span class="text-main-600 dark:text-main-300">Question {i + 1}:</span>
 							<span class="font-medium">{answer.question}</span>
