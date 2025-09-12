@@ -87,7 +87,7 @@
 		</table>
 		<Heading level={3}>All answers</Heading>
 		<div class="flex flex-col gap-4">
-			{#each [...answers].reverse() as answer}
+			{#each answers as answer}
 				<div class="flex flex-col gap-3 rounded-xl bg-white p-3 text-sm dark:bg-main-700">
 					<div>
 						<span class="text-main-600 dark:text-main-300">Question:</span>
@@ -109,6 +109,12 @@
 						<div>
 							<span class="text-main-600 dark:text-main-300">Correct answer:</span>
 							<span class={['font-semibold']}>{answer.correctAnswer}</span>
+						</div>
+					{/if}
+					{#if answer.explanation}
+						<div>
+							<span class="text-main-600 dark:text-main-300">Explanation:</span>
+							<span>{answer.explanation}</span>
 						</div>
 					{/if}
 				</div>
