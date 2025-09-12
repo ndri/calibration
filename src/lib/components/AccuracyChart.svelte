@@ -22,11 +22,11 @@
 	</div>
 	<div class="flex flex-col">
 		{#each yAxis as y, i (y)}
-			<div class="flex h-8 w-9 items-center justify-end text-sm">{Math.round(y * 100)}%</div>
+			<div class="flex h-7 w-9 items-center justify-end text-sm">{Math.round(y * 100)}%</div>
 		{/each}
 	</div>
 	<div class="flex grow flex-col gap-5 py-4">
-		<div class="relative flex flex-col gap-[31px] border-l border-main-300 dark:border-main-700">
+		<div class="relative flex flex-col gap-[27px] border-l border-main-300 dark:border-main-700">
 			{#each yAxis as y, i (y)}
 				<div class="flex items-start justify-end text-sm">
 					<div
