@@ -63,3 +63,17 @@ export async function clearAnswers() {
 export async function getQuestionSetProgress(questionSet: string) {
 	return db.answers.filter((answer) => answer.questionSet === questionSet).count();
 }
+
+export async function popLatestAnswerInQuestionSet(questionSet: string) {
+	const latestAnswers = await db.answers
+		.where('questionSet')
+		.equals(questionSet)
+		.sortBy('answeredAt');
+
+	if (latestAnswers.length === 0) return;
+
+	const latestAnswer = latestAnswers[latestAnswers.length - 1];
+	await db.answers.delete(latestAnswer.id);
+
+	return latestAnswer;
+}

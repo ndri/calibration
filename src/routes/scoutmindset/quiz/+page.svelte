@@ -7,9 +7,9 @@
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import ProgressBar from '$lib/components/ProgressBar.svelte';
 	import questions from '$lib/data/scout_mindset_questions.json';
-	import { addAnswer, getQuestionSetProgress } from '$lib/db';
+	import { addAnswer, getQuestionSetProgress, popLatestAnswerInQuestionSet } from '$lib/db';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
-	import { ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
+	import { ArrowLeftIcon, ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -43,6 +43,20 @@
 			goto('/scoutmindset/results');
 		}
 	});
+
+	async function previousQuestion() {
+		if (questionIndex === undefined || questionIndex <= 0) {
+			goto('/scoutmindset');
+			return;
+		}
+
+		const latestAnswer = await popLatestAnswerInQuestionSet(QUESTION_SET);
+
+		if (latestAnswer) {
+			selectedAnswer = latestAnswer.userAnswer;
+			selectedConfidence = latestAnswer.confidence;
+		}
+	}
 </script>
 
 <div class="flex flex-col gap-10">
@@ -59,6 +73,9 @@
 		</div>
 
 		<div class="flex justify-between">
+			<Button size="lg" LeftIcon={ArrowLeftIcon} variant="secondary" onclick={previousQuestion}>
+				Back
+			</Button>
 			<Button
 				size="lg"
 				RightIcon={ArrowRightIcon}
