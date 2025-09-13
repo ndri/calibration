@@ -18,7 +18,7 @@
 >
 	<div class="flex items-center gap-2">
 		<Heading level={2}>Scout Mindset Calibration Quiz</Heading>
-		<ArrowRightIcon class="text-main-500" />
+		<ArrowRightIcon class="text-main-400 dark:text-main-500" />
 	</div>
 	<Paragraph>
 		Practice calibrating your confidence with a 40-question quiz adapted from Julia Galef's book, <em

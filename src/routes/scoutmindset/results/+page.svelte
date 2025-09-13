@@ -159,7 +159,7 @@
 								>
 							</li>
 							<li>
-								<Link href="https://www.paulframpton.com/calibration/" newTab
+								<Link href="https://www.clearerthinking.org/tools/calibrate-your-judgment" newTab
 									>Clearer Thinking's <em>Calibrate Your Judgement</em> tool</Link
 								>
 							</li>
