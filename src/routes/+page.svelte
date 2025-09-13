@@ -13,12 +13,7 @@
 <Heading level={1}>Calibration Practice</Heading>
 
 <a
-	class={[
-		'flex flex-col gap-4',
-		'rounded-lg p-6',
-		'bg-main-100 dark:bg-main-800',
-		'hover:opacity-80'
-	]}
+	class={['flex flex-col gap-4', 'rounded-lg p-6', 'bg-white dark:bg-main-800', 'hover:opacity-80']}
 	href="/scoutmindset"
 >
 	<div class="flex items-center gap-2">
