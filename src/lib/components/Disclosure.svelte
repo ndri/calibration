@@ -14,11 +14,11 @@
 	let show = $state(expandedByDefault ?? false);
 </script>
 
-<div class="flex flex-col gap-2 py-2">
+<div class="flex flex-col py-2">
 	<button
 		class={[
 			'-mx-3 flex cursor-pointer items-center gap-2 rounded-lg px-3 py-2 text-left',
-			'hover:bg-main-100 dark:hover:bg-main-800'
+			'hover:bg-main-200 dark:hover:bg-main-800'
 		]}
 		onclick={() => (show = !show)}
 	>
