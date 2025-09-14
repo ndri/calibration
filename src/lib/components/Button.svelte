@@ -49,12 +49,15 @@
 
 	const variantClasses = {
 		primary: [
-			'bg-accent-600 hover:bg-accent-500',
-			'dark:bg-accent-900 dark:hover:bg-accent-800',
+			'bg-accent-600 dark:bg-accent-900',
+			'hover:bg-accent-700 dark:hover:bg-accent-800',
+			'active:bg-accent-800 dark:active:bg-accent-700',
 			'text-white'
 		],
 		secondary: [
-			'bg-white dark:bg-main-800 hover:bg-main-100 dark:hover:bg-main-700',
+			'bg-white dark:bg-main-800',
+			'hover:bg-main-100 dark:hover:bg-main-700',
+			'active:bg-main-200 dark:active:bg-main-600',
 			'text-main-900 dark:text-white',
 			'ring-1 ring-inset ring-main-300 dark:ring-0'
 		],
@@ -72,8 +75,14 @@
 	];
 
 	const iconClasses = {
-		primary: 'text-accent-200',
-		secondary: 'text-main-400 dark:text-main-500',
+		primary: [
+			'text-accent-200 dark:text-accent-400',
+			'group-hover/button:text-accent-300 dark:group-hover/button:text-accent-400'
+		],
+		secondary: [
+			'text-main-400 dark:text-main-500',
+			'group-hover/button:text-main-500 dark:group-hover/button:text-main-400'
+		],
 		text: [
 			'text-main-400 group-hover/button:text-main-500',
 			'dark:text-main-500 dark:group-hover/button:text-main-400'

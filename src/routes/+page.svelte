@@ -17,7 +17,8 @@
 		'flex flex-col gap-4',
 		'rounded-lg p-6',
 		'bg-white dark:bg-main-800',
-		'hover:bg-main-50 dark:hover:bg-main-700'
+		'hover:bg-main-50 dark:hover:bg-main-700',
+		'active:bg-main-200 dark:active:bg-main-600'
 	]}
 	href="/scoutmindset"
 >
