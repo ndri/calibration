@@ -1,4 +1,5 @@
 <script>
+	import CardLink from '$lib/components/CardLink.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import ProgressBar from '$lib/components/ProgressBar.svelte';
@@ -12,36 +13,13 @@
 
 <Heading level={1}>Calibration Practice</Heading>
 
-<a
-	class={[
-		'flex flex-col gap-4',
-		'rounded-lg p-6',
-		'bg-white dark:bg-main-800',
-		'hover:bg-main-50 dark:hover:bg-main-700',
-		'active:bg-main-200 dark:active:bg-main-600'
-	]}
-	href="/scoutmindset"
->
-	<div class="flex items-center gap-2">
-		<Heading level={2}>Scout Mindset Calibration Quiz</Heading>
-		<ArrowRightIcon class="text-main-400 dark:text-main-500" />
-	</div>
-	<Paragraph>
+<CardLink href="/scoutmindset" title="Scout Mindset Calibration Quiz">
+	{#snippet description()}
 		Practice calibrating your confidence with a 40-question quiz adapted from Julia Galef's book, <em
 		>
 			The Scout Mindset
 		</em>.
-	</Paragraph>
-	{#if scoutMindsetProgress}
-		{#if scoutMindsetProgress < 40}
-			<ProgressBar progress={scoutMindsetProgress} total={40} size="xs" />
-		{:else}
-			<div class="flex items-center gap-1 text-green-500">
-				<CheckIcon />
-				Completed
-			</div>
-		{/if}
-	{/if}
-</a>
+	{/snippet}
+</CardLink>
 
 <Paragraph>More coming soon!</Paragraph>
