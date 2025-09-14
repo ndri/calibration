@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Calibration</title>
+	<title>Calibration Practice</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
