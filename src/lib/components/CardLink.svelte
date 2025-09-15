@@ -8,9 +8,10 @@
 		href: string;
 		title: string;
 		description: string | Snippet;
+		footer?: Snippet;
 	}
 
-	const { href, title, description }: Props = $props();
+	const { href, title, description, footer }: Props = $props();
 </script>
 
 <a
@@ -40,4 +41,5 @@
 			{@render description()}
 		{/if}
 	</Paragraph>
+	{@render footer?.()}
 </a>
