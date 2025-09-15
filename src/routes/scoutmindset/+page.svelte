@@ -32,12 +32,6 @@
 	For the sake of simplicity, there are five confidence levels between those extremes: 55%, 65%,
 	75%, 85%, and 95%. Just select the one that best represents how sure you are.
 </Paragraph>
-<Heading level={2}>How to read your results</Heading>
-<Paragraph>
-	Being perfectly calibrated would mean that your “X% sure” claims are in fact correct X percent of
-	the time. Perfect calibration is an abstract ideal, not something that's possible to achieve in
-	reality. Still, it's a useful benchmark against which to compare yourself.
-</Paragraph>
 
 <div class="flex justify-between">
 	<Button href="/" size="lg" LeftIcon={ArrowLeftIcon} variant="secondary">Back</Button>
