@@ -7,7 +7,7 @@
 	import AccuracyChart from '$lib/components/AccuracyChart.svelte';
 	import Disclosure from '$lib/components/Disclosure.svelte';
 	import Button from '$lib/components/Button.svelte';
-	import { HomeIcon, HomeModernIcon } from '@sidekickicons/svelte/20/solid';
+	import { HomeIcon } from '@sidekickicons/svelte/20/solid';
 	import Link from '$lib/components/Link.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import AccuracyTable from '$lib/components/AccuracyTable.svelte';
@@ -52,12 +52,10 @@
 	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if answers && results}
-		<div class="flex flex-col gap-4">
-			<Disclosure expandedByDefault>
-				{#snippet question()}
-					<Heading level={2}>Results</Heading>
-				{/snippet}
-				<div class="flex flex-col gap-10">
+		<div class="flex flex-col gap-10">
+			<div class="flex flex-col gap-4">
+				<Heading level={2}>Results</Heading>
+				<div class="flex flex-col gap-8">
 					<Paragraph>
 						Being perfectly calibrated would mean that your “X% sure” claims are in fact correct X
 						percent of the time. Perfect calibration is an abstract ideal, not something that's
@@ -67,7 +65,7 @@
 					<AccuracyChart accuracyMap={results} />
 					<AccuracyTable accuracyMap={results} />
 				</div>
-			</Disclosure>
+			</div>
 			<Disclosure>
 				{#snippet question()}
 					<Heading level={2}>All answers</Heading>
@@ -107,10 +105,8 @@
 					{/each}
 				</div>
 			</Disclosure>
-			<Disclosure expandedByDefault>
-				{#snippet question()}
-					<Heading level={2}>What's next?</Heading>
-				{/snippet}
+			<div class="flex flex-col gap-4">
+				<Heading level={2}>What's next?</Heading>
 				<ul class="ml-4 list-disc leading-8 marker:text-main-600">
 					<li>
 						Read <Link href="https://search.worldcat.org/title/1164823768" newTab
@@ -154,7 +150,7 @@
 						> and bet on future events.
 					</li>
 				</ul>
-			</Disclosure>
+			</div>
 		</div>
 	{/if}
 
