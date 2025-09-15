@@ -52,7 +52,7 @@
 	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if answers && results}
-		<div class="flex flex-col">
+		<div class="flex flex-col gap-4">
 			<Disclosure expandedByDefault>
 				{#snippet question()}
 					<Heading level={2}>Results</Heading>
@@ -72,9 +72,9 @@
 				{#snippet question()}
 					<Heading level={2}>All answers</Heading>
 				{/snippet}
-				<div class="flex flex-col gap-3">
+				<div class="flex flex-col divide-y divide-main-200 dark:divide-main-700">
 					{#each answers as answer, i}
-						<div class="flex flex-col gap-3 rounded-xl bg-white p-4 text-sm dark:bg-main-800">
+						<div class="flex flex-col gap-3 py-5 text-sm first:pt-0 last:pb-0">
 							<div>
 								<span class="text-main-600 dark:text-main-300">Question {i + 1}:</span>
 								<span class="font-medium">{answer.question}</span>

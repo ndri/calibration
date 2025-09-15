@@ -16,7 +16,7 @@
 <div
 	class={[
 		'flex min-h-full justify-center px-4 py-12 sm:px-8',
-		'bg-main-100 text-main-900',
+		'bg-main-50 text-main-900',
 		'dark:bg-main-900 dark:text-main-50'
 	]}
 >
