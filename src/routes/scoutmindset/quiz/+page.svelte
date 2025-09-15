@@ -63,10 +63,18 @@
 	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if questionIndex !== undefined && currentQuestion}
-		<ProgressBar progress={questionIndex} total={questions.length} size="sm" />
+		<div class="flex items-center gap-2 text-sm whitespace-nowrap text-main-500 dark:text-main-400">
+			<span>
+				{questionIndex}/{questions.length}
+			</span>
+			<ProgressBar progress={questionIndex} total={questions.length} size="sm" />
+			<span>
+				{Math.round((questionIndex / questions.length) * 100)}%
+			</span>
+		</div>
 
 		<div class="flex flex-col gap-4">
-			<Heading level={2}>{questionIndex + 1}. {currentQuestion.question}</Heading>
+			<Heading level={2}>{currentQuestion.question}</Heading>
 			<ButtonGroup values={currentQuestion.options} bind:selectedValue={selectedAnswer} />
 			<Paragraph>How confident are you in your answer?</Paragraph>
 			<ConfidenceSelector bind:selectedConfidence />
