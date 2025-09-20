@@ -10,6 +10,13 @@
 		0.15, 0.1, 0.05, 0.0
 	];
 	const xAxis = [0.55, 0.65, 0.75, 0.85, 0.95];
+
+	function bubbleColorClass(confidence: number, accuracy: number) {
+		const diff = Math.abs(confidence - accuracy);
+		if (diff <= 0.1) return 'bg-green-500 dark:bg-green-600';
+		if (diff <= 0.2) return 'bg-yellow-500 dark:bg-yellow-600';
+		return 'bg-red-500 dark:bg-red-600';
+	}
 </script>
 
 <div class="flex gap-3">
@@ -56,8 +63,12 @@
 				{#if accuracyMap.has(x)}
 					{@const { correct, total } = accuracyMap.get(x)!}
 					{@const accuracy = correct / total}
+
 					<div
-						class="absolute size-5 -translate-x-1/2 translate-y-1/2 rounded-full bg-accent-400 dark:bg-accent-800"
+						class={[
+							'absolute size-5 -translate-x-1/2 translate-y-1/2 rounded-full bg-accent-400 dark:bg-accent-800',
+							bubbleColorClass(x, accuracy)
+						]}
 						style="left: {10 + i * 20}%; bottom: {accuracy * 100}%"
 					></div>
 				{/if}
