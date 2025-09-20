@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Navbar from '$lib/components/Navbar.svelte';
 	import '../app.css';
 
 	let { children } = $props();
@@ -15,12 +16,25 @@
 
 <div
 	class={[
-		'flex min-h-full justify-center px-4 py-12 sm:px-8',
-		'bg-main-50 text-main-900',
-		'dark:bg-main-900 dark:text-main-50'
+		'relative flex min-h-full flex-col items-center justify-start p-0',
+		'md:justify-center',
+		'lg:flex-row lg:items-start',
+		'bg-white text-main-800 lg:bg-main-50 ',
+		'dark:bg-main-900 dark:text-main-200'
 	]}
 >
-	<main class="flex w-full max-w-2xl flex-col gap-5">
-		{@render children?.()}
+	<Navbar />
+	<main class={['flex h-screen w-full flex-col overflow-y-auto p-0', 'lg:p-4']} tabindex="-1">
+		<div
+			class={[
+				'@container',
+				'flex justify-center p-4 pt-24',
+				'border-main-200 bg-white',
+				'dark:border-main-800 dark:bg-main-950',
+				'lg:rounded-lg lg:border lg:p-16'
+			]}
+		>
+			<div class="flex w-full max-w-3xl flex-col gap-8">{@render children()}</div>
+		</div>
 	</main>
 </div>
