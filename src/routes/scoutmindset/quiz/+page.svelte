@@ -6,6 +6,7 @@
 	import Heading from '$lib/components/Heading.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import ProgressBar from '$lib/components/ProgressBar.svelte';
+	import QuizProgress from '$lib/components/QuizProgress.svelte';
 	import questions from '$lib/data/scout_mindset_questions.json';
 	import { addAnswer, getQuestionSetProgress, popLatestAnswerInQuestionSet } from '$lib/db';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
@@ -63,15 +64,7 @@
 	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if questionIndex !== undefined && currentQuestion}
-		<div class="flex items-center gap-2 text-sm whitespace-nowrap text-main-500 dark:text-main-400">
-			<span>
-				{questionIndex}/{questions.length}
-			</span>
-			<ProgressBar progress={questionIndex} total={questions.length} size="sm" />
-			<span>
-				{Math.round((questionIndex / questions.length) * 100)}%
-			</span>
-		</div>
+		<QuizProgress progress={questionIndex} total={questions.length} />
 
 		<div class="flex flex-col gap-4">
 			<Heading level={2}>{currentQuestion.question}</Heading>

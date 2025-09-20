@@ -11,6 +11,7 @@
 	import Link from '$lib/components/Link.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import AccuracyTable from '$lib/components/AccuracyTable.svelte';
+	import QuizProgress from '$lib/components/QuizProgress.svelte';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -50,6 +51,7 @@
 
 <div class="flex flex-col gap-10">
 	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
+	<QuizProgress progress={40} total={40} />
 
 	{#if answers && results}
 		<div class="flex flex-col gap-10">
