@@ -1,5 +1,5 @@
 <script>
-	import Button from '$lib/components/Button.svelte';
+	import Button from '$lib/components/ui/Button.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 	import Link from '$lib/components/Link.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';

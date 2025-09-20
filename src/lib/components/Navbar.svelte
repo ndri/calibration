@@ -2,7 +2,7 @@
 	import { Bars3Icon, XMarkIcon } from '@sidekickicons/svelte/24/outline';
 	import SidebarContents from './SidebarContents.svelte';
 	import { fade, fly } from 'svelte/transition';
-	import Button from './Button.svelte';
+	import Button from './ui/Button.svelte';
 
 	let sidebarOpen = $state(false);
 	let sidebarElement = $state<HTMLElement | null>(null);

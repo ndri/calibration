@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import Button from '$lib/components/Button.svelte';
+	import Button from '$lib/components/ui/Button.svelte';
 	import ButtonGroup from '$lib/components/ButtonGroup.svelte';
 	import ConfidenceSelector from '$lib/components/ConfidenceSelector.svelte';
 	import Heading from '$lib/components/Heading.svelte';

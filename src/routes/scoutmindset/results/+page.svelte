@@ -6,7 +6,7 @@
 	import { goto } from '$app/navigation';
 	import AccuracyChart from '$lib/components/AccuracyChart.svelte';
 	import Disclosure from '$lib/components/Disclosure.svelte';
-	import Button from '$lib/components/Button.svelte';
+	import Button from '$lib/components/ui/Button.svelte';
 	import { HomeIcon } from '@sidekickicons/svelte/20/solid';
 	import Link from '$lib/components/Link.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';

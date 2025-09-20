@@ -92,3 +92,27 @@ export async function getAnswerInQuestionSet(questionSet: string, index: number)
 
 	return answers[index];
 }
+
+export async function countAllData() {
+	const answers = await db.answers.count();
+
+	return { answers };
+}
+
+export async function deleteAllData() {
+	await db.answers.clear();
+}
+
+export async function exportDatabase() {
+	const answers = await db.answers.toArray();
+
+	return { answers };
+}
+
+export async function importDatabase(data: { answers: Answer[] }) {
+	await db.transaction('rw', db.answers, async () => {
+		await db.answers.clear();
+
+		await db.answers.bulkPut(data.answers);
+	});
+}

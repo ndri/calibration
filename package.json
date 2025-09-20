@@ -32,16 +32,16 @@
 		"tailwindcss": "^4.1.13",
 		"typescript": "^5.9.2",
 		"typescript-eslint": "^8.42.0",
-		"vite": "^7.1.4"
+		"vite": "^7.1.4",
+		"@fontsource-variable/inter": "^5.2.6",
+		"@sidekickicons/svelte": "^0.14.0",
+		"dexie": "^4.2.0",
+		"svelte-transition": "^0.0.17"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
 	},
-	"dependencies": {
-		"@fontsource-variable/inter": "^5.2.6",
-		"@sidekickicons/svelte": "^0.14.0",
-		"dexie": "^4.2.0"
-	}
+	"dependencies": {}
 }
