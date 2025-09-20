@@ -37,14 +37,35 @@ export async function getAnswersForQuestionSet(questionSet: string) {
 		.toArray();
 }
 
-export async function addAnswer({
-	question,
-	userAnswer,
-	correctAnswer,
-	explanation,
-	confidence,
-	questionSet
-}: Omit<Answer, 'id' | 'answeredAt'>) {
+export async function addAnswer(
+	index: number,
+	{
+		question,
+		userAnswer,
+		correctAnswer,
+		explanation,
+		confidence,
+		questionSet
+	}: Omit<Answer, 'id' | 'answeredAt'>
+) {
+	const progress = await getQuestionSetProgress(questionSet);
+
+	// Update existing answer if it is already answered
+	if (index < progress) {
+		const answer = await getAnswerInQuestionSet(questionSet, index);
+
+		if (!answer) return;
+
+		return db.answers.update(answer.id, {
+			question,
+			userAnswer,
+			correctAnswer,
+			confidence,
+			explanation,
+			answeredAt: new Date()
+		});
+	}
+
 	return db.answers.add({
 		question,
 		userAnswer,
@@ -64,16 +85,10 @@ export async function getQuestionSetProgress(questionSet: string) {
 	return db.answers.filter((answer) => answer.questionSet === questionSet).count();
 }
 
-export async function popLatestAnswerInQuestionSet(questionSet: string) {
-	const latestAnswers = await db.answers
-		.where('questionSet')
-		.equals(questionSet)
-		.sortBy('answeredAt');
+export async function getAnswerInQuestionSet(questionSet: string, index: number) {
+	const answers = await db.answers.where('questionSet').equals(questionSet).sortBy('id');
 
-	if (latestAnswers.length === 0) return;
+	if (index < 0 || index >= answers.length) return null;
 
-	const latestAnswer = latestAnswers[latestAnswers.length - 1];
-	await db.answers.delete(latestAnswer.id);
-
-	return latestAnswer;
+	return answers[index];
 }

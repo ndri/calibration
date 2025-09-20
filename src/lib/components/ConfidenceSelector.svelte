@@ -16,7 +16,20 @@
 
 	let { selectedConfidence = $bindable() }: Props = $props();
 
-	let selectedValue = $state<keyof typeof CONFIDENCES>();
+	let selectedValue = $state<keyof typeof CONFIDENCES | undefined>(
+		getKeyByValue(selectedConfidence) as keyof typeof CONFIDENCES
+	);
+
+	function getKeyByValue(value: number | undefined) {
+		if (value === undefined) return undefined;
+
+		const entry = Object.entries(CONFIDENCES).find(([, value]) => value === selectedConfidence);
+		if (entry) {
+			return entry[0];
+		} else {
+			return undefined;
+		}
+	}
 
 	$effect(() => {
 		if (selectedValue) {
@@ -40,12 +53,7 @@
 	explicitEffect(
 		() => {
 			if (selectedConfidence) {
-				const entry = Object.entries(CONFIDENCES).find(([, value]) => value === selectedConfidence);
-				if (entry) {
-					selectedValue = entry[0] as keyof typeof CONFIDENCES;
-				} else {
-					selectedValue = undefined;
-				}
+				selectedValue = getKeyByValue(selectedConfidence) as keyof typeof CONFIDENCES;
 			} else {
 				selectedValue = undefined;
 			}
