@@ -70,7 +70,7 @@
 				{#snippet question()}
 					<Heading level={2}>All answers</Heading>
 				{/snippet}
-				<div class="flex flex-col divide-y divide-main-200 dark:divide-main-700">
+				<div class="flex flex-col divide-y divide-main-200 dark:divide-main-800">
 					{#each answers as answer, i}
 						<div class="flex flex-col gap-3 py-5 text-sm first:pt-0 last:pb-0">
 							<div>

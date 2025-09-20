@@ -13,9 +13,9 @@
 
 	function bubbleColorClass(confidence: number, accuracy: number) {
 		const diff = Math.abs(confidence - accuracy);
-		if (diff <= 0.1) return 'bg-green-500 dark:bg-green-600';
-		if (diff <= 0.2) return 'bg-yellow-500 dark:bg-yellow-600';
-		return 'bg-red-500 dark:bg-red-600';
+		if (diff <= 0.1) return 'bg-green-500 dark:bg-green-800';
+		if (diff <= 0.2) return 'bg-yellow-500 dark:bg-yellow-800';
+		return 'bg-red-500 dark:bg-red-800';
 	}
 </script>
 
