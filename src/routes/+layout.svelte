@@ -19,8 +19,8 @@
 		'relative flex min-h-full flex-col items-center justify-start p-0',
 		'md:justify-center',
 		'lg:flex-row lg:items-start',
-		'bg-white text-main-800 lg:bg-main-50 ',
-		'dark:bg-main-900 dark:text-main-200'
+		'bg-white text-main-800 lg:bg-main-50',
+		'dark:bg-main-950 dark:text-main-200 lg:dark:bg-main-900'
 	]}
 >
 	<Navbar />
