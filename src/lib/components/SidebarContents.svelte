@@ -38,7 +38,7 @@
 <div class="flex h-full min-w-64 flex-col gap-2">
 	{#if !hideTitle}
 		<div class="flex items-center gap-3 px-4 pt-4">
-			<img src="/logo.svg" alt="Calibration Practice logo" class="h-5 w-5 dark:hidden" />
+			<img src="/logo.svg" alt="Calibration Practice logo" class="h-5 w-5" />
 			<h1 class="text-xl font-medium">Calibration Practice</h1>
 		</div>
 	{/if}
