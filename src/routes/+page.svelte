@@ -9,24 +9,26 @@
 
 	const scoutMindsetProgressQuery = stateQuery(() => getQuestionSetProgress('Scout Mindset'));
 	const scoutMindsetProgress = $derived(scoutMindsetProgressQuery.current);
+	const scoutMindsetComplete = $derived(scoutMindsetProgress && scoutMindsetProgress >= 40);
 </script>
 
-<Heading level={1}>Calibration Practice</Heading>
-
-<CardLink href="/scoutmindset" title="Scout Mindset Calibration Quiz">
+<CardLink
+	href={scoutMindsetComplete ? '/scoutmindset/results' : '/scoutmindset'}
+	title="Scout Mindset Calibration Quiz"
+>
 	{#snippet description()}
 		Practice calibrating your confidence with a 40-question quiz adapted from Julia Galef's book,
 		<em>The Scout Mindset</em>.
 	{/snippet}
 	{#snippet footer()}
 		{#if scoutMindsetProgress}
-			{#if scoutMindsetProgress < 40}
-				<ProgressBar progress={scoutMindsetProgress} total={40} size="xs" />
-			{:else}
+			{#if scoutMindsetComplete}
 				<div class="flex items-center gap-1 text-green-500">
 					<CheckIcon />
 					Completed
 				</div>
+			{:else}
+				<ProgressBar progress={scoutMindsetProgress} total={40} size="xs" />
 			{/if}
 		{/if}
 	{/snippet}
