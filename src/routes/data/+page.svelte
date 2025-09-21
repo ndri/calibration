@@ -17,6 +17,7 @@
 		tryPersistWithoutPromtingUser
 	} from '$lib/utils/storage';
 	import { createTitle } from '$lib/utils/title';
+	import Heading from '$lib/components/Heading.svelte';
 
 	const countsQuery = stateQuery(countAllData);
 	const counts = $derived(countsQuery.current);
@@ -104,11 +105,11 @@
 <svelte:head><title>{createTitle('Data')}</title></svelte:head>
 
 <div class="flex flex-col gap-8">
-	<h2 class="text-2xl font-medium">Data</h2>
+	<Heading level={2}>Data</Heading>
 	<div>This app stores all data offline in your browser.</div>
 	{#if counts}
 		<section class="flex flex-col gap-4">
-			<h3 class="text-xl font-medium">Summary</h3>
+			<Heading level={3}>Summary</Heading>
 			<DataList
 				data={[
 					{
@@ -121,7 +122,7 @@
 	{/if}
 
 	<section class="flex flex-col gap-4">
-		<h3 class="text-xl font-medium">Storage estimate</h3>
+		<Heading level={3}>Storage estimate</Heading>
 		{#await showEstimatedQuota()}
 			<p>Loading...</p>
 		{:then estimatedQuota}
@@ -158,7 +159,7 @@
 		{/await}
 	</section>
 	<section class="flex flex-col gap-4">
-		<h3 class="text-xl font-medium">Persistence</h3>
+		<Heading level={3}>Persistence</Heading>
 		<div
 			class={[
 				'flex max-w-lg flex-col items-center gap-6 rounded-lg border p-6 @sm:flex-row',
@@ -209,7 +210,7 @@
 		</div>
 	</section>
 	<section class="flex flex-col items-start gap-4">
-		<h3 class="text-xl font-medium">Export</h3>
+		<Heading level={3}>Export</Heading>
 		<p>
 			You can export all of your Calibration Practice data to a JSON file. This is useful if you
 			want to back up your data or transfer it to another device.
@@ -219,7 +220,7 @@
 		</Button>
 	</section>
 	<section class="flex flex-col items-start gap-4">
-		<h3 class="text-xl font-medium">Import</h3>
+		<Heading level={3}>Import</Heading>
 		<p>You can import a JSON file that you exported from Calibration Practice.</p>
 		{#if anyAnswers}
 			<p class="text-sm text-main-500 dark:text-main-400">
@@ -233,7 +234,7 @@
 		{/if}
 	</section>
 	<section class="flex flex-col items-start gap-4">
-		<h3 class="text-xl font-medium">Deletion</h3>
+		<Heading level={3}>Deletion</Heading>
 		<p>
 			You can delete all your data from your browser. This is irreversible and will delete all your
 			answers forever. You will not be able to recover them.

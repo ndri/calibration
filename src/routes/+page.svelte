@@ -5,12 +5,15 @@
 	import ProgressBar from '$lib/components/ProgressBar.svelte';
 	import { getQuestionSetProgress } from '$lib/db';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
+	import { createTitle } from '$lib/utils/title';
 	import { CheckIcon } from '@sidekickicons/svelte/20/solid';
 
 	const scoutMindsetProgressQuery = stateQuery(() => getQuestionSetProgress('Scout Mindset'));
 	const scoutMindsetProgress = $derived(scoutMindsetProgressQuery.current);
 	const scoutMindsetComplete = $derived(scoutMindsetProgress && scoutMindsetProgress >= 40);
 </script>
+
+<svelte:head><title>{createTitle()}</title></svelte:head>
 
 <CardLink
 	href={scoutMindsetComplete ? '/scoutmindset/results' : '/scoutmindset'}
