@@ -12,6 +12,7 @@
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import AccuracyTable from '$lib/components/AccuracyTable.svelte';
 	import QuizProgress from '$lib/components/QuizProgress.svelte';
+	import { calculateCalibration } from '$lib/utils/calibration';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -21,23 +22,7 @@
 	const results = $derived.by(() => {
 		if (!answers) return;
 
-		const resultsMap = new Map<number, { correct: number; total: number }>();
-
-		for (const answer of answers) {
-			const { confidence, userAnswer: userAnswer, correctAnswer } = answer;
-			if (!resultsMap.has(confidence)) {
-				resultsMap.set(confidence, { correct: 0, total: 0 });
-			}
-			const entry = resultsMap.get(confidence);
-			if (entry) {
-				resultsMap.set(confidence, {
-					correct: userAnswer === correctAnswer ? entry.correct + 1 : entry.correct,
-					total: entry.total + 1
-				});
-			}
-		}
-
-		return resultsMap;
+		return calculateCalibration(answers);
 	});
 
 	$effect(() => {
@@ -50,13 +35,13 @@
 </script>
 
 <div class="flex flex-col gap-10">
-	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
+	<Heading level={2}>Scout Mindset Calibration Quiz</Heading>
 	<QuizProgress progress={40} total={40} />
 
 	{#if answers && results}
 		<div class="flex flex-col gap-10">
 			<div class="flex flex-col gap-4">
-				<Heading level={2}>Results</Heading>
+				<Heading level={3}>Results</Heading>
 				<div class="flex flex-col gap-8">
 					<Paragraph>
 						Being perfectly calibrated would mean that your “X% sure” claims are in fact correct X
@@ -70,7 +55,7 @@
 			</div>
 			<Disclosure>
 				{#snippet question()}
-					<Heading level={2}>All answers</Heading>
+					<Heading level={3}>All answers</Heading>
 				{/snippet}
 				<div class="flex flex-col divide-y divide-main-200 dark:divide-main-800">
 					{#each answers as answer, i}
@@ -108,8 +93,11 @@
 				</div>
 			</Disclosure>
 			<div class="flex flex-col gap-4">
-				<Heading level={2}>What's next?</Heading>
-				<ul class="ml-4 list-disc leading-8 marker:text-main-600">
+				<Heading level={3}>What's next?</Heading>
+				<ul class="list-disc pl-6 marker:text-main-300 dark:marker:text-main-500">
+					<li>
+						Practice similar questions with <Link href="/practice">Infinite Calibration</Link>.
+					</li>
 					<li>
 						Read <Link href="https://search.worldcat.org/title/1164823768" newTab
 							><em>The Scout Mindset</em></Link

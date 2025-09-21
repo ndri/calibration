@@ -28,14 +28,11 @@ class CalibrationDB extends Dexie {
 export const db = new CalibrationDB();
 
 export async function getAllAnswers() {
-	return db.answers.orderBy('answeredAt').toArray();
+	return db.answers.toArray();
 }
 
 export async function getAnswersForQuestionSet(questionSet: string) {
-	return db.answers
-		.orderBy('answeredAt')
-		.filter((answer) => answer.questionSet === questionSet)
-		.toArray();
+	return db.answers.filter((answer) => answer.questionSet === questionSet).toArray();
 }
 
 export async function addAnswer(

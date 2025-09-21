@@ -8,7 +8,7 @@
 	import { generateQuestion } from '$lib/questions/generate';
 	import type { QuestionWithSet } from '$lib/types';
 	import { createTitle } from '$lib/utils/title';
-	import { ArrowRightIcon, CheckIcon } from '@sidekickicons/svelte/20/solid';
+	import { ArrowRightIcon, ChartBarIcon, CheckIcon } from '@sidekickicons/svelte/20/solid';
 	import { onMount } from 'svelte';
 
 	let mode = $state<'question' | 'answer'>('question');
@@ -74,13 +74,16 @@
 			<div class="flex flex-col gap-4">
 				<Heading level={3}>The correct answer is: {question.answer}</Heading>
 				<Paragraph>Your answer: {selectedAnswer}</Paragraph>
-				<Paragraph>Your confidence: {selectedConfidence * 100}%</Paragraph>
+				<Paragraph>Your confidence: {Math.round(selectedConfidence * 100)}%</Paragraph>
 				{#if question.explanation}
 					<Paragraph>{question.explanation}</Paragraph>
 				{/if}
 			</div>
 
-			<div class="flex justify-end">
+			<div class="flex justify-between">
+				<Button size="lg" LeftIcon={ChartBarIcon} variant="secondary" href="/results">
+					See results
+				</Button>
 				<Button size="lg" RightIcon={ArrowRightIcon} variant="primary" onclick={newQuestion}>
 					Next Question
 				</Button>

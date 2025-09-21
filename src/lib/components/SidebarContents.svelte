@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import {
+		ChartBarIcon,
+		ChartBarSquareIcon,
 		CircleStackIcon,
 		HomeIcon,
+		PlayIcon,
 		QuestionMarkCircleIcon
 	} from '@sidekickicons/svelte/20/solid';
 	import SidebarItem from './SidebarItem.svelte';
@@ -22,14 +25,16 @@
 			href: '/',
 			Icon: HomeIcon
 		},
+		{ text: 'Practice', href: '/practice', Icon: PlayIcon },
+		{ text: 'Results', href: '/results', Icon: ChartBarIcon },
 		{
 			text: 'Data',
 			href: '/data',
 			Icon: CircleStackIcon
 		},
 		{
-			text: 'Help',
-			href: '/help',
+			text: 'FAQ',
+			href: '/faq',
 			Icon: QuestionMarkCircleIcon
 		}
 	];
