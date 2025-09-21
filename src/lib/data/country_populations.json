@@ -1,0 +1,1082 @@
+[
+  {
+    "country": "Afghanistan",
+    "population": 41454761,
+    "year": 2023
+  },
+  {
+    "country": "Albania",
+    "population": 2745972,
+    "year": 2023
+  },
+  {
+    "country": "Algeria",
+    "population": 46164219,
+    "year": 2023
+  },
+  {
+    "country": "American Samoa",
+    "population": 47521,
+    "year": 2023
+  },
+  {
+    "country": "Andorra",
+    "population": 80856,
+    "year": 2023
+  },
+  {
+    "country": "Angola",
+    "population": 36749906,
+    "year": 2023
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "population": 93316,
+    "year": 2023
+  },
+  {
+    "country": "Argentina",
+    "population": 45538401,
+    "year": 2023
+  },
+  {
+    "country": "Armenia",
+    "population": 2990900,
+    "year": 2023
+  },
+  {
+    "country": "Aruba",
+    "population": 107359,
+    "year": 2023
+  },
+  {
+    "country": "Australia",
+    "population": 26658948,
+    "year": 2023
+  },
+  {
+    "country": "Austria",
+    "population": 9131761,
+    "year": 2023
+  },
+  {
+    "country": "Azerbaijan",
+    "population": 10153958,
+    "year": 2023
+  },
+  {
+    "country": "Bahrain",
+    "population": 1577059,
+    "year": 2023
+  },
+  {
+    "country": "Bangladesh",
+    "population": 171466990,
+    "year": 2023
+  },
+  {
+    "country": "Barbados",
+    "population": 282336,
+    "year": 2023
+  },
+  {
+    "country": "Belarus",
+    "population": 9178298,
+    "year": 2023
+  },
+  {
+    "country": "Belgium",
+    "population": 11787423,
+    "year": 2023
+  },
+  {
+    "country": "Belize",
+    "population": 411106,
+    "year": 2023
+  },
+  {
+    "country": "Benin",
+    "population": 14111034,
+    "year": 2023
+  },
+  {
+    "country": "Bermuda",
+    "population": 64698,
+    "year": 2023
+  },
+  {
+    "country": "Bhutan",
+    "population": 786385,
+    "year": 2023
+  },
+  {
+    "country": "Bolivia",
+    "population": 12244159,
+    "year": 2023
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "population": 3185073,
+    "year": 2023
+  },
+  {
+    "country": "Botswana",
+    "population": 2480244,
+    "year": 2023
+  },
+  {
+    "country": "Brazil",
+    "population": 211140729,
+    "year": 2023
+  },
+  {
+    "country": "British Virgin Islands",
+    "population": 38985,
+    "year": 2023
+  },
+  {
+    "country": "Brunei",
+    "population": 458949,
+    "year": 2023
+  },
+  {
+    "country": "Bulgaria",
+    "population": 6446596,
+    "year": 2023
+  },
+  {
+    "country": "Burkina Faso",
+    "population": 23025776,
+    "year": 2023
+  },
+  {
+    "country": "Burundi",
+    "population": 13689450,
+    "year": 2023
+  },
+  {
+    "country": "Cabo Verde",
+    "population": 522331,
+    "year": 2023
+  },
+  {
+    "country": "Cambodia",
+    "population": 17423880,
+    "year": 2023
+  },
+  {
+    "country": "Cameroon",
+    "population": 28372687,
+    "year": 2023
+  },
+  {
+    "country": "Canada",
+    "population": 40097761,
+    "year": 2023
+  },
+  {
+    "country": "Cayman Islands",
+    "population": 73038,
+    "year": 2023
+  },
+  {
+    "country": "Central African Republic",
+    "population": 5152421,
+    "year": 2023
+  },
+  {
+    "country": "Chad",
+    "population": 19319064,
+    "year": 2023
+  },
+  {
+    "country": "Chile",
+    "population": 19658835,
+    "year": 2023
+  },
+  {
+    "country": "China",
+    "population": 1410710000,
+    "year": 2023
+  },
+  {
+    "country": "Colombia",
+    "population": 52321152,
+    "year": 2023
+  },
+  {
+    "country": "Comoros",
+    "population": 850387,
+    "year": 2023
+  },
+  {
+    "country": "Costa Rica",
+    "population": 5105525,
+    "year": 2023
+  },
+  {
+    "country": "Cote d'Ivoire",
+    "population": 31165654,
+    "year": 2023
+  },
+  {
+    "country": "Croatia",
+    "population": 3859686,
+    "year": 2023
+  },
+  {
+    "country": "Cuba",
+    "population": 11019931,
+    "year": 2023
+  },
+  {
+    "country": "Curacao",
+    "population": 147862,
+    "year": 2023
+  },
+  {
+    "country": "Cyprus",
+    "population": 1344976,
+    "year": 2023
+  },
+  {
+    "country": "Czechia",
+    "population": 10864042,
+    "year": 2023
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "population": 105789731,
+    "year": 2023
+  },
+  {
+    "country": "Denmark",
+    "population": 5946952,
+    "year": 2023
+  },
+  {
+    "country": "Djibouti",
+    "population": 1152944,
+    "year": 2023
+  },
+  {
+    "country": "Dominica",
+    "population": 66510,
+    "year": 2023
+  },
+  {
+    "country": "Dominican Republic",
+    "population": 11331265,
+    "year": 2023
+  },
+  {
+    "country": "Ecuador",
+    "population": 17980083,
+    "year": 2023
+  },
+  {
+    "country": "Egypt",
+    "population": 114535772,
+    "year": 2023
+  },
+  {
+    "country": "El Salvador",
+    "population": 6309624,
+    "year": 2023
+  },
+  {
+    "country": "Equatorial Guinea",
+    "population": 1847549,
+    "year": 2023
+  },
+  {
+    "country": "Eritrea",
+    "population": 3470390,
+    "year": 2023
+  },
+  {
+    "country": "Estonia",
+    "population": 1370286,
+    "year": 2023
+  },
+  {
+    "country": "Eswatini",
+    "population": 1230506,
+    "year": 2023
+  },
+  {
+    "country": "Ethiopia",
+    "population": 128691692,
+    "year": 2023
+  },
+  {
+    "country": "Faroe Islands",
+    "population": 54482,
+    "year": 2023
+  },
+  {
+    "country": "Fiji",
+    "population": 924145,
+    "year": 2023
+  },
+  {
+    "country": "Finland",
+    "population": 5583911,
+    "year": 2023
+  },
+  {
+    "country": "France",
+    "population": 68287487,
+    "year": 2023
+  },
+  {
+    "country": "French Polynesia",
+    "population": 281118,
+    "year": 2023
+  },
+  {
+    "country": "Gabon",
+    "population": 2484789,
+    "year": 2023
+  },
+  {
+    "country": "Georgia",
+    "population": 3715483,
+    "year": 2023
+  },
+  {
+    "country": "Germany",
+    "population": 83280000,
+    "year": 2023
+  },
+  {
+    "country": "Ghana",
+    "population": 33787914,
+    "year": 2023
+  },
+  {
+    "country": "Gibraltar",
+    "population": 38471,
+    "year": 2023
+  },
+  {
+    "country": "Greece",
+    "population": 10405588,
+    "year": 2023
+  },
+  {
+    "country": "Greenland",
+    "population": 56865,
+    "year": 2023
+  },
+  {
+    "country": "Grenada",
+    "population": 117081,
+    "year": 2023
+  },
+  {
+    "country": "Guam",
+    "population": 166506,
+    "year": 2023
+  },
+  {
+    "country": "Guatemala",
+    "population": 18124838,
+    "year": 2023
+  },
+  {
+    "country": "Guinea",
+    "population": 14405468,
+    "year": 2023
+  },
+  {
+    "country": "Guinea-Bissau",
+    "population": 2153339,
+    "year": 2023
+  },
+  {
+    "country": "Guyana",
+    "population": 826353,
+    "year": 2023
+  },
+  {
+    "country": "Haiti",
+    "population": 11637398,
+    "year": 2023
+  },
+  {
+    "country": "Honduras",
+    "population": 10644851,
+    "year": 2023
+  },
+  {
+    "country": "Hong Kong",
+    "population": 7536100,
+    "year": 2023
+  },
+  {
+    "country": "Hungary",
+    "population": 9592186,
+    "year": 2023
+  },
+  {
+    "country": "Iceland",
+    "population": 393349,
+    "year": 2023
+  },
+  {
+    "country": "India",
+    "population": 1438069596,
+    "year": 2023
+  },
+  {
+    "country": "Indonesia",
+    "population": 281190067,
+    "year": 2023
+  },
+  {
+    "country": "Iran",
+    "population": 90608707,
+    "year": 2023
+  },
+  {
+    "country": "Iraq",
+    "population": 45074049,
+    "year": 2023
+  },
+  {
+    "country": "Ireland",
+    "population": 5307600,
+    "year": 2023
+  },
+  {
+    "country": "Isle of Man",
+    "population": 84165,
+    "year": 2023
+  },
+  {
+    "country": "Israel",
+    "population": 9756600,
+    "year": 2023
+  },
+  {
+    "country": "Italy",
+    "population": 58993475,
+    "year": 2023
+  },
+  {
+    "country": "Jamaica",
+    "population": 2839786,
+    "year": 2023
+  },
+  {
+    "country": "Japan",
+    "population": 124516650,
+    "year": 2023
+  },
+  {
+    "country": "Jordan",
+    "population": 11439213,
+    "year": 2023
+  },
+  {
+    "country": "Kazakhstan",
+    "population": 20330104,
+    "year": 2023
+  },
+  {
+    "country": "Kenya",
+    "population": 55339003,
+    "year": 2023
+  },
+  {
+    "country": "Kiribati",
+    "population": 132530,
+    "year": 2023
+  },
+  {
+    "country": "Kosovo",
+    "population": 1756366,
+    "year": 2023
+  },
+  {
+    "country": "Kuwait",
+    "population": 4853420,
+    "year": 2023
+  },
+  {
+    "country": "Kyrgyzstan",
+    "population": 7099750,
+    "year": 2023
+  },
+  {
+    "country": "Laos",
+    "population": 7664993,
+    "year": 2023
+  },
+  {
+    "country": "Latvia",
+    "population": 1877445,
+    "year": 2023
+  },
+  {
+    "country": "Lebanon",
+    "population": 5773493,
+    "year": 2023
+  },
+  {
+    "country": "Lesotho",
+    "population": 2311472,
+    "year": 2023
+  },
+  {
+    "country": "Liberia",
+    "population": 5493031,
+    "year": 2023
+  },
+  {
+    "country": "Libya",
+    "population": 7305659,
+    "year": 2023
+  },
+  {
+    "country": "Liechtenstein",
+    "population": 39850,
+    "year": 2023
+  },
+  {
+    "country": "Lithuania",
+    "population": 2871585,
+    "year": 2023
+  },
+  {
+    "country": "Luxembourg",
+    "population": 666430,
+    "year": 2023
+  },
+  {
+    "country": "Macao",
+    "population": 678800,
+    "year": 2023
+  },
+  {
+    "country": "Madagascar",
+    "population": 31195932,
+    "year": 2023
+  },
+  {
+    "country": "Malawi",
+    "population": 21104482,
+    "year": 2023
+  },
+  {
+    "country": "Malaysia",
+    "population": 35126298,
+    "year": 2023
+  },
+  {
+    "country": "Maldives",
+    "population": 525994,
+    "year": 2023
+  },
+  {
+    "country": "Mali",
+    "population": 23769127,
+    "year": 2023
+  },
+  {
+    "country": "Malta",
+    "population": 552747,
+    "year": 2023
+  },
+  {
+    "country": "Marshall Islands",
+    "population": 38827,
+    "year": 2023
+  },
+  {
+    "country": "Mauritania",
+    "population": 5022441,
+    "year": 2023
+  },
+  {
+    "country": "Mauritius",
+    "population": 1261041,
+    "year": 2023
+  },
+  {
+    "country": "Mexico",
+    "population": 129739759,
+    "year": 2023
+  },
+  {
+    "country": "Micronesia",
+    "population": 112630,
+    "year": 2023
+  },
+  {
+    "country": "Moldova",
+    "population": 2457783,
+    "year": 2023
+  },
+  {
+    "country": "Monaco",
+    "population": 38956,
+    "year": 2023
+  },
+  {
+    "country": "Mongolia",
+    "population": 3481145,
+    "year": 2023
+  },
+  {
+    "country": "Montenegro",
+    "population": 616177,
+    "year": 2023
+  },
+  {
+    "country": "Morocco",
+    "population": 37712505,
+    "year": 2023
+  },
+  {
+    "country": "Mozambique",
+    "population": 33635160,
+    "year": 2023
+  },
+  {
+    "country": "Myanmar",
+    "population": 54133798,
+    "year": 2023
+  },
+  {
+    "country": "Namibia",
+    "population": 2963095,
+    "year": 2023
+  },
+  {
+    "country": "Nauru",
+    "population": 11875,
+    "year": 2023
+  },
+  {
+    "country": "Nepal",
+    "population": 29694614,
+    "year": 2023
+  },
+  {
+    "country": "Netherlands",
+    "population": 17877117,
+    "year": 2023
+  },
+  {
+    "country": "New Caledonia",
+    "population": 289870,
+    "year": 2023
+  },
+  {
+    "country": "New Zealand",
+    "population": 5223100,
+    "year": 2023
+  },
+  {
+    "country": "Nicaragua",
+    "population": 6823613,
+    "year": 2023
+  },
+  {
+    "country": "Niger",
+    "population": 26159867,
+    "year": 2023
+  },
+  {
+    "country": "Nigeria",
+    "population": 227882945,
+    "year": 2023
+  },
+  {
+    "country": "North Korea",
+    "population": 26418204,
+    "year": 2023
+  },
+  {
+    "country": "North Macedonia",
+    "population": 1827816,
+    "year": 2023
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "population": 45143,
+    "year": 2023
+  },
+  {
+    "country": "Norway",
+    "population": 5519594,
+    "year": 2023
+  },
+  {
+    "country": "Oman",
+    "population": 5049269,
+    "year": 2023
+  },
+  {
+    "country": "Pakistan",
+    "population": 247504495,
+    "year": 2023
+  },
+  {
+    "country": "Palau",
+    "population": 17727,
+    "year": 2023
+  },
+  {
+    "country": "Palestine",
+    "population": 5165775,
+    "year": 2023
+  },
+  {
+    "country": "Panama",
+    "population": 4458759,
+    "year": 2023
+  },
+  {
+    "country": "Papua New Guinea",
+    "population": 10389635,
+    "year": 2023
+  },
+  {
+    "country": "Paraguay",
+    "population": 6844146,
+    "year": 2023
+  },
+  {
+    "country": "Peru",
+    "population": 33845617,
+    "year": 2023
+  },
+  {
+    "country": "Philippines",
+    "population": 114891199,
+    "year": 2023
+  },
+  {
+    "country": "Poland",
+    "population": 36687353,
+    "year": 2023
+  },
+  {
+    "country": "Portugal",
+    "population": 10578174,
+    "year": 2023
+  },
+  {
+    "country": "Puerto Rico",
+    "population": 3205691,
+    "year": 2023
+  },
+  {
+    "country": "Qatar",
+    "population": 2656032,
+    "year": 2023
+  },
+  {
+    "country": "Republic of the Congo",
+    "population": 6182885,
+    "year": 2023
+  },
+  {
+    "country": "Romania",
+    "population": 19059479,
+    "year": 2023
+  },
+  {
+    "country": "Russia",
+    "population": 143826130,
+    "year": 2023
+  },
+  {
+    "country": "Rwanda",
+    "population": 13954471,
+    "year": 2023
+  },
+  {
+    "country": "Samoa",
+    "population": 216663,
+    "year": 2023
+  },
+  {
+    "country": "San Marino",
+    "population": 33860,
+    "year": 2023
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "population": 230871,
+    "year": 2023
+  },
+  {
+    "country": "Saudi Arabia",
+    "population": 33264292,
+    "year": 2023
+  },
+  {
+    "country": "Senegal",
+    "population": 18077573,
+    "year": 2023
+  },
+  {
+    "country": "Serbia",
+    "population": 6623183,
+    "year": 2023
+  },
+  {
+    "country": "Seychelles",
+    "population": 119773,
+    "year": 2023
+  },
+  {
+    "country": "Sierra Leone",
+    "population": 8460512,
+    "year": 2023
+  },
+  {
+    "country": "Singapore",
+    "population": 5917648,
+    "year": 2023
+  },
+  {
+    "country": "Sint Maarten",
+    "population": 42749,
+    "year": 2023
+  },
+  {
+    "country": "Slovakia",
+    "population": 5426740,
+    "year": 2023
+  },
+  {
+    "country": "Slovenia",
+    "population": 2120461,
+    "year": 2023
+  },
+  {
+    "country": "Solomon Islands",
+    "population": 800005,
+    "year": 2023
+  },
+  {
+    "country": "Somalia",
+    "population": 18358615,
+    "year": 2023
+  },
+  {
+    "country": "South Africa",
+    "population": 63212384,
+    "year": 2023
+  },
+  {
+    "country": "South Korea",
+    "population": 51712619,
+    "year": 2023
+  },
+  {
+    "country": "South Sudan",
+    "population": 11483374,
+    "year": 2023
+  },
+  {
+    "country": "Spain",
+    "population": 48347910,
+    "year": 2023
+  },
+  {
+    "country": "Sri Lanka",
+    "population": 22037000,
+    "year": 2023
+  },
+  {
+    "country": "St. Kitts and Nevis",
+    "population": 46758,
+    "year": 2023
+  },
+  {
+    "country": "St. Lucia",
+    "population": 179285,
+    "year": 2023
+  },
+  {
+    "country": "St. Martin",
+    "population": 27515,
+    "year": 2023
+  },
+  {
+    "country": "St. Vincent and the Grenadines",
+    "population": 101323,
+    "year": 2023
+  },
+  {
+    "country": "Sudan",
+    "population": 50042791,
+    "year": 2023
+  },
+  {
+    "country": "Suriname",
+    "population": 628886,
+    "year": 2023
+  },
+  {
+    "country": "Sweden",
+    "population": 10536632,
+    "year": 2023
+  },
+  {
+    "country": "Switzerland",
+    "population": 8888093,
+    "year": 2023
+  },
+  {
+    "country": "Syria",
+    "population": 23594623,
+    "year": 2023
+  },
+  {
+    "country": "Tajikistan",
+    "population": 10389799,
+    "year": 2023
+  },
+  {
+    "country": "Tanzania",
+    "population": 66617606,
+    "year": 2023
+  },
+  {
+    "country": "Thailand",
+    "population": 71702435,
+    "year": 2023
+  },
+  {
+    "country": "The Bahamas",
+    "population": 399440,
+    "year": 2023
+  },
+  {
+    "country": "The Gambia",
+    "population": 2697845,
+    "year": 2023
+  },
+  {
+    "country": "Timor-Leste",
+    "population": 1384286,
+    "year": 2023
+  },
+  {
+    "country": "Togo",
+    "population": 9304337,
+    "year": 2023
+  },
+  {
+    "country": "Tonga",
+    "population": 104597,
+    "year": 2023
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "population": 1367510,
+    "year": 2023
+  },
+  {
+    "country": "Tunisia",
+    "population": 12200431,
+    "year": 2023
+  },
+  {
+    "country": "Turkey",
+    "population": 85325965,
+    "year": 2023
+  },
+  {
+    "country": "Turkmenistan",
+    "population": 7364438,
+    "year": 2023
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "population": 46198,
+    "year": 2023
+  },
+  {
+    "country": "Tuvalu",
+    "population": 9816,
+    "year": 2023
+  },
+  {
+    "country": "Uganda",
+    "population": 48656601,
+    "year": 2023
+  },
+  {
+    "country": "Ukraine",
+    "population": 37732836,
+    "year": 2023
+  },
+  {
+    "country": "United Arab Emirates",
+    "population": 10483751,
+    "year": 2023
+  },
+  {
+    "country": "United Kingdom",
+    "population": 68350000,
+    "year": 2023
+  },
+  {
+    "country": "United States",
+    "population": 334914895,
+    "year": 2023
+  },
+  {
+    "country": "Uruguay",
+    "population": 3388081,
+    "year": 2023
+  },
+  {
+    "country": "Uzbekistan",
+    "population": 35652307,
+    "year": 2023
+  },
+  {
+    "country": "Vanuatu",
+    "population": 320409,
+    "year": 2023
+  },
+  {
+    "country": "Venezuela",
+    "population": 28300854,
+    "year": 2023
+  },
+  {
+    "country": "Vietnam",
+    "population": 100352192,
+    "year": 2023
+  },
+  {
+    "country": "Virgin Islands (U.S.)",
+    "population": 104917,
+    "year": 2023
+  },
+  {
+    "country": "Yemen",
+    "population": 39390799,
+    "year": 2023
+  },
+  {
+    "country": "Zambia",
+    "population": 20723965,
+    "year": 2023
+  },
+  {
+    "country": "Zimbabwe",
+    "population": 16340822,
+    "year": 2023
+  }
+]
