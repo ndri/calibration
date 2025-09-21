@@ -1,8 +1,10 @@
 import type { QuestionWithSet } from '$lib/types';
 import { generateCountryPopulationQuestion } from './countryPopulations';
+import { generateHistoricalFiguresQuestion } from './historicalFigures';
 
 const generateFunctions = {
-	'Country Populations': generateCountryPopulationQuestion
+	'Country Populations': generateCountryPopulationQuestion,
+	'Historical Figures': generateHistoricalFiguresQuestion
 };
 
 export type Category = keyof typeof generateFunctions;

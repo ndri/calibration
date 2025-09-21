@@ -1,0 +1,1346 @@
+[
+	{
+		"name": "Hammurabi",
+		"birthYear": -1810
+	},
+	{
+		"name": "Nefertiti",
+		"birthYear": -1370
+	},
+	{
+		"name": "Tutankhamun",
+		"birthYear": -1341
+	},
+	{
+		"name": "Homer",
+		"birthYear": -800
+	},
+	{
+		"name": "Buddha (Siddhartha Gautama)",
+		"birthYear": -563
+	},
+	{
+		"name": "Confucius",
+		"birthYear": -551
+	},
+	{
+		"name": "Pythagoras",
+		"birthYear": -570
+	},
+	{
+		"name": "Socrates",
+		"birthYear": -470
+	},
+	{
+		"name": "Plato",
+		"birthYear": -428
+	},
+	{
+		"name": "Aristotle",
+		"birthYear": -384
+	},
+	{
+		"name": "Alexander the Great",
+		"birthYear": -356
+	},
+	{
+		"name": "Archimedes",
+		"birthYear": -287
+	},
+	{
+		"name": "Hannibal Barca",
+		"birthYear": -247
+	},
+	{
+		"name": "Julius Caesar",
+		"birthYear": -100
+	},
+	{
+		"name": "Cleopatra",
+		"birthYear": -69
+	},
+	{
+		"name": "Augustus Caesar",
+		"birthYear": -63
+	},
+	{
+		"name": "Jesus Christ",
+		"birthYear": -4
+	},
+	{
+		"name": "Marcus Aurelius",
+		"birthYear": 121
+	},
+	{
+		"name": "Constantine the Great",
+		"birthYear": 272
+	},
+	{
+		"name": "Augustine of Hippo",
+		"birthYear": 354
+	},
+	{
+		"name": "Muhammad",
+		"birthYear": 570
+	},
+	{
+		"name": "Charlemagne",
+		"birthYear": 747
+	},
+	{
+		"name": "Al-Khwarizmi",
+		"birthYear": 780
+	},
+	{
+		"name": "William the Conqueror",
+		"birthYear": 1028
+	},
+	{
+		"name": "Saladin",
+		"birthYear": 1137
+	},
+	{
+		"name": "Genghis Khan",
+		"birthYear": 1162
+	},
+	{
+		"name": "Richard the Lionheart",
+		"birthYear": 1157
+	},
+	{
+		"name": "Thomas Aquinas",
+		"birthYear": 1225
+	},
+	{
+		"name": "Marco Polo",
+		"birthYear": 1254
+	},
+	{
+		"name": "Dante Alighieri",
+		"birthYear": 1265
+	},
+	{
+		"name": "Geoffrey Chaucer",
+		"birthYear": 1343
+	},
+	{
+		"name": "Joan of Arc",
+		"birthYear": 1412
+	},
+	{
+		"name": "Johannes Gutenberg",
+		"birthYear": 1400
+	},
+	{
+		"name": "Christopher Columbus",
+		"birthYear": 1451
+	},
+	{
+		"name": "Leonardo da Vinci",
+		"birthYear": 1452
+	},
+	{
+		"name": "Amerigo Vespucci",
+		"birthYear": 1454
+	},
+	{
+		"name": "Niccolò Machiavelli",
+		"birthYear": 1469
+	},
+	{
+		"name": "Nicolaus Copernicus",
+		"birthYear": 1473
+	},
+	{
+		"name": "Michelangelo",
+		"birthYear": 1475
+	},
+	{
+		"name": "Ferdinand Magellan",
+		"birthYear": 1480
+	},
+	{
+		"name": "Martin Luther",
+		"birthYear": 1483
+	},
+	{
+		"name": "Raphael",
+		"birthYear": 1483
+	},
+	{
+		"name": "Hernán Cortés",
+		"birthYear": 1485
+	},
+	{
+		"name": "Henry VIII",
+		"birthYear": 1491
+	},
+	{
+		"name": "Suleiman the Magnificent",
+		"birthYear": 1494
+	},
+	{
+		"name": "John Calvin",
+		"birthYear": 1509
+	},
+	{
+		"name": "Queen Elizabeth I",
+		"birthYear": 1533
+	},
+	{
+		"name": "Francis Drake",
+		"birthYear": 1540
+	},
+	{
+		"name": "Miguel de Cervantes",
+		"birthYear": 1547
+	},
+	{
+		"name": "William Shakespeare",
+		"birthYear": 1564
+	},
+	{
+		"name": "Galileo Galilei",
+		"birthYear": 1564
+	},
+	{
+		"name": "Johannes Kepler",
+		"birthYear": 1571
+	},
+	{
+		"name": "Rembrandt van Rijn",
+		"birthYear": 1606
+	},
+	{
+		"name": "John Milton",
+		"birthYear": 1608
+	},
+	{
+		"name": "Blaise Pascal",
+		"birthYear": 1623
+	},
+	{
+		"name": "John Locke",
+		"birthYear": 1632
+	},
+	{
+		"name": "Louis XIV",
+		"birthYear": 1638
+	},
+	{
+		"name": "Isaac Newton",
+		"birthYear": 1643
+	},
+	{
+		"name": "Gottfried Wilhelm Leibniz",
+		"birthYear": 1646
+	},
+	{
+		"name": "Peter the Great",
+		"birthYear": 1672
+	},
+	{
+		"name": "Johann Sebastian Bach",
+		"birthYear": 1685
+	},
+	{
+		"name": "Voltaire",
+		"birthYear": 1694
+	},
+	{
+		"name": "Benjamin Franklin",
+		"birthYear": 1706
+	},
+	{
+		"name": "David Hume",
+		"birthYear": 1711
+	},
+	{
+		"name": "Jean-Jacques Rousseau",
+		"birthYear": 1712
+	},
+	{
+		"name": "Frederick the Great",
+		"birthYear": 1712
+	},
+	{
+		"name": "Denis Diderot",
+		"birthYear": 1713
+	},
+	{
+		"name": "Adam Smith",
+		"birthYear": 1723
+	},
+	{
+		"name": "Immanuel Kant",
+		"birthYear": 1724
+	},
+	{
+		"name": "Catherine the Great",
+		"birthYear": 1729
+	},
+	{
+		"name": "George Washington",
+		"birthYear": 1732
+	},
+	{
+		"name": "John Adams",
+		"birthYear": 1735
+	},
+	{
+		"name": "Thomas Paine",
+		"birthYear": 1737
+	},
+	{
+		"name": "Thomas Jefferson",
+		"birthYear": 1743
+	},
+	{
+		"name": "Goya",
+		"birthYear": 1746
+	},
+	{
+		"name": "Johann Wolfgang von Goethe",
+		"birthYear": 1749
+	},
+	{
+		"name": "Wolfgang Amadeus Mozart",
+		"birthYear": 1756
+	},
+	{
+		"name": "Maximilien Robespierre",
+		"birthYear": 1758
+	},
+	{
+		"name": "Mary Wollstonecraft",
+		"birthYear": 1759
+	},
+	{
+		"name": "Napoleon Bonaparte",
+		"birthYear": 1769
+	},
+	{
+		"name": "Ludwig van Beethoven",
+		"birthYear": 1770
+	},
+	{
+		"name": "Jane Austen",
+		"birthYear": 1775
+	},
+	{
+		"name": "Carl Friedrich Gauss",
+		"birthYear": 1777
+	},
+	{
+		"name": "Simón Bolívar",
+		"birthYear": 1783
+	},
+	{
+		"name": "Lord Byron",
+		"birthYear": 1788
+	},
+	{
+		"name": "Michael Faraday",
+		"birthYear": 1791
+	},
+	{
+		"name": "Percy Bysshe Shelley",
+		"birthYear": 1792
+	},
+	{
+		"name": "Mary Shelley",
+		"birthYear": 1797
+	},
+	{
+		"name": "Frédéric Chopin",
+		"birthYear": 1810
+	},
+	{
+		"name": "Abraham Lincoln",
+		"birthYear": 1809
+	},
+	{
+		"name": "Charles Darwin",
+		"birthYear": 1809
+	},
+	{
+		"name": "Edgar Allan Poe",
+		"birthYear": 1809
+	},
+	{
+		"name": "Charles Dickens",
+		"birthYear": 1812
+	},
+	{
+		"name": "Otto von Bismarck",
+		"birthYear": 1815
+	},
+	{
+		"name": "Karl Marx",
+		"birthYear": 1818
+	},
+	{
+		"name": "Queen Victoria",
+		"birthYear": 1819
+	},
+	{
+		"name": "Frederick Douglass",
+		"birthYear": 1818
+	},
+	{
+		"name": "Florence Nightingale",
+		"birthYear": 1820
+	},
+	{
+		"name": "Harriet Tubman",
+		"birthYear": 1822
+	},
+	{
+		"name": "Louis Pasteur",
+		"birthYear": 1822
+	},
+	{
+		"name": "Ulysses S. Grant",
+		"birthYear": 1822
+	},
+	{
+		"name": "Leo Tolstoy",
+		"birthYear": 1828
+	},
+	{
+		"name": "Emily Dickinson",
+		"birthYear": 1830
+	},
+	{
+		"name": "James Clerk Maxwell",
+		"birthYear": 1831
+	},
+	{
+		"name": "Alfred Nobel",
+		"birthYear": 1833
+	},
+	{
+		"name": "Mark Twain",
+		"birthYear": 1835
+	},
+	{
+		"name": "Claude Monet",
+		"birthYear": 1840
+	},
+	{
+		"name": "Pierre-Auguste Renoir",
+		"birthYear": 1841
+	},
+	{
+		"name": "Friedrich Nietzsche",
+		"birthYear": 1844
+	},
+	{
+		"name": "Thomas Edison",
+		"birthYear": 1847
+	},
+	{
+		"name": "Alexander Graham Bell",
+		"birthYear": 1847
+	},
+	{
+		"name": "Vincent van Gogh",
+		"birthYear": 1853
+	},
+	{
+		"name": "Oscar Wilde",
+		"birthYear": 1854
+	},
+	{
+		"name": "Sigmund Freud",
+		"birthYear": 1856
+	},
+	{
+		"name": "Nikola Tesla",
+		"birthYear": 1856
+	},
+	{
+		"name": "Woodrow Wilson",
+		"birthYear": 1856
+	},
+	{
+		"name": "Theodore Roosevelt",
+		"birthYear": 1858
+	},
+	{
+		"name": "Anton Chekhov",
+		"birthYear": 1860
+	},
+	{
+		"name": "Gustav Mahler",
+		"birthYear": 1860
+	},
+	{
+		"name": "Henry Ford",
+		"birthYear": 1863
+	},
+	{
+		"name": "Edvard Munch",
+		"birthYear": 1863
+	},
+	{
+		"name": "Henri de Toulouse-Lautrec",
+		"birthYear": 1864
+	},
+	{
+		"name": "Max Weber",
+		"birthYear": 1864
+	},
+	{
+		"name": "W.B. Yeats",
+		"birthYear": 1865
+	},
+	{
+		"name": "Sun Yat-sen",
+		"birthYear": 1866
+	},
+	{
+		"name": "Marie Curie",
+		"birthYear": 1867
+	},
+	{
+		"name": "Frank Lloyd Wright",
+		"birthYear": 1867
+	},
+	{
+		"name": "W.E.B. Du Bois",
+		"birthYear": 1868
+	},
+	{
+		"name": "Mahatma Gandhi",
+		"birthYear": 1869
+	},
+	{
+		"name": "Vladimir Lenin",
+		"birthYear": 1870
+	},
+	{
+		"name": "Marcel Proust",
+		"birthYear": 1871
+	},
+	{
+		"name": "Ernest Rutherford",
+		"birthYear": 1871
+	},
+	{
+		"name": "Bertrand Russell",
+		"birthYear": 1872
+	},
+	{
+		"name": "Winston Churchill",
+		"birthYear": 1874
+	},
+	{
+		"name": "Robert Frost",
+		"birthYear": 1874
+	},
+	{
+		"name": "Carl Jung",
+		"birthYear": 1875
+	},
+	{
+		"name": "Albert Schweitzer",
+		"birthYear": 1875
+	},
+	{
+		"name": "Hermann Hesse",
+		"birthYear": 1877
+	},
+	{
+		"name": "Joseph Stalin",
+		"birthYear": 1878
+	},
+	{
+		"name": "Albert Einstein",
+		"birthYear": 1879
+	},
+	{
+		"name": "Leon Trotsky",
+		"birthYear": 1879
+	},
+	{
+		"name": "Pablo Picasso",
+		"birthYear": 1881
+	},
+	{
+		"name": "Alexander Fleming",
+		"birthYear": 1881
+	},
+	{
+		"name": "Kemal Atatürk",
+		"birthYear": 1881
+	},
+	{
+		"name": "James Joyce",
+		"birthYear": 1882
+	},
+	{
+		"name": "Franklin D. Roosevelt",
+		"birthYear": 1882
+	},
+	{
+		"name": "Virginia Woolf",
+		"birthYear": 1882
+	},
+	{
+		"name": "John Maynard Keynes",
+		"birthYear": 1883
+	},
+	{
+		"name": "Benito Mussolini",
+		"birthYear": 1883
+	},
+	{
+		"name": "Franz Kafka",
+		"birthYear": 1883
+	},
+	{
+		"name": "Eleanor Roosevelt",
+		"birthYear": 1884
+	},
+	{
+		"name": "Harry S. Truman",
+		"birthYear": 1884
+	},
+	{
+		"name": "Niels Bohr",
+		"birthYear": 1885
+	},
+	{
+		"name": "David Ben-Gurion",
+		"birthYear": 1886
+	},
+	{
+		"name": "Diego Rivera",
+		"birthYear": 1886
+	},
+	{
+		"name": "Georgia O'Keeffe",
+		"birthYear": 1887
+	},
+	{
+		"name": "Chiang Kai-shek",
+		"birthYear": 1887
+	},
+	{
+		"name": "Erwin Schrödinger",
+		"birthYear": 1887
+	},
+	{
+		"name": "T.S. Eliot",
+		"birthYear": 1888
+	},
+	{
+		"name": "T.E. Lawrence (Lawrence of Arabia)",
+		"birthYear": 1888
+	},
+	{
+		"name": "Adolf Hitler",
+		"birthYear": 1889
+	},
+	{
+		"name": "Charlie Chaplin",
+		"birthYear": 1889
+	},
+	{
+		"name": "Edwin Hubble",
+		"birthYear": 1889
+	},
+	{
+		"name": "Jawaharlal Nehru",
+		"birthYear": 1889
+	},
+	{
+		"name": "Agatha Christie",
+		"birthYear": 1890
+	},
+	{
+		"name": "Dwight D. Eisenhower",
+		"birthYear": 1890
+	},
+	{
+		"name": "Charles de Gaulle",
+		"birthYear": 1890
+	},
+	{
+		"name": "Ho Chi Minh",
+		"birthYear": 1890
+	},
+	{
+		"name": "Haile Selassie",
+		"birthYear": 1892
+	},
+	{
+		"name": "J.R.R. Tolkien",
+		"birthYear": 1892
+	},
+	{
+		"name": "Francisco Franco",
+		"birthYear": 1892
+	},
+	{
+		"name": "Josip Broz Tito",
+		"birthYear": 1892
+	},
+	{
+		"name": "Mao Zedong",
+		"birthYear": 1893
+	},
+	{
+		"name": "Nikita Khrushchev",
+		"birthYear": 1894
+	},
+	{
+		"name": "Aldous Huxley",
+		"birthYear": 1894
+	},
+	{
+		"name": "F. Scott Fitzgerald",
+		"birthYear": 1896
+	},
+	{
+		"name": "Amelia Earhart",
+		"birthYear": 1897
+	},
+	{
+		"name": "Ernest Hemingway",
+		"birthYear": 1899
+	},
+	{
+		"name": "Duke Ellington",
+		"birthYear": 1899
+	},
+	{
+		"name": "Alfred Hitchcock",
+		"birthYear": 1899
+	},
+	{
+		"name": "Jorge Luis Borges",
+		"birthYear": 1899
+	},
+	{
+		"name": "Enrico Fermi",
+		"birthYear": 1901
+	},
+	{
+		"name": "Walt Disney",
+		"birthYear": 1901
+	},
+	{
+		"name": "Louis Armstrong",
+		"birthYear": 1901
+	},
+	{
+		"name": "Werner Heisenberg",
+		"birthYear": 1901
+	},
+	{
+		"name": "George Orwell",
+		"birthYear": 1903
+	},
+	{
+		"name": "John von Neumann",
+		"birthYear": 1903
+	},
+	{
+		"name": "Salvador Dalí",
+		"birthYear": 1904
+	},
+	{
+		"name": "J. Robert Oppenheimer",
+		"birthYear": 1904
+	},
+	{
+		"name": "Deng Xiaoping",
+		"birthYear": 1904
+	},
+	{
+		"name": "Jean-Paul Sartre",
+		"birthYear": 1905
+	},
+	{
+		"name": "Howard Hughes",
+		"birthYear": 1905
+	},
+	{
+		"name": "Dietrich Bonhoeffer",
+		"birthYear": 1906
+	},
+	{
+		"name": "Frida Kahlo",
+		"birthYear": 1907
+	},
+	{
+		"name": "Rachel Carson",
+		"birthYear": 1907
+	},
+	{
+		"name": "Simone de Beauvoir",
+		"birthYear": 1908
+	},
+	{
+		"name": "Lyndon B. Johnson",
+		"birthYear": 1908
+	},
+	{
+		"name": "Mother Teresa",
+		"birthYear": 1910
+	},
+	{
+		"name": "Jacques Cousteau",
+		"birthYear": 1910
+	},
+	{
+		"name": "Ronald Reagan",
+		"birthYear": 1911
+	},
+	{
+		"name": "Alan Turing",
+		"birthYear": 1912
+	},
+	{
+		"name": "Jackson Pollock",
+		"birthYear": 1912
+	},
+	{
+		"name": "Rosa Parks",
+		"birthYear": 1913
+	},
+	{
+		"name": "Albert Camus",
+		"birthYear": 1913
+	},
+	{
+		"name": "Richard Nixon",
+		"birthYear": 1913
+	},
+	{
+		"name": "Jonas Salk",
+		"birthYear": 1914
+	},
+	{
+		"name": "Frank Sinatra",
+		"birthYear": 1915
+	},
+	{
+		"name": "Indira Gandhi",
+		"birthYear": 1917
+	},
+	{
+		"name": "John F. Kennedy",
+		"birthYear": 1917
+	},
+	{
+		"name": "Nelson Mandela",
+		"birthYear": 1918
+	},
+	{
+		"name": "Anwar Sadat",
+		"birthYear": 1918
+	},
+	{
+		"name": "Richard Feynman",
+		"birthYear": 1918
+	},
+	{
+		"name": "Jackie Robinson",
+		"birthYear": 1919
+	},
+	{
+		"name": "Eva Perón",
+		"birthYear": 1919
+	},
+	{
+		"name": "Pope John Paul II",
+		"birthYear": 1920
+	},
+	{
+		"name": "Isaac Asimov",
+		"birthYear": 1920
+	},
+	{
+		"name": "Betty Friedan",
+		"birthYear": 1921
+	},
+	{
+		"name": "Jack Kerouac",
+		"birthYear": 1922
+	},
+	{
+		"name": "Judy Garland",
+		"birthYear": 1922
+	},
+	{
+		"name": "Henry Kissinger",
+		"birthYear": 1923
+	},
+	{
+		"name": "Lee Kuan Yew",
+		"birthYear": 1923
+	},
+	{
+		"name": "James Baldwin",
+		"birthYear": 1924
+	},
+	{
+		"name": "Marlon Brando",
+		"birthYear": 1924
+	},
+	{
+		"name": "Jimmy Carter",
+		"birthYear": 1924
+	},
+	{
+		"name": "Malcolm X",
+		"birthYear": 1925
+	},
+	{
+		"name": "Margaret Thatcher",
+		"birthYear": 1925
+	},
+	{
+		"name": "Robert F. Kennedy",
+		"birthYear": 1925
+	},
+	{
+		"name": "Marilyn Monroe",
+		"birthYear": 1926
+	},
+	{
+		"name": "Fidel Castro",
+		"birthYear": 1926
+	},
+	{
+		"name": "Miles Davis",
+		"birthYear": 1926
+	},
+	{
+		"name": "Queen Elizabeth II",
+		"birthYear": 1926
+	},
+	{
+		"name": "Gabriel García Márquez",
+		"birthYear": 1927
+	},
+	{
+		"name": "Che Guevara",
+		"birthYear": 1928
+	},
+	{
+		"name": "Andy Warhol",
+		"birthYear": 1928
+	},
+	{
+		"name": "Maya Angelou",
+		"birthYear": 1928
+	},
+	{
+		"name": "Noam Chomsky",
+		"birthYear": 1928
+	},
+	{
+		"name": "Stanley Kubrick",
+		"birthYear": 1928
+	},
+	{
+		"name": "Martin Luther King Jr.",
+		"birthYear": 1929
+	},
+	{
+		"name": "Anne Frank",
+		"birthYear": 1929
+	},
+	{
+		"name": "Audrey Hepburn",
+		"birthYear": 1929
+	},
+	{
+		"name": "Yasser Arafat",
+		"birthYear": 1929
+	},
+	{
+		"name": "Neil Armstrong",
+		"birthYear": 1930
+	},
+	{
+		"name": "Ray Charles",
+		"birthYear": 1930
+	},
+	{
+		"name": "Clint Eastwood",
+		"birthYear": 1930
+	},
+	{
+		"name": "Warren Buffett",
+		"birthYear": 1930
+	},
+	{
+		"name": "Mikhail Gorbachev",
+		"birthYear": 1931
+	},
+	{
+		"name": "James Dean",
+		"birthYear": 1931
+	},
+	{
+		"name": "Desmond Tutu",
+		"birthYear": 1931
+	},
+	{
+		"name": "Toni Morrison",
+		"birthYear": 1931
+	},
+	{
+		"name": "Johnny Cash",
+		"birthYear": 1932
+	},
+	{
+		"name": "Sylvia Plath",
+		"birthYear": 1932
+	},
+	{
+		"name": "Yuri Gagarin",
+		"birthYear": 1934
+	},
+	{
+		"name": "Gloria Steinem",
+		"birthYear": 1934
+	},
+	{
+		"name": "Carl Sagan",
+		"birthYear": 1934
+	},
+	{
+		"name": "Elvis Presley",
+		"birthYear": 1935
+	},
+	{
+		"name": "Dalai Lama (14th)",
+		"birthYear": 1935
+	},
+	{
+		"name": "Luciano Pavarotti",
+		"birthYear": 1935
+	},
+	{
+		"name": "Vaclav Havel",
+		"birthYear": 1936
+	},
+	{
+		"name": "Saddam Hussein",
+		"birthYear": 1937
+	},
+	{
+		"name": "Colin Powell",
+		"birthYear": 1937
+	},
+	{
+		"name": "Kofi Annan",
+		"birthYear": 1938
+	},
+	{
+		"name": "Francis Ford Coppola",
+		"birthYear": 1939
+	},
+	{
+		"name": "John Lennon",
+		"birthYear": 1940
+	},
+	{
+		"name": "Bruce Lee",
+		"birthYear": 1940
+	},
+	{
+		"name": "Pelé",
+		"birthYear": 1940
+	},
+	{
+		"name": "Bob Dylan",
+		"birthYear": 1941
+	},
+	{
+		"name": "Muhammad Ali",
+		"birthYear": 1942
+	},
+	{
+		"name": "Stephen Hawking",
+		"birthYear": 1942
+	},
+	{
+		"name": "Martin Scorsese",
+		"birthYear": 1942
+	},
+	{
+		"name": "Muammar Gaddafi",
+		"birthYear": 1942
+	},
+	{
+		"name": "Paul McCartney",
+		"birthYear": 1942
+	},
+	{
+		"name": "Jimi Hendrix",
+		"birthYear": 1942
+	},
+	{
+		"name": "Robert De Niro",
+		"birthYear": 1943
+	},
+	{
+		"name": "George Harrison",
+		"birthYear": 1943
+	},
+	{
+		"name": "Billie Jean King",
+		"birthYear": 1943
+	},
+	{
+		"name": "Lech Wałęsa",
+		"birthYear": 1943
+	},
+	{
+		"name": "Angela Davis",
+		"birthYear": 1944
+	},
+	{
+		"name": "Bob Marley",
+		"birthYear": 1945
+	},
+	{
+		"name": "Aung San Suu Kyi",
+		"birthYear": 1945
+	},
+	{
+		"name": "Donald Trump",
+		"birthYear": 1946
+	},
+	{
+		"name": "George W. Bush",
+		"birthYear": 1946
+	},
+	{
+		"name": "Bill Clinton",
+		"birthYear": 1946
+	},
+	{
+		"name": "Freddie Mercury",
+		"birthYear": 1946
+	},
+	{
+		"name": "Steven Spielberg",
+		"birthYear": 1946
+	},
+	{
+		"name": "David Bowie",
+		"birthYear": 1947
+	},
+	{
+		"name": "Hillary Clinton",
+		"birthYear": 1947
+	},
+	{
+		"name": "Arnold Schwarzenegger",
+		"birthYear": 1947
+	},
+	{
+		"name": "Elton John",
+		"birthYear": 1947
+	},
+	{
+		"name": "Stephen King",
+		"birthYear": 1947
+	},
+	{
+		"name": "Al Gore",
+		"birthYear": 1948
+	},
+	{
+		"name": "Ozzy Osbourne",
+		"birthYear": 1948
+	},
+	{
+		"name": "Benjamin Netanyahu",
+		"birthYear": 1949
+	},
+	{
+		"name": "Meryl Streep",
+		"birthYear": 1949
+	},
+	{
+		"name": "Stevie Wonder",
+		"birthYear": 1950
+	},
+	{
+		"name": "Vladimir Putin",
+		"birthYear": 1952
+	},
+	{
+		"name": "Xi Jinping",
+		"birthYear": 1953
+	},
+	{
+		"name": "Benazir Bhutto",
+		"birthYear": 1953
+	},
+	{
+		"name": "Tony Blair",
+		"birthYear": 1953
+	},
+	{
+		"name": "Oprah Winfrey",
+		"birthYear": 1954
+	},
+	{
+		"name": "Angela Merkel",
+		"birthYear": 1954
+	},
+	{
+		"name": "Steve Jobs",
+		"birthYear": 1955
+	},
+	{
+		"name": "Bill Gates",
+		"birthYear": 1955
+	},
+	{
+		"name": "Osama bin Laden",
+		"birthYear": 1957
+	},
+	{
+		"name": "Michael Jackson",
+		"birthYear": 1958
+	},
+	{
+		"name": "Madonna",
+		"birthYear": 1958
+	},
+	{
+		"name": "Prince",
+		"birthYear": 1958
+	},
+	{
+		"name": "Barack Obama",
+		"birthYear": 1961
+	},
+	{
+		"name": "Princess Diana",
+		"birthYear": 1961
+	},
+	{
+		"name": "Eddie Murphy",
+		"birthYear": 1961
+	},
+	{
+		"name": "Michael Jordan",
+		"birthYear": 1963
+	},
+	{
+		"name": "Whitney Houston",
+		"birthYear": 1963
+	},
+	{
+		"name": "Jeff Bezos",
+		"birthYear": 1964
+	},
+	{
+		"name": "Kamala Harris",
+		"birthYear": 1964
+	},
+	{
+		"name": "J.K. Rowling",
+		"birthYear": 1965
+	},
+	{
+		"name": "Mike Tyson",
+		"birthYear": 1966
+	},
+	{
+		"name": "Kurt Cobain",
+		"birthYear": 1967
+	},
+	{
+		"name": "Will Smith",
+		"birthYear": 1968
+	},
+	{
+		"name": "Jay-Z",
+		"birthYear": 1969
+	},
+	{
+		"name": "Elon Musk",
+		"birthYear": 1971
+	},
+	{
+		"name": "Tupac Shakur",
+		"birthYear": 1971
+	},
+	{
+		"name": "Eminem",
+		"birthYear": 1972
+	},
+	{
+		"name": "Sergey Brin",
+		"birthYear": 1973
+	},
+	{
+		"name": "Larry Page",
+		"birthYear": 1973
+	},
+	{
+		"name": "Tiger Woods",
+		"birthYear": 1975
+	},
+	{
+		"name": "Angelina Jolie",
+		"birthYear": 1975
+	},
+	{
+		"name": "Kobe Bryant",
+		"birthYear": 1978
+	},
+	{
+		"name": "Serena Williams",
+		"birthYear": 1981
+	},
+	{
+		"name": "Beyoncé",
+		"birthYear": 1981
+	},
+	{
+		"name": "Mark Zuckerberg",
+		"birthYear": 1984
+	},
+	{
+		"name": "LeBron James",
+		"birthYear": 1984
+	},
+	{
+		"name": "Usain Bolt",
+		"birthYear": 1986
+	},
+	{
+		"name": "Lionel Messi",
+		"birthYear": 1987
+	},
+	{
+		"name": "Rihanna",
+		"birthYear": 1988
+	},
+	{
+		"name": "Taylor Swift",
+		"birthYear": 1989
+	},
+	{
+		"name": "Malala Yousafzai",
+		"birthYear": 1997
+	},
+	{
+		"name": "Greta Thunberg",
+		"birthYear": 2003
+	}
+]
