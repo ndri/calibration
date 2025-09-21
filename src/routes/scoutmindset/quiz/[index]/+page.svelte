@@ -35,14 +35,17 @@
 	async function nextQuestion() {
 		if (!selectedAnswer || !selectedConfidence) return;
 
-		await addAnswer(index - 1, {
-			question: currentQuestion.question,
-			userAnswer: selectedAnswer,
-			correctAnswer: currentQuestion.answer,
-			explanation: currentQuestion.explanation,
-			confidence: selectedConfidence,
-			questionSet: QUESTION_SET
-		});
+		await addAnswer(
+			{
+				question: currentQuestion.question,
+				userAnswer: selectedAnswer,
+				correctAnswer: currentQuestion.answer,
+				explanation: currentQuestion.explanation,
+				confidence: selectedConfidence,
+				questionSet: QUESTION_SET
+			},
+			index - 1
+		);
 
 		if (index < questions.length) {
 			goto(`/scoutmindset/quiz/${index + 1}`);
@@ -93,13 +96,13 @@
 </script>
 
 <div class="flex flex-col gap-10">
-	<Heading level={1}>Scout Mindset Calibration Quiz</Heading>
+	<Heading level={2}>Scout Mindset Calibration Quiz</Heading>
 
 	{#if progress !== undefined && currentQuestion}
 		<QuizProgress {progress} total={questions.length} />
 
 		<div class="flex flex-col gap-4">
-			<Heading level={2}>{index}. {currentQuestion.question}</Heading>
+			<Heading level={3}>{index}. {currentQuestion.question}</Heading>
 			<ButtonGroup values={currentQuestion.options} bind:selectedValue={selectedAnswer} />
 			<Paragraph>How confident are you in your answer?</Paragraph>
 			<ConfidenceSelector bind:selectedConfidence />

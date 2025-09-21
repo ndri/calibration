@@ -1,4 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie';
+import type { Category } from './questions/generate';
 
 export interface Answer {
 	id: number;
@@ -7,7 +8,7 @@ export interface Answer {
 	correctAnswer: string;
 	explanation?: string;
 	confidence: number;
-	questionSet: 'Scout Mindset';
+	questionSet: Category | 'Scout Mindset';
 	answeredAt: Date;
 }
 
@@ -38,7 +39,6 @@ export async function getAnswersForQuestionSet(questionSet: string) {
 }
 
 export async function addAnswer(
-	index: number,
 	{
 		question,
 		userAnswer,
@@ -46,8 +46,21 @@ export async function addAnswer(
 		explanation,
 		confidence,
 		questionSet
-	}: Omit<Answer, 'id' | 'answeredAt'>
+	}: Omit<Answer, 'id' | 'answeredAt'>,
+	index?: number
 ) {
+	if (index === undefined) {
+		return db.answers.add({
+			question,
+			userAnswer,
+			correctAnswer,
+			confidence,
+			explanation,
+			questionSet,
+			answeredAt: new Date()
+		});
+	}
+
 	const progress = await getQuestionSetProgress(questionSet);
 
 	// Update existing answer if it is already answered
