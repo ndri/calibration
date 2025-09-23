@@ -4,21 +4,35 @@
 	import Heading from '$lib/components/Heading.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
 	import Button from '$lib/components/ui/Button.svelte';
-	import { addAnswer } from '$lib/db';
-	import { generateQuestion } from '$lib/questions/generate';
-	import type { QuestionWithSet } from '$lib/types';
+	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
+	import { addAnswer, getConfig, updateConfig } from '$lib/db';
+	import { generateQuestion, getAllCategories, type Category } from '$lib/questions/generate';
+	import type { QuestionWithCategory } from '$lib/types';
+	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
-	import { ArrowRightIcon, ChartBarIcon, CheckIcon } from '@sidekickicons/svelte/20/solid';
+	import {
+		ArrowRightIcon,
+		ChartBarIcon,
+		CheckIcon,
+		Cog6ToothIcon
+	} from '@sidekickicons/svelte/20/solid';
 	import { onMount } from 'svelte';
 
 	let mode = $state<'question' | 'answer'>('question');
 
-	let question = $state<QuestionWithSet>();
+	let question = $state<QuestionWithCategory>();
 	let selectedAnswer = $state<string>();
 	let selectedConfidence = $state<number>();
 
+	let categoriesDialog = $state<MultiSelectDialog<Category>>();
+
+	const configQuery = stateQuery(getConfig);
+	const config = $derived(configQuery.current);
+	const categories = $derived(config?.infiniteCalibrationCategories ?? []);
+	const allCategories = $derived(getAllCategories());
+
 	function newQuestion() {
-		question = generateQuestion();
+		question = generateQuestion(categories.length ? categories : allCategories);
 		selectedAnswer = undefined;
 		selectedConfidence = undefined;
 		mode = 'question';
@@ -59,7 +73,20 @@
 				<ConfidenceSelector bind:selectedConfidence />
 			</div>
 
-			<div class="flex justify-end">
+			<div class="flex justify-between">
+				<Button
+					size="lg"
+					variant="secondary"
+					onclick={() => {
+						if (!categoriesDialog) return;
+
+						categoriesDialog.setValues(categories);
+						categoriesDialog.open();
+					}}
+					LeftIcon={Cog6ToothIcon}
+				>
+					{categories.length}/{allCategories.length} categories selected
+				</Button>
 				<Button
 					size="lg"
 					LeftIcon={CheckIcon}
@@ -90,4 +117,18 @@
 			</div>
 		{/if}
 	{/if}
+</div>
+
+<div class="absolute">
+	<MultiSelectDialog
+		bind:this={categoriesDialog}
+		options={allCategories.map((category) => ({ value: category, label: category }))}
+		submit={(value) => {
+			const valueClone = [...value];
+			if (valueClone.length === 0) valueClone.push(...allCategories);
+
+			updateConfig({ infiniteCalibrationCategories: valueClone });
+		}}
+		label="Select which categories to get questions for"
+	/>
 </div>

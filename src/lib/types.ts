@@ -1,4 +1,4 @@
-import type { Category } from './questions/generate';
+import type { ExtendedCategory } from './questions/generate';
 
 export interface Question {
 	question: string;
@@ -7,4 +7,4 @@ export interface Question {
 	explanation?: string;
 }
 
-export type QuestionWithSet = Question & { questionSet: Category | 'Scout Mindset' };
+export type QuestionWithCategory = Question & { questionSet: ExtendedCategory };

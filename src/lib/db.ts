@@ -1,5 +1,5 @@
 import Dexie, { type EntityTable } from 'dexie';
-import type { Category } from './questions/generate';
+import { getAllCategories, type Category, type ExtendedCategory } from './questions/generate';
 
 export interface Answer {
 	id: number;
@@ -8,12 +8,19 @@ export interface Answer {
 	correctAnswer: string;
 	explanation?: string;
 	confidence: number;
-	questionSet: Category | 'Scout Mindset';
+	questionSet: ExtendedCategory;
 	answeredAt: Date;
+}
+
+export interface AppConfig {
+	id: number;
+	infiniteCalibrationCategories?: Category[];
+	lastModified?: Date;
 }
 
 class CalibrationDB extends Dexie {
 	answers!: EntityTable<Answer, 'id'>;
+	config!: EntityTable<AppConfig, 'id'>;
 
 	constructor() {
 		super('Calibration');
@@ -22,11 +29,59 @@ class CalibrationDB extends Dexie {
 			answers:
 				'++id, question, answer, correctAnswer, explanation, confidence, answeredAt, questionSet'
 		});
+
+		this.version(2).stores({
+			answers:
+				'++id, question, answer, correctAnswer, explanation, confidence, answeredAt, questionSet',
+			config: '++id'
+		});
+
+		this.on('populate', () => {
+			this.config.put(getDefaultConfig());
+		});
 	}
 }
 
 export const db = new CalibrationDB();
 
+// Config
+const CONFIG_ID = 1;
+
+function getDefaultConfig(): AppConfig {
+	return {
+		id: CONFIG_ID,
+		infiniteCalibrationCategories: getAllCategories(),
+		lastModified: new Date()
+	};
+}
+
+export async function getConfig() {
+	const config = await db.config.get(CONFIG_ID);
+
+	if (!config) {
+		const defaultConfig = getDefaultConfig();
+
+		// Doesn't work for some reason
+		// await db.config.put(defaultConfig);
+
+		return defaultConfig;
+	}
+
+	return config;
+}
+
+export async function updateConfig(updates: Partial<Omit<AppConfig, 'id' | 'lastModified'>>) {
+	await db.config.update(CONFIG_ID, {
+		...updates,
+		lastModified: new Date()
+	});
+}
+
+export async function resetConfig() {
+	return db.config.put(getDefaultConfig());
+}
+
+// Answers
 export async function getAllAnswers() {
 	return db.answers.toArray();
 }
@@ -110,19 +165,30 @@ export async function countAllData() {
 }
 
 export async function deleteAllData() {
-	await db.answers.clear();
+	await db.transaction('rw', db.answers, db.config, async () => {
+		await db.answers.clear();
+		await db.config.clear();
+	});
 }
 
 export async function exportDatabase() {
 	const answers = await db.answers.toArray();
+	const config = (await db.config.get(CONFIG_ID)) ?? getDefaultConfig();
 
-	return { answers };
+	return { answers, config };
 }
 
-export async function importDatabase(data: { answers: Answer[] }) {
-	await db.transaction('rw', db.answers, async () => {
+export async function importDatabase(data: { answers: Answer[]; config?: AppConfig }) {
+	await db.transaction('rw', db.answers, db.config, async () => {
 		await db.answers.clear();
-
 		await db.answers.bulkPut(data.answers);
+
+		if (data.config) {
+			await db.config.put({
+				...data.config,
+				id: CONFIG_ID,
+				lastModified: new Date()
+			});
+		}
 	});
 }
