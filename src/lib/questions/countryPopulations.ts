@@ -1,15 +1,12 @@
 import countryPopulations from '$lib/data/country_populations.json';
 import type { Question } from '$lib/types';
+import { chooseNearbyPair } from '$lib/utils/array';
 import { formatNumber } from '$lib/utils/numbers';
 
 export function generateCountryPopulationQuestion(): Question {
-	const countryPopulationsClone = [...countryPopulations];
+	const sortedCountries = [...countryPopulations].sort((a, b) => a.population - b.population);
 
-	const countryIndex1 = Math.floor(Math.random() * countryPopulationsClone.length);
-	const country1 = countryPopulationsClone.splice(countryIndex1, 1)[0];
-
-	const countryIndex2 = Math.floor(Math.random() * countryPopulationsClone.length);
-	const country2 = countryPopulationsClone.splice(countryIndex2, 1)[0];
+	const [country1, country2] = chooseNearbyPair(sortedCountries);
 
 	const [higherPopulationCountry, lowerPopulationCountry] =
 		country1.population > country2.population ? [country1, country2] : [country2, country1];

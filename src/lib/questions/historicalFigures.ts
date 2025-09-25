@@ -1,5 +1,6 @@
 import historicalFigures from '$lib/data/historical_figures.json';
 import type { Question } from '$lib/types';
+import { chooseNearbyPair } from '$lib/utils/array';
 
 function yearToString(year: number): string {
 	if (year < 0) {
@@ -10,16 +11,9 @@ function yearToString(year: number): string {
 }
 
 export function generateHistoricalFiguresQuestion(): Question {
-	const figuresClone = [...historicalFigures];
+	const sortedFigures = [...historicalFigures].sort((a, b) => a.birthYear - b.birthYear);
 
-	const index1 = Math.floor(Math.random() * figuresClone.length);
-	const figure1 = figuresClone.splice(index1, 1)[0];
-
-	const figuresWithoutRepeatingYears = figuresClone.filter(
-		(figure) => figure.birthYear !== figure1.birthYear
-	);
-	const index2 = Math.floor(Math.random() * figuresWithoutRepeatingYears.length);
-	const figure2 = figuresWithoutRepeatingYears[index2];
+	const [figure1, figure2] = chooseNearbyPair(sortedFigures);
 
 	const [earlierFigure, laterFigure] =
 		figure1.birthYear < figure2.birthYear ? [figure1, figure2] : [figure2, figure1];
