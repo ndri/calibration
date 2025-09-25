@@ -1,0 +1,1145 @@
+[
+	{
+		"question": "Octopuses have three hearts.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Two pump blood to the gills, while the third pumps blood to the rest of the body."
+	},
+	{
+		"question": "Penguins can fly short distances.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Penguins are flightless birds that have evolved for swimming instead of flying."
+	},
+	{
+		"question": "A group of crows is called a murder.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Koalas sleep up to 22 hours a day.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Koalas need extensive sleep to digest their low-nutrition eucalyptus diet."
+	},
+	{
+		"question": "All spiders are venomous.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "While most spiders have venom, some species like the Uloboridae family lack venom glands entirely."
+	},
+	{
+		"question": "Dolphins sleep with one eye open.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Dolphins practice unihemispheric sleep, keeping half their brain awake to breathe and watch for predators."
+	},
+	{
+		"question": "Honeybees can recognize human faces.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Research has shown bees can learn and remember human facial features."
+	},
+	{
+		"question": "Sharks are older than trees.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Sharks have existed for about 400 million years, while trees appeared around 350 million years ago."
+	},
+	{
+		"question": "Goldfish have a memory span of only 3 seconds.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Goldfish can actually remember things for at least 3 months and can be trained to recognize shapes and colors."
+	},
+	{
+		"question": "Giraffes have the same number of neck vertebrae as humans.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Both giraffes and humans have seven neck vertebrae; giraffe vertebrae are just much longer."
+	},
+	{
+		"question": "Polar bears have black skin under their white fur.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The black skin helps absorb heat from the sun, while their fur appears white but is actually transparent."
+	},
+	{
+		"question": "Owls can rotate their heads 360 degrees.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Owls can rotate their heads up to 270 degrees, not a full 360."
+	},
+	{
+		"question": "A shrimp's heart is in its head.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The heart is located in the thorax, which is part of what we consider the shrimp's head region."
+	},
+	{
+		"question": "Kangaroos can't walk backwards.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Their large tail and unique leg structure make it impossible for them to walk backwards."
+	},
+	{
+		"question": "Bats are blind.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "All bats can see, and many have excellent vision. They use echolocation to enhance their navigation."
+	},
+	{
+		"question": "A group of flamingos is called a flamboyance.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Wombat poop is cube-shaped.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Wombats produce cube-shaped droppings due to the unique structure of their intestines."
+	},
+	{
+		"question": "Hummingbirds can fly backwards.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Hummingbirds are the only birds that can fly backwards, sideways, and hover in place."
+	},
+	{
+		"question": "Snakes can hear through their jaws.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Snakes detect vibrations through their jawbones, which connect to their inner ears."
+	},
+	{
+		"question": "All cats are lactose intolerant as adults.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "While many adult cats are lactose intolerant, not all of them are."
+	},
+	{
+		"question": "Starfish have brains.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Starfish have a nerve net instead of a centralized brain."
+	},
+	{
+		"question": "Ravens can learn to mimic human speech.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Sloths can hold their breath longer than dolphins.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Sloths can hold their breath for up to 40 minutes, while dolphins typically hold theirs for 8-10 minutes."
+	},
+	{
+		"question": "Mosquitoes have teeth.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Mosquitoes have a proboscis with serrated edges, not actual teeth."
+	},
+	{
+		"question": "Cows have best friends.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Studies show cows form close bonds with certain other cows and become stressed when separated."
+	},
+	{
+		"question": "Jellyfish are more than 95% water.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Tigers have striped skin, not just striped fur.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "If you shaved a tiger, the skin underneath would still show the stripe pattern."
+	},
+	{
+		"question": "Ostriches bury their heads in sand when scared.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "This is a myth. Ostriches lower their heads to the ground to listen for predators or tend to their eggs."
+	},
+	{
+		"question": "Lobsters can live for over 100 years.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Some lobsters have been estimated to be over 140 years old."
+	},
+	{
+		"question": "Peacocks can fly.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Despite their large tail feathers, peacocks can fly short distances."
+	},
+	{
+		"question": "A group of owls is called a parliament.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Horses can't vomit.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The anatomy of a horse's digestive system prevents them from vomiting."
+	},
+	{
+		"question": "Fireflies are actually beetles.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Crocodiles can't stick their tongues out.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "A crocodile's tongue is attached to the roof of its mouth by a membrane."
+	},
+	{
+		"question": "All worker bees are female.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Male bees (drones) don't work; their only role is to mate with the queen."
+	},
+	{
+		"question": "Rabbits can see behind them without turning their heads.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Rabbits have nearly 360-degree vision with only a small blind spot in front of their nose."
+	},
+	{
+		"question": "Pigs can get sunburned.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Pigs roll in mud partly to protect their skin from the sun."
+	},
+	{
+		"question": "Butterflies taste with their feet.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Butterflies have taste receptors on their feet to help them find host plants."
+	},
+	{
+		"question": "Male seahorses give birth.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Male seahorses carry eggs in a pouch and give birth to live young."
+	},
+	{
+		"question": "Turkeys can blush.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The skin on a turkey's head and neck can change color based on their emotions."
+	},
+	{
+		"question": "Ants never sleep.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Ants do sleep, but in very short power naps of about 1 minute, around 250 times a day."
+	},
+	{
+		"question": "A rhinoceros horn is made of hair.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Rhino horns are made of keratin, the same protein that makes up hair and fingernails."
+	},
+	{
+		"question": "Frogs drink water through their skin.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Frogs absorb water through their permeable skin rather than drinking through their mouths."
+	},
+	{
+		"question": "Cats have fewer toes on their back paws than their front paws.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cats typically have 5 toes on their front paws and 4 on their back paws."
+	},
+	{
+		"question": "Zebra stripes are unique like fingerprints.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "No two zebras have exactly the same stripe pattern."
+	},
+	{
+		"question": "Squirrels plant thousands of trees by forgetting where they buried nuts.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Tarantulas can survive for over 2 years without food.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Woodpeckers' tongues wrap around their skulls.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "This unique anatomy helps protect their brains from impact while pecking."
+	},
+	{
+		"question": "All clownfish are born male.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Clownfish can change from male to female, but not the reverse."
+	},
+	{
+		"question": "Elephants are afraid of mice.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "This is a myth with no scientific evidence to support it."
+	},
+	{
+		"question": "Parrots can live over 100 years.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Some parrot species, particularly larger ones like macaws, can live over a century."
+	},
+	{
+		"question": "Goats have rectangular pupils.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Rectangular pupils give goats a wider field of vision to watch for predators."
+	},
+	{
+		"question": "Dragonflies can't walk.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Dragonflies' legs are designed for catching prey and perching, not walking."
+	},
+	{
+		"question": "Vultures have the strongest stomach acid in the animal kingdom.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Their stomach acid is so strong it can dissolve bones and kill most bacteria."
+	},
+	{
+		"question": "Chickens can remember over 100 different faces.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Chickens can recognize and remember both human and chicken faces."
+	},
+	{
+		"question": "Alligators can regrow lost teeth.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "An alligator can go through 2,000-3,000 teeth in its lifetime."
+	},
+	{
+		"question": "Moths don't have stomachs.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Some adult moths lack functioning mouthparts and don't eat, but they do have stomachs."
+	},
+	{
+		"question": "Prairie dogs have a complex language with specific 'words' for different predators.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Mantis shrimp can see more colors than any other animal.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "They have 16 color receptors compared to humans' 3."
+	},
+	{
+		"question": "Reindeer eyes change color with the seasons.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Their eyes are golden in summer and blue in winter to adapt to light conditions."
+	},
+	{
+		"question": "A group of porcupines is called a prickle.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Snails can sleep for up to 3 years.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "During dry conditions, snails can enter extended hibernation."
+	},
+	{
+		"question": "Crows can hold grudges.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Crows can remember human faces and pass on information about 'dangerous' humans to other crows."
+	},
+	{
+		"question": "All mammals have seven neck vertebrae.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Sloths and manatees are exceptions with varying numbers of neck vertebrae."
+	},
+	{
+		"question": "Axolotls can regrow their brains.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Axolotls can regenerate parts of their brain, spinal cord, and many organs."
+	},
+	{
+		"question": "Pigeons can detect earthquakes before they happen.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Pigeons can sense infrasonic sounds and vibrations that precede earthquakes."
+	},
+	{
+		"question": "Wolves have webbed feet.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The webbing between their toes helps them walk on snow more efficiently."
+	},
+	{
+		"question": "Electric eels are actually eels.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Electric eels are actually a type of knifefish, not true eels."
+	},
+	{
+		"question": "Turtles can breathe through their butts.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Some turtle species can absorb oxygen through their cloaca when underwater."
+	},
+	{
+		"question": "Chameleons change color to camouflage.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Chameleons primarily change color to communicate mood and regulate temperature, not for camouflage."
+	},
+	{
+		"question": "Rats laugh when tickled.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Rats emit ultrasonic chirps when tickled that scientists interpret as laughter."
+	},
+	{
+		"question": "Mosquitoes prefer certain blood types.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Studies show mosquitoes are more attracted to people with Type O blood."
+	},
+	{
+		"question": "Cats can be allergic to humans.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cats can be allergic to human dander, though it's relatively rare."
+	},
+	{
+		"question": "Hippos can't swim.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Hippos walk or bounce along the bottom of rivers and lakes rather than swimming."
+	},
+	{
+		"question": "Scorpions glow under ultraviolet light.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Proteins in their exoskeleton cause them to fluoresce blue-green under UV light."
+	},
+	{
+		"question": "Barn owls mate for life.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Earthworms have five hearts.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "They have five pairs of aortic arches that function like hearts."
+	},
+	{
+		"question": "Dogs sweat by salivating.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dogs primarily sweat through their paw pads; they pant to cool down."
+	},
+	{
+		"question": "Mice can fit through holes the size of a dime.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "If a mouse can fit its head through a space, it can squeeze its entire body through."
+	},
+	{
+		"question": "Whales evolved from land mammals.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Whales evolved from four-legged land mammals about 50 million years ago."
+	},
+	{
+		"question": "All fish have scales.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Many fish species, like catfish and eels, don't have scales."
+	},
+	{
+		"question": "Llamas are native to North America.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Llamas are native to South America, specifically the Andes Mountains."
+	},
+	{
+		"question": "Ferrets sleep about 20 hours a day.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Sharks have bones.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Shark skeletons are made entirely of cartilage, not bone."
+	},
+	{
+		"question": "Bees can fly higher than Mount Everest.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Bumblebees have been found flying at altitudes over 30,000 feet in laboratory conditions."
+	},
+	{
+		"question": "Moose are excellent swimmers.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Moose can swim up to 6 miles per hour and dive up to 20 feet deep."
+	},
+	{
+		"question": "Armadillos always give birth to identical quadruplets.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Only nine-banded armadillos consistently give birth to identical quadruplets."
+	},
+	{
+		"question": "Raccoons wash their food before eating.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Raccoons aren't washing food; they're using water to enhance their sense of touch to better examine it."
+	},
+	{
+		"question": "Vampire bats can walk, run, and jump.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "They're the only bats capable of these terrestrial movements."
+	},
+	{
+		"question": "Swordfish can swim at speeds over 60 mph.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Pandas are born pink and hairless.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Baby pandas are tiny, pink, and hairless at birth, weighing about 100 grams."
+	},
+	{
+		"question": "Otters have a favorite rock they keep in a pouch.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Sea otters keep a favorite rock in their armpit pouch to crack open shellfish."
+	},
+	{
+		"question": "Gorillas can catch human colds.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Gorillas are susceptible to many human respiratory diseases."
+	},
+	{
+		"question": "All birds can fly.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "About 60 bird species are flightless, including penguins, ostriches, and kiwis."
+	},
+	{
+		"question": "Walruses can whistle.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Male walruses whistle underwater to attract mates."
+	},
+	{
+		"question": "Cats spend 70% of their lives sleeping.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cats sleep 13-16 hours a day on average."
+	},
+	{
+		"question": "A group of pandas is called a bamboo.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of pandas is called an embarrassment."
+	},
+	{
+		"question": "Chameleons have 360-degree vision.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Their eyes can move independently, giving them nearly 360-degree vision."
+	},
+	{
+		"question": "A group of butterflies is called a rainbow.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of butterflies is called a kaleidoscope."
+	},
+	{
+		"question": "Dolphins are fish.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dolphins are mammals that breathe air and nurse their young."
+	},
+	{
+		"question": "Spiders are insects.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Spiders are arachnids with 8 legs, while insects have 6 legs."
+	},
+	{
+		"question": "A group of jellyfish is called a blob.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of jellyfish is called a smack or a bloom."
+	},
+	{
+		"question": "Hummingbirds can't perch.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Hummingbirds can and do perch; they spend most of their time perching."
+	},
+	{
+		"question": "Porcupines can shoot their quills.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Porcupines cannot shoot quills; the quills detach when touched."
+	},
+	{
+		"question": "A group of sharks is called a shiver.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Goldfish only grow to the size of their tank.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Goldfish growth is stunted in small tanks, but this is unhealthy for them."
+	},
+	{
+		"question": "A group of hippos is called a thunder.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of hippos is called a bloat or pod."
+	},
+	{
+		"question": "Bulls are enraged by the color red.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Bulls are colorblind to red; they react to the movement of the cape."
+	},
+	{
+		"question": "A group of skunks is called a stench.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of skunks is called a surfeit."
+	},
+	{
+		"question": "Touching a baby bird or egg will make its mother abandon it.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Most birds have a poor sense of smell and won't detect human scent."
+	},
+	{
+		"question": "A group of zebras is called a stripe.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of zebras is called a dazzle or zeal."
+	},
+	{
+		"question": "Mice love cheese more than any other food.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Mice actually prefer sweet foods like fruits and grains over cheese."
+	},
+	{
+		"question": "A group of kangaroos is called a mob.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Daddy longlegs are the most venomous spiders.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Daddy longlegs (harvestmen) aren't spiders and aren't venomous."
+	},
+	{
+		"question": "A group of raccoons is called a bandit.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of raccoons is called a gaze or nursery."
+	},
+	{
+		"question": "Wolves howl at the moon.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Wolves howl to communicate with their pack, not at the moon."
+	},
+	{
+		"question": "A group of otters is called a raft.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "When in water, a group of otters is called a raft."
+	},
+	{
+		"question": "Dogs see only in black and white.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dogs can see blue and yellow colors, just not red and green."
+	},
+	{
+		"question": "A group of eagles is called a freedom.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of eagles is called a convocation or aerie."
+	},
+	{
+		"question": "Lemmings commit mass suicide.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "This is a myth popularized by a staged Disney documentary."
+	},
+	{
+		"question": "A group of foxes is called a sneaky.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of foxes is called a skulk or leash."
+	},
+	{
+		"question": "Earwigs crawl into people's ears and lay eggs.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Earwigs have no interest in human ears; this is an old myth."
+	},
+	{
+		"question": "A group of bears is called a sleuth.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Cats always land on their feet.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "While cats have a righting reflex, they can still be injured from falls."
+	},
+	{
+		"question": "A group of crocodiles is called a snap.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of crocodiles is called a bask or congregation."
+	},
+	{
+		"question": "Toads give you warts.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Warts are caused by human viruses, not by touching toads."
+	},
+	{
+		"question": "A group of bats is called a cauldron.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Opossums hang by their tails while sleeping.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Adult opossums are too heavy to hang by their tails for extended periods."
+	},
+	{
+		"question": "A group of rhinos is called a horn.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of rhinos is called a crash."
+	},
+	{
+		"question": "A group of peacocks is called a pride.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of peacocks is called an ostentation or muster."
+	},
+	{
+		"question": "One dog year equals seven human years.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dog aging is more complex and varies by size and breed."
+	},
+	{
+		"question": "A group of lemurs is called a conspiracy.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "A group of squid is called an ink.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of squid is called a shoal or squad."
+	},
+	{
+		"question": "Birds will explode if they eat rice.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Birds can digest rice safely; many birds eat grains in nature."
+	},
+	{
+		"question": "A group of giraffes is called a tower.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Turkeys can drown by looking up in the rain.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Turkeys have reflexes that prevent this from happening."
+	},
+	{
+		"question": "A group of cats is called a clowder.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "All swans are white.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Black swans exist and are native to Australia."
+	},
+	{
+		"question": "A group of wolves is called a howl.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of wolves is called a pack."
+	},
+	{
+		"question": "Piranhas can strip a cow to bones in minutes.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Piranhas are mostly scavengers and rarely attack large living animals."
+	},
+	{
+		"question": "A group of parrots is called a pandemonium.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Dogs' mouths are cleaner than humans'.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dog mouths contain different bacteria, not necessarily fewer."
+	},
+	{
+		"question": "A group of apes is called a shrewdness.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Sharks must keep swimming or they'll die.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Many shark species can pump water over their gills while stationary."
+	},
+	{
+		"question": "A group of lions is called a pride.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "A group of seagulls is called a squawk.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of seagulls is called a colony or flock."
+	},
+	{
+		"question": "Cats can't taste sweet things.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cats lack the taste receptors for sweetness."
+	},
+	{
+		"question": "A group of chickens is called a clutch.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of chickens is called a flock or brood."
+	},
+	{
+		"question": "All penguins live in Antarctica.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Many penguin species live in warmer climates like South Africa and South America."
+	},
+	{
+		"question": "A group of monkeys is called a barrel.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of monkeys is called a troop or tribe."
+	},
+	{
+		"question": "Fish can't feel pain.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Studies show fish have pain receptors and respond to pain stimuli."
+	},
+	{
+		"question": "A group of elephants is called a parade.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of elephants is called a herd or memory."
+	},
+	{
+		"question": "Bees die after they sting.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Only honeybees die after stinging; most bees can sting multiple times."
+	},
+	{
+		"question": "A group of lizards is called a lounge.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Snakes are slimy.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Snake skin is dry and smooth, not slimy."
+	},
+	{
+		"question": "A group of turtles is called a bale.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "All deserts are hot.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Antarctica is technically the world's largest desert."
+	},
+	{
+		"question": "A group of hummingbirds is called a charm.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Flies live for only 24 hours.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Common houseflies can live for 15-30 days."
+	},
+	{
+		"question": "A group of dolphins is called a splash.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of dolphins is called a pod."
+	},
+	{
+		"question": "All octopuses are venomous.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "All octopuses have venom, though only the blue-ringed octopus is dangerous to humans."
+	},
+	{
+		"question": "A group of horses is called a team.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of horses is called a herd; a team refers to horses working together."
+	},
+	{
+		"question": "Black cats are bad luck.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "This is a superstition with no basis in reality."
+	},
+	{
+		"question": "A group of gorillas is called a band.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Rabbits eat their own babies if touched by humans.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Mother rabbits may abandon nests if repeatedly disturbed, but human scent alone isn't the cause."
+	},
+	{
+		"question": "A group of mice is called a mischief.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "All bees make honey.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Only honeybees make honey; most bee species don't."
+	},
+	{
+		"question": "A group of goldfish is called a troubling.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Cats have nine lives.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Cats have one life, though they're often good at escaping danger."
+	},
+	{
+		"question": "A group of whales is called a pod.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "All animals sleep.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Some animals like certain jellyfish and sea sponges don't sleep."
+	},
+	{
+		"question": "A group of ducks is called a paddle.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of ducks in water is called a paddling or raft."
+	},
+	{
+		"question": "Snails have teeth.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Snails have thousands of tiny teeth on their radula."
+	},
+	{
+		"question": "A group of puppies is called a puddle.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "A group of puppies is called a litter."
+	},
+	{
+		"question": "A group of cobras is called a quiver.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Rabbits are rodents.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Rabbits are lagomorphs, not rodents."
+	},
+	{
+		"question": "A group of pigeons is called a kit.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "All mammals give birth to live young.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Platypuses and echidnas are mammals that lay eggs."
+	},
+	{
+		"question": "A group of hamsters is called a horde.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Beavers eat fish.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Beavers are herbivores that eat bark, leaves, and aquatic plants."
+	},
+	{
+		"question": "A group of ferrets is called a business.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Moths eat clothes.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Adult moths don't eat at all; it's their larvae that damage fabrics."
+	},
+	{
+		"question": "A group of koalas is called a cuddle.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "There's no collective noun for koalas as they're mostly solitary."
+	},
+	{
+		"question": "A group of pigs is called a sounder.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Whales spray water from their blowholes.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "They exhale warm air which condenses into mist, not water."
+	},
+	{
+		"question": "A group of alligators is called a congregation.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Humans only use 10% of their brains.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Humans use virtually all of their brain, just not all at once."
+	},
+	{
+		"question": "A group of hedgehogs is called an array.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Lightning never strikes the same place twice.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Lightning often strikes the same place repeatedly, especially tall structures."
+	},
+	{
+		"question": "A group of platypuses is called a paddle.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "Polar bears commonly eat penguins.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Polar bears live in the Arctic, while penguins are found in the Southern Hemisphere."
+	},
+	{
+		"question": "Old elephants leave their herd to go to die at an elephant graveyard.",
+		"options": ["True", "False"],
+		"answer": "False"
+	},
+	{
+		"question": "Wild wolf packs are led by an alpha wolf.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Wolf packs are typically family units led by a breeding pair, not an 'alpha' leader."
+	},
+	{
+		"question": "Dodos were hunted to extinction by humans.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dodos were driven to extinction primarily due to habitat destruction and introduced invasive species, not direct hunting."
+	},
+	{
+		"question": "Sharks cannot get cancer.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "This myth was spread by a book promoting shark cartilage as a cancer cure, but sharks can and do get cancer."
+	},
+	{
+		"question": "Applying urine to jellyfish stings helps relieve the pain.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Urine can actually worsen the sting; it's better to rinse with salt water and seek medical help."
+	},
+	{
+		"question": "Termites belong to the ant family.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Termites are more closely related to cockroaches than to ants."
+	}
+]

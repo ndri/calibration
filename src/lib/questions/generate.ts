@@ -1,10 +1,12 @@
-import type { QuestionWithCategory } from '$lib/types';
+import type { Question, QuestionWithCategory } from '$lib/types';
 import { generateCountryPopulationQuestion } from './countryPopulations';
 import { generateHistoricalFiguresQuestion } from './historicalFigures';
+import animalFacts from '$lib/data/animal_facts.json';
 
 const generateFunctions = {
 	'Country Populations': generateCountryPopulationQuestion,
-	'Historical Figures': generateHistoricalFiguresQuestion
+	'Historical Figures': generateHistoricalFiguresQuestion,
+	'Animal Facts': () => chooseQuestion(animalFacts, 'Animal Facts')
 };
 
 type ExtraCategory = 'Scout Mindset';
@@ -31,4 +33,10 @@ export function generateQuestion(selectedCategories?: Category[]) {
 	const randomIndex = Math.floor(Math.random() * categories.length);
 	const category = categories[randomIndex];
 	return generateQuestionFromCategory(category);
+}
+
+function chooseQuestion(questions: Question[], categoryName: Category): QuestionWithCategory {
+	const randomIndex = Math.floor(Math.random() * questions.length);
+	const question = questions[randomIndex];
+	return { ...question, questionSet: categoryName };
 }

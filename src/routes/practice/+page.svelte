@@ -16,7 +16,6 @@
 		CheckIcon,
 		Cog6ToothIcon
 	} from '@sidekickicons/svelte/20/solid';
-	import { onMount } from 'svelte';
 
 	let mode = $state<'question' | 'answer'>('question');
 
@@ -28,11 +27,11 @@
 
 	const configQuery = stateQuery(getConfig);
 	const config = $derived(configQuery.current);
-	const categories = $derived(config?.infiniteCalibrationCategories ?? []);
+	const categories = $derived(config?.infiniteCalibrationCategories);
 	const allCategories = $derived(getAllCategories());
 
 	function newQuestion() {
-		question = generateQuestion(categories.length ? categories : allCategories);
+		question = generateQuestion(categories);
 		selectedAnswer = undefined;
 		selectedConfidence = undefined;
 		mode = 'question';
@@ -56,7 +55,9 @@
 		);
 	}
 
-	onMount(newQuestion);
+	$effect(() => {
+		if (categories) newQuestion();
+	});
 </script>
 
 <svelte:head><title>{createTitle('Infinite')}</title></svelte:head>
@@ -64,7 +65,7 @@
 <div class="flex flex-col gap-10">
 	<Heading level={2}>Infinite Calibration</Heading>
 
-	{#if question}
+	{#if question && categories}
 		{#if mode === 'question'}
 			<div class="flex flex-col gap-4">
 				<Heading level={3}>{question.question}</Heading>
