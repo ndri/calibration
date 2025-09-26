@@ -457,12 +457,6 @@
 		"explanation": "Dogs primarily sweat through their paw pads; they pant to cool down."
 	},
 	{
-		"question": "Mice can fit through holes the size of a dime.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "If a mouse can fit its head through a space, it can squeeze its entire body through."
-	},
-	{
 		"question": "Whales evolved from land mammals.",
 		"options": ["True", "False"],
 		"answer": "True",
@@ -868,7 +862,7 @@
 		"question": "All penguins live in Antarctica.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Many penguin species live in warmer climates like South Africa and South America."
+		"explanation": "Many penguin species live in warmer climates like South Africa, South America and New Zealand."
 	},
 	{
 		"question": "A group of monkeys is called a barrel.",
@@ -937,7 +931,7 @@
 		"question": "All octopuses are venomous.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "All octopuses have venom, though only the blue-ringed octopus is dangerous to humans."
+		"explanation": "All octopuses have venom, though only the blue-ringed octopus is deadly to humans."
 	},
 	{
 		"question": "A group of horses is called a team.",
@@ -979,12 +973,6 @@
 		"answer": "True"
 	},
 	{
-		"question": "Cats have nine lives.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Cats have one life, though they're often good at escaping danger."
-	},
-	{
 		"question": "A group of whales is called a pod.",
 		"options": ["True", "False"],
 		"answer": "True"
@@ -994,12 +982,6 @@
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "Some animals like certain jellyfish and sea sponges don't sleep."
-	},
-	{
-		"question": "A group of ducks is called a paddle.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "A group of ducks in water is called a paddling or raft."
 	},
 	{
 		"question": "Snails have teeth.",
@@ -1030,9 +1012,9 @@
 		"answer": "True"
 	},
 	{
-		"question": "All mammals give birth to live young.",
+		"question": "There are mammals that lay eggs.",
 		"options": ["True", "False"],
-		"answer": "False",
+		"answer": "True",
 		"explanation": "Platypuses and echidnas are mammals that lay eggs."
 	},
 	{
@@ -1141,5 +1123,23 @@
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "Termites are more closely related to cockroaches than to ants."
+	},
+	{
+		"question": "Pigs cannot cool themselves by sweating.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Pigs have very few sweat glands and rely on other methods, like wallowing in mud, to cool down."
+	},
+	{
+		"question": "Pigs have around the same level of intelligence as dogs.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Studies have shown that pigs can learn tricks, solve problems, and have good long-term memories."
+	},
+	{
+		"question": "Honeybees are the only species that pollinate crops.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Many other insects, birds, and bats also play important roles in pollination."
 	}
 ]
