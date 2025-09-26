@@ -63,7 +63,7 @@
 <svelte:head><title>{createTitle('Infinite')}</title></svelte:head>
 
 <div class="flex flex-col gap-10">
-	<Heading level={2}>Infinite Calibration</Heading>
+	<Heading level={2} class="sr-only">Infinite Calibration</Heading>
 
 	{#if question && categories}
 		{#if mode === 'question'}
