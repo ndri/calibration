@@ -60,7 +60,7 @@
 	});
 </script>
 
-<svelte:head><title>{createTitle('Infinite')}</title></svelte:head>
+<svelte:head><title>{createTitle()}</title></svelte:head>
 
 <div class="flex flex-col gap-10">
 	<Heading level={2} class="sr-only">Infinite Calibration</Heading>
@@ -100,11 +100,43 @@
 			</div>
 		{:else if mode === 'answer' && selectedAnswer && selectedConfidence}
 			<div class="flex flex-col gap-4">
-				<Heading level={3}>The correct answer is: {question.answer}</Heading>
-				<Paragraph>Your answer: {selectedAnswer}</Paragraph>
-				<Paragraph>Your confidence: {Math.round(selectedConfidence * 100)}%</Paragraph>
-				{#if question.explanation}
-					<Paragraph>{question.explanation}</Paragraph>
+				<Heading level={3}>{question.question}</Heading>
+				<ButtonGroup
+					values={question.options}
+					selectedValue={selectedAnswer}
+					highlightedValue={question.answer}
+					disabled
+				/>
+
+				<Paragraph>
+					{#if selectedAnswer === question.answer}
+						Correct!
+					{:else}
+						Incorrect.
+					{/if}
+					{#if question.explanation}
+						{question.explanation}
+					{/if}
+				</Paragraph>
+				<ConfidenceSelector
+					{selectedConfidence}
+					disabled
+					highlightSelected={selectedAnswer === question.answer}
+				/>
+				{#if selectedAnswer !== question.answer}
+					<Paragraph>
+						{#if selectedConfidence === 0.95}
+							It's okay: when you are 95% confident, 1 in every 20 answers can be wrong.
+						{:else if selectedConfidence === 0.85}
+							Don't worry: when you are 85% confident, about 1 in every 7 answers can be wrong.
+						{:else if selectedConfidence === 0.75}
+							It's normal: when you are 75% confident, 1 in every 4 answers can be wrong.
+						{:else if selectedConfidence === 0.65}
+							That's expected: when you are 65% confident, 1 in every ~3 answers can be wrong.
+						{:else if selectedConfidence === 0.55}
+							No problem: when you are 55% confident, almost half of your answers can be wrong.
+						{/if}
+					</Paragraph>
 				{/if}
 			</div>
 

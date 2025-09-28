@@ -264,7 +264,7 @@
 		"explanation": "No two zebras have exactly the same stripe pattern."
 	},
 	{
-		"question": "Squirrels plant thousands of trees by forgetting where they buried nuts.",
+		"question": "Squirrels sometimes plant trees by forgetting where they buried nuts.",
 		"options": ["True", "False"],
 		"answer": "True"
 	},
@@ -392,10 +392,10 @@
 		"explanation": "The webbing between their toes helps them walk on snow more efficiently."
 	},
 	{
-		"question": "Electric eels are actually eels.",
+		"question": "Electric eels are the only fish that can generate electricity.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Electric eels are actually a type of knifefish, not true eels."
+		"explanation": "Other fish, like electric rays and some catfish, can also generate electricity."
 	},
 	{
 		"question": "Turtles can breathe through their butts.",
@@ -916,7 +916,7 @@
 		"answer": "True"
 	},
 	{
-		"question": "Flies live for only 24 hours.",
+		"question": "Houseflies live for only 24 hours.",
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "Common houseflies can live for 15-30 days."
@@ -1098,7 +1098,7 @@
 		"question": "Wild wolf packs are led by an alpha wolf.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Wolf packs are typically family units led by a breeding pair, not an 'alpha' leader."
+		"explanation": "Wolf packs are typically family units led by a breeding pair, not an 'alpha' leader. Younger wolves leave to form their own packs instead of overthrowing the leaders."
 	},
 	{
 		"question": "Dodos were hunted to extinction by humans.",
@@ -1141,5 +1141,65 @@
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "Many other insects, birds, and bats also play important roles in pollination."
+	},
+	{
+		"question": "Grizzly bears are the same species as Eurasian brown bears.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Grizzly bears are a subspecies of brown bears, scientifically known as Ursus arctos horribilis."
+	},
+	{
+		"question": "American black bears are the smallest bear species.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Sun bears are the smallest bear species, not black bears."
+	},
+	{
+		"question": "Koalas belong to the bear family.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "They do not have the koalifications to be bears; they are marsupials."
+	},
+	{
+		"question": "Pigs enjoy filthy environments.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Pigs are very clean animals and designate specific areas for eating, sleeping, and relieving themselves."
+	},
+	{
+		"question": "Blue jays are in the same family as crows and ravens.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Blue jays belong to the Corvidae family, which includes crows, ravens, and magpies."
+	},
+	{
+		"question": "Dinosaurs went extinct without any living descendants.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Birds are considered modern-day dinosaurs, having evolved from theropod ancestors."
+	},
+	{
+		"question": "Dinosaurs and humans coexisted.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Dinosaurs went extinct about 65 million years before humans appeared."
+	},
+	{
+		"question": "Some species of fish are capable of walking on land.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The mudskipper is a fish that can use its pectoral fins to walk on land."
+	},
+	{
+		"question": "Whales can dive underwater for more than 24 hours.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The longest recorded whale dive was almost 4 hours by a Cuvier's beaked whale."
+	},
+	{
+		"question": "Some mammals live underwater without having to surface for air.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "All mammals need to surface for air, as they breathe through lungs."
 	}
 ]

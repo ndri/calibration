@@ -12,9 +12,11 @@
 
 	interface Props {
 		selectedConfidence?: number;
+		disabled?: boolean;
+		highlightSelected?: boolean;
 	}
 
-	let { selectedConfidence = $bindable() }: Props = $props();
+	let { selectedConfidence = $bindable(), disabled, highlightSelected }: Props = $props();
 
 	let selectedValue = $state<keyof typeof CONFIDENCES | undefined>(
 		getKeyByValue(selectedConfidence) as keyof typeof CONFIDENCES
@@ -62,4 +64,9 @@
 	);
 </script>
 
-<ButtonGroup values={Object.keys(CONFIDENCES)} bind:selectedValue />
+<ButtonGroup
+	values={Object.keys(CONFIDENCES)}
+	bind:selectedValue
+	{disabled}
+	highlightedValue={highlightSelected ? getKeyByValue(selectedConfidence) : undefined}
+/>
