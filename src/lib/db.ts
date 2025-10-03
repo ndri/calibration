@@ -35,10 +35,6 @@ class CalibrationDB extends Dexie {
 				'++id, question, answer, correctAnswer, explanation, confidence, answeredAt, questionSet',
 			config: '++id'
 		});
-
-		this.on('populate', () => {
-			this.config.put(getDefaultConfig());
-		});
 	}
 }
 
@@ -58,23 +54,14 @@ function getDefaultConfig(): AppConfig {
 export async function getConfig() {
 	const config = await db.config.get(CONFIG_ID);
 
-	if (!config) {
-		const defaultConfig = getDefaultConfig();
-
-		// Doesn't work for some reason
-		// await db.config.put(defaultConfig);
-
-		return defaultConfig;
-	}
+	if (!config) return getDefaultConfig();
 
 	return config;
 }
 
 export async function updateConfig(updates: Partial<Omit<AppConfig, 'id' | 'lastModified'>>) {
-	await db.config.update(CONFIG_ID, {
-		...updates,
-		lastModified: new Date()
-	});
+	const config = await getConfig();
+	await db.config.put({ ...config, ...updates, lastModified: new Date() });
 }
 
 export async function resetConfig() {
