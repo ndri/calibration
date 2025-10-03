@@ -4,7 +4,10 @@ export function chooseNearbyPair<T>(array: T[]): [T, T] {
 	}
 
 	// Skew towards smaller sizes
-	const subArrayLength = Math.min(Math.floor(array.length * Math.random() ** 2) + 2, array.length);
+	const subArrayLength = Math.min(
+		Math.floor(array.length * Math.random() ** 1.5) + 2,
+		array.length
+	);
 	const subArrayIndex = Math.floor(Math.random() * (array.length - subArrayLength + 1));
 
 	const subArray = array.slice(subArrayIndex, subArrayIndex + subArrayLength);
@@ -16,4 +19,8 @@ export function chooseNearbyPair<T>(array: T[]): [T, T] {
 	const secondSelection = subArray.splice(secondIndex, 1)[0];
 
 	return [firstSelection, secondSelection];
+}
+
+export function sum(array: number[]) {
+	return array.reduce((acc, curr) => acc + curr, 0);
 }

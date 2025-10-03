@@ -1,7 +1,10 @@
 import type { Answer } from '$lib/db';
+import { sum } from './array';
+
+type AccuracyMap = Map<number, { correct: number; total: number }>;
 
 export function calculateCalibration(answers: Answer[]) {
-	const resultsMap = new Map<number, { correct: number; total: number }>();
+	const resultsMap: AccuracyMap = new Map();
 
 	for (const answer of answers) {
 		const { confidence, userAnswer: userAnswer, correctAnswer } = answer;
@@ -18,4 +21,20 @@ export function calculateCalibration(answers: Answer[]) {
 	}
 
 	return resultsMap;
+}
+
+export function getCalibrationScore(accuracyMap: AccuracyMap) {
+	const scoreMap = new Map<number, number>();
+
+	for (const [confidence, entry] of accuracyMap.entries()) {
+		const result = entry.correct / entry.total;
+		const score = (1 - Math.abs(result - confidence) / confidence) * 100;
+		scoreMap.set(confidence, score);
+	}
+
+	const averageScore = sum(Array.from(scoreMap.values())) / scoreMap.size;
+
+	if (isNaN(averageScore)) return 0;
+
+	return Math.round(averageScore);
 }
