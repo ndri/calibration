@@ -69,4 +69,5 @@
 	bind:selectedValue
 	{disabled}
 	highlightedValue={highlightSelected ? getKeyByValue(selectedConfidence) : undefined}
+	shortcuts={['5', '6', '7', '8', '9']}
 />

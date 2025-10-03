@@ -8,6 +8,7 @@
 	import { addAnswer, getConfig, updateConfig } from '$lib/db';
 	import { generateQuestion, getAllCategories, type Category } from '$lib/questions/generate';
 	import type { QuestionWithCategory } from '$lib/types';
+	import { createShortcut } from '$lib/utils/mousetrap';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
 	import {
@@ -58,6 +59,11 @@
 	$effect(() => {
 		if (categories) newQuestion();
 	});
+
+	createShortcut('enter', () => {
+		if (mode === 'question') showAnswer();
+		else newQuestion();
+	});
 </script>
 
 <svelte:head><title>{createTitle()}</title></svelte:head>
@@ -69,7 +75,11 @@
 		{#if mode === 'question'}
 			<div class="flex flex-col gap-4">
 				<Heading level={3}>{question.question}</Heading>
-				<ButtonGroup values={question.options} bind:selectedValue={selectedAnswer} />
+				<ButtonGroup
+					values={question.options}
+					bind:selectedValue={selectedAnswer}
+					shortcuts={['1', '2']}
+				/>
 				<Paragraph>How confident are you in your answer?</Paragraph>
 				<ConfidenceSelector bind:selectedConfidence />
 			</div>
