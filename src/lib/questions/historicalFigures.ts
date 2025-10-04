@@ -11,9 +11,7 @@ function yearToString(year: number): string {
 }
 
 export function generateHistoricalFiguresQuestion(): Question {
-	const sortedFigures = [...historicalFigures].sort((a, b) => a.birthYear - b.birthYear);
-
-	const [figure1, figure2] = chooseNearbyPair(sortedFigures);
+	const [figure1, figure2] = chooseNearbyPair(historicalFigures, (figure) => figure.birthYear);
 
 	const [earlierFigure, laterFigure] =
 		figure1.birthYear < figure2.birthYear ? [figure1, figure2] : [figure2, figure1];

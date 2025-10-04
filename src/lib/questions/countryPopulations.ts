@@ -4,9 +4,10 @@ import { chooseNearbyPair } from '$lib/utils/array';
 import { formatNumber } from '$lib/utils/numbers';
 
 export function generateCountryPopulationQuestion(): Question {
-	const sortedCountries = [...countryPopulations].sort((a, b) => a.population - b.population);
-
-	const [country1, country2] = chooseNearbyPair(sortedCountries);
+	const [country1, country2] = chooseNearbyPair(
+		countryPopulations,
+		(country) => country.population
+	);
 
 	const [higherPopulationCountry, lowerPopulationCountry] =
 		country1.population > country2.population ? [country1, country2] : [country2, country1];
