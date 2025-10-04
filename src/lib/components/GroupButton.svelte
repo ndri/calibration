@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { createShortcut, type MousetrapKey } from '$lib/utils/mousetrap';
 	import type { Snippet } from 'svelte';
 
 	interface Props {
@@ -6,10 +7,20 @@
 		selected?: boolean;
 		highlighted?: boolean;
 		disabled?: boolean;
+		shortcutKey?: MousetrapKey;
 		onclick?: () => void;
 	}
 
-	const { children, selected, highlighted, disabled, onclick }: Props = $props();
+	const { children, selected, highlighted, disabled, shortcutKey, onclick }: Props = $props();
+
+	$effect(() => {
+		if (shortcutKey) {
+			return createShortcut(shortcutKey, () => {
+				if (disabled) return;
+				onclick?.();
+			});
+		}
+	});
 </script>
 
 <button

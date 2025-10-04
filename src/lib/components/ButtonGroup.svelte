@@ -1,40 +1,27 @@
-<script lang="ts">
-	import { onMount } from 'svelte';
+<script lang="ts" generics="T extends string | number">
 	import GroupButton from './GroupButton.svelte';
-	import { createShortcut } from '$lib/utils/mousetrap';
 
 	interface Props {
 		buttons: {
-			value: string;
+			value: T;
 			label?: string;
 			shortcutKey?: string;
 		}[];
-		selectedValue?: string | undefined;
-		highlightedValue?: string | undefined;
+		selectedValue?: T | undefined;
+		highlightedValue?: T | undefined;
 		disabled?: boolean;
 	}
 
 	let { buttons, selectedValue = $bindable(), highlightedValue, disabled }: Props = $props();
-
-	onMount(() => {
-		buttons.forEach(({ value, shortcutKey }) => {
-			if (!shortcutKey) return;
-
-			createShortcut(shortcutKey, () => {
-				if (disabled) return;
-
-				selectedValue = value;
-			});
-		});
-	});
 </script>
 
 <div class="flex">
-	{#each buttons as { value, label } (value)}
+	{#each buttons as { value, label, shortcutKey } (value)}
 		<GroupButton
 			selected={selectedValue === value}
 			highlighted={highlightedValue === value}
 			{disabled}
+			{shortcutKey}
 			onclick={() => {
 				selectedValue = value;
 			}}
