@@ -6,6 +6,7 @@
 	import type { Snippet } from 'svelte';
 	import type { ClassValue, MouseEventHandler } from 'svelte/elements';
 	import type { Heroicon } from '$lib/Heroicon';
+	import { createShortcut, type MousetrapKey } from '$lib/utils/mousetrap';
 
 	interface Props {
 		variant?: 'primary' | 'secondary' | 'text';
@@ -19,6 +20,7 @@
 		class?: ClassValue | null;
 		LeftIcon?: Heroicon;
 		RightIcon?: Heroicon;
+		shortcutKey?: MousetrapKey;
 		ref?: ButtonComponentRef;
 		[key: string]: any;
 	}
@@ -35,6 +37,7 @@
 		class: className,
 		LeftIcon,
 		RightIcon,
+		shortcutKey,
 		ref = $bindable(),
 		...props
 	}: Props = $props();
@@ -88,6 +91,15 @@
 			'dark:text-main-500 dark:group-hover/button:text-main-400'
 		]
 	};
+
+	$effect(() => {
+		if (shortcutKey && onclick && ref) {
+			return createShortcut(shortcutKey, () => {
+				if (disabled) return;
+				ref?.click();
+			});
+		}
+	});
 </script>
 
 {#snippet contents()}

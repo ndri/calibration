@@ -110,6 +110,7 @@
 				variant="primary"
 				onclick={nextQuestion}
 				disabled={!selectedAnswer || !selectedConfidence}
+				shortcutKey="enter"
 			>
 				{#if progress < questions.length - 1}
 					Next question

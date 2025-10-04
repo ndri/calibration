@@ -57,11 +57,6 @@
 	$effect(() => {
 		if (categories) newQuestion();
 	});
-
-	createShortcutOnMount('enter', () => {
-		if (mode === 'question') showAnswer();
-		else newQuestion();
-	});
 </script>
 
 <svelte:head><title>{createTitle()}</title></svelte:head>
@@ -97,6 +92,7 @@
 					variant="primary"
 					onclick={showAnswer}
 					disabled={!selectedAnswer || !selectedConfidence}
+					shortcutKey="enter"
 				>
 					Answer
 				</Button>
@@ -106,7 +102,13 @@
 				<Button size="lg" LeftIcon={ChartBarIcon} variant="secondary" href="/results">
 					See results
 				</Button>
-				<Button size="lg" RightIcon={ArrowRightIcon} variant="primary" onclick={newQuestion}>
+				<Button
+					size="lg"
+					RightIcon={ArrowRightIcon}
+					variant="primary"
+					onclick={newQuestion}
+					shortcutKey="enter"
+				>
 					Next Question
 				</Button>
 			</div>

@@ -1,7 +1,7 @@
 import { onMount } from 'svelte';
 import Mousetrap from 'mousetrap';
 
-type MousetrapKey = Parameters<Mousetrap.MousetrapStatic['bind']>[0];
+export type MousetrapKey = Parameters<Mousetrap.MousetrapStatic['bind']>[0];
 type MousetrapHandler = Parameters<Mousetrap.MousetrapStatic['bind']>[1];
 type MousetrapAction = 'keydown' | 'keyup' | 'keypress';
 
