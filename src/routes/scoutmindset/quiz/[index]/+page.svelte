@@ -1,16 +1,14 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import Button from '$lib/components/ui/Button.svelte';
-	import ButtonGroup from '$lib/components/ButtonGroup.svelte';
-	import ConfidenceSelector from '$lib/components/ConfidenceSelector.svelte';
 	import Heading from '$lib/components/Heading.svelte';
-	import Paragraph from '$lib/components/Paragraph.svelte';
 	import QuizProgress from '$lib/components/QuizProgress.svelte';
 	import questions from '$lib/data/scout_mindset_questions.json';
 	import { addAnswer, getAnswerInQuestionSet, getQuestionSetProgress } from '$lib/db';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { ArrowLeftIcon, ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 	import type { PageProps } from './$types';
+	import QuestionView from '$lib/components/QuestionView.svelte';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -100,13 +98,7 @@
 
 	{#if progress !== undefined && currentQuestion}
 		<QuizProgress {progress} total={questions.length} />
-
-		<div class="flex flex-col gap-4">
-			<Heading level={3}>{index}. {currentQuestion.question}</Heading>
-			<ButtonGroup values={currentQuestion.options} bind:selectedValue={selectedAnswer} />
-			<Paragraph>How confident are you in your answer?</Paragraph>
-			<ConfidenceSelector bind:selectedConfidence />
-		</div>
+		<QuestionView question={currentQuestion} bind:selectedAnswer bind:selectedConfidence />
 
 		<div class="flex justify-between">
 			<Button size="lg" LeftIcon={ArrowLeftIcon} variant="secondary" onclick={previousQuestion}>
