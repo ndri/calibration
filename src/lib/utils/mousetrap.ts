@@ -3,15 +3,21 @@ import Mousetrap from 'mousetrap';
 
 type MousetrapKey = Parameters<Mousetrap.MousetrapStatic['bind']>[0];
 type MousetrapHandler = Parameters<Mousetrap.MousetrapStatic['bind']>[1];
+type MousetrapAction = 'keydown' | 'keyup' | 'keypress';
 
-export const createShortcut = (
+export function createShortcutOnMount(
 	key: MousetrapKey,
 	handler: MousetrapHandler,
-	action: 'keydown' | 'keyup' | 'keypress' = 'keydown'
-) => {
-	console.log('createShortcut', key, handler, action);
-	onMount(() => {
-		Mousetrap.bind(key, handler, action);
-		return () => Mousetrap.unbind(key, action);
-	});
-};
+	action: MousetrapAction = 'keydown'
+) {
+	onMount(() => createShortcut(key, handler, action));
+}
+
+export function createShortcut(
+	key: MousetrapKey,
+	handler: MousetrapHandler,
+	action: MousetrapAction = 'keydown'
+) {
+	Mousetrap.bind(key, handler, action);
+	return () => Mousetrap.unbind(key, action);
+}

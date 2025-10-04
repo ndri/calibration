@@ -6,7 +6,7 @@
 	import { addAnswer, getConfig, updateConfig } from '$lib/db';
 	import { generateQuestion, getAllCategories, type Category } from '$lib/questions/generate';
 	import type { QuestionWithCategory } from '$lib/types';
-	import { createShortcut } from '$lib/utils/mousetrap';
+	import { createShortcutOnMount } from '$lib/utils/mousetrap';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
 	import {
@@ -58,7 +58,7 @@
 		if (categories) newQuestion();
 	});
 
-	createShortcut('enter', () => {
+	createShortcutOnMount('enter', () => {
 		if (mode === 'question') showAnswer();
 		else newQuestion();
 	});
