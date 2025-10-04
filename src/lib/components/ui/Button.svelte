@@ -93,7 +93,7 @@
 	};
 
 	$effect(() => {
-		if (shortcutKey && onclick && ref) {
+		if (shortcutKey && ref) {
 			return createShortcut(shortcutKey, () => {
 				if (disabled) return;
 				ref?.click();

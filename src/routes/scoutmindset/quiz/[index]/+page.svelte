@@ -101,7 +101,13 @@
 		<QuestionView question={currentQuestion} bind:selectedAnswer bind:selectedConfidence />
 
 		<div class="flex justify-between">
-			<Button size="lg" LeftIcon={ArrowLeftIcon} variant="secondary" onclick={previousQuestion}>
+			<Button
+				size="lg"
+				LeftIcon={ArrowLeftIcon}
+				variant="secondary"
+				onclick={previousQuestion}
+				shortcutKey="backspace"
+			>
 				Back
 			</Button>
 			<Button

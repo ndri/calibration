@@ -34,8 +34,16 @@
 </Paragraph>
 
 <div class="flex justify-between">
-	<Button href="/" size="lg" LeftIcon={ArrowLeftIcon} variant="secondary">Back</Button>
-	<Button href="/scoutmindset/quiz" size="lg" RightIcon={ArrowRightIcon} variant="primary">
+	<Button href="/" size="lg" LeftIcon={ArrowLeftIcon} variant="secondary" shortcutKey="backspace">
+		Back
+	</Button>
+	<Button
+		href="/scoutmindset/quiz"
+		size="lg"
+		RightIcon={ArrowRightIcon}
+		variant="primary"
+		shortcutKey="enter"
+	>
 		Continue
 	</Button>
 </div>
