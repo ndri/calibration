@@ -20,7 +20,9 @@ export type Category = keyof typeof generateFunctions;
 export type ExtendedCategory = Category | ExtraCategory;
 
 export function getCategories() {
-	return Object.keys(generateFunctions) as Category[];
+	const keys = Object.keys(generateFunctions);
+	const sorted = keys.sort((a, b) => a.localeCompare(b));
+	return sorted as Category[];
 }
 
 function generateQuestionFromCategory(category: Category): QuestionWithCategory {

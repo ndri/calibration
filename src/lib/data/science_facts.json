@@ -9,13 +9,13 @@
 		"question": "Sound travels faster in water than in air.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Sound travels at approximately 1,500 meters per second in water compared to about 343 meters per second in air."
+		"explanation": "Sound travels at approximately 1,500 meters per second in water compared to about 343 meters per second in air at room temperature."
 	},
 	{
 		"question": "Diamonds are made from compressed coal.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Diamonds form from carbon deep in the Earth's mantle under extreme pressure and temperature, not from coal."
+		"explanation": "Diamonds form from carbon deep in the Earth's mantle under extreme pressure and temperature, not from coal. Coal forms from plant matter near the surface."
 	},
 	{
 		"question": "Antibiotics are effective against viral infections.",
@@ -27,107 +27,109 @@
 		"question": "The human body has more bacterial cells than human cells.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Recent research suggests human and bacterial cells are roughly equal in number, not that bacterial cells outnumber human cells."
+		"explanation": "Recent research (2016) suggests the ratio is roughly 1:1, with about 30 trillion human cells and 38 trillion bacterial cells, not the 10:1 ratio previously believed."
 	},
 	{
 		"question": "Water boils at a lower temperature at high altitudes.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Lower atmospheric pressure at high altitudes causes water to boil at temperatures below 100°C."
+		"explanation": "Lower atmospheric pressure at high altitudes causes water to boil at temperatures below 100°C. For example, at 2,000m elevation, water boils at about 92°C."
 	},
 	{
 		"question": "The Great Wall of China is visible from space with the naked eye.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The Great Wall is not visible from space with the naked eye, despite popular belief."
+		"explanation": "The Great Wall is not visible from low Earth orbit with the naked eye, despite popular belief. It's too narrow and blends with the surrounding terrain."
 	},
 	{
 		"question": "Glass is a liquid at room temperature.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Glass is an amorphous solid, not a liquid. The myth that old windows are thicker at the bottom due to flow is incorrect."
+		"explanation": "Glass is an amorphous solid, not a liquid. The myth that old windows are thicker at the bottom due to flow is incorrect - they were made that way."
 	},
 	{
 		"question": "Venus is the hottest planet in our solar system.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Despite being farther from the sun than Mercury, Venus is hotter due to its thick atmosphere causing a runaway greenhouse effect."
+		"explanation": "Despite being farther from the sun than Mercury, Venus's surface temperature reaches 462°C due to its thick CO₂ atmosphere causing a runaway greenhouse effect."
 	},
 	{
 		"question": "Humans only use 10% of their brain.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Brain imaging studies show that humans use virtually all parts of the brain, and most of the brain is active most of the time."
+		"explanation": "Brain imaging studies show that humans use virtually all parts of the brain, even during simple tasks. Most of the brain is active most of the time."
 	},
 	{
-		"question": "Steel is stronger than titanium.",
+		"question": "Titanium has a higher strength-to-weight ratio than steel.",
 		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Titanium has a higher strength-to-weight ratio than steel, making it stronger pound for pound."
+		"answer": "True",
+		"explanation": "Titanium alloys have about twice the strength-to-weight ratio of steel alloys, making them ideal for aerospace applications."
 	},
 	{
 		"question": "The Sahara Desert is the largest desert in the world.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Antarctica is the largest desert in the world, as deserts are defined by low precipitation, not temperature."
+		"explanation": "Antarctica is the largest desert in the world at 14.2 million km². Deserts are defined by low precipitation (less than 250mm/year), not temperature. The Sahara is the third largest desert after Antarctica and the Arctic."
 	},
 	{
 		"question": "Electrons are smaller than atoms.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Electrons are subatomic particles that orbit the nucleus of atoms. An atom's radius is about 100,000 times larger than its nucleus."
 	},
 	{
 		"question": "Mount Everest is the tallest mountain on Earth when measured from base to peak.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Mauna Kea in Hawaii is taller when measured from base to peak, though most of it is underwater."
+		"explanation": "Mauna Kea in Hawaii measures 10,200m from its oceanic base to peak. Mount Everest is tallest above sea level at 8,849m."
 	},
 	{
 		"question": "Salt water freezes at a lower temperature than fresh water.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The salt in seawater lowers its freezing point to around -2°C compared to 0°C for fresh water."
+		"explanation": "Seawater freezes at about -2°C due to salt lowering the freezing point, compared to 0°C for fresh water."
 	},
 	{
-		"question": "The Earth's core is hotter than the surface of the sun.",
+		"question": "The Earth's inner core is hotter than the surface of the sun.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Earth's inner core reaches temperatures of about 5,400°C, while the sun's surface is around 5,500°C - they're very close, with some estimates putting Earth's core slightly higher."
+		"answer": "False",
+		"explanation": "The Earth's inner core reaches about 5,200°C, while the sun's surface is about 5,500°C. They're very close in temperature."
 	},
 	{
 		"question": "Oxygen is the most abundant element in the Earth's crust.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Oxygen makes up about 46% of the Earth's crust by weight, mostly in the form of oxides."
+		"explanation": "Oxygen makes up about 46% of the Earth's crust by weight, mostly in the form of silicates and other oxide minerals."
 	},
 	{
 		"question": "A year on Mercury is shorter than a day on Mercury.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Mercury takes 88 Earth days to orbit the sun but 176 Earth days to complete one rotation."
+		"explanation": "Mercury takes 88 Earth days to orbit the sun but 59 Earth days for one rotation. One solar day on Mercury equals 176 Earth days."
 	},
 	{
-		"question": "Distilled water conducts electricity.",
+		"question": "Pure distilled water conducts electricity.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Pure distilled water is a poor conductor of electricity because it lacks ions. Tap water conducts due to dissolved minerals."
+		"explanation": "Pure distilled water is a very poor conductor of electricity because it lacks ions. Tap water conducts due to dissolved minerals."
 	},
 	{
 		"question": "The speed of light is the same in all materials.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Light travels slower through materials like water and glass than through a vacuum."
+		"explanation": "Light travels slower through materials like water (75% of c) and glass (67% of c) than through a vacuum."
 	},
 	{
 		"question": "Hot water can freeze faster than cold water under certain conditions.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "This is known as the Mpemba effect, though the exact mechanisms are still debated by scientists."
+		"explanation": "This is known as the Mpemba effect. While controversial, it has been observed under specific conditions involving evaporation, convection, and supercooling."
 	},
 	{
 		"question": "DNA stands for Deoxyribonucleic Acid.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "DNA is the molecule that carries genetic instructions in all known living organisms."
 	},
 	{
 		"question": "The human skeleton has 206 bones at birth.",
@@ -138,42 +140,44 @@
 	{
 		"question": "Rust is a form of oxidation.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Rust is iron oxide, formed when iron reacts with oxygen in the presence of water or moisture."
 	},
 	{
-		"question": "The moon has its own light.",
+		"question": "The moon produces its own light.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The moon reflects light from the sun; it does not produce its own light."
+		"explanation": "The moon reflects sunlight; it does not produce its own light."
 	},
 	{
 		"question": "Pluto is classified as a dwarf planet.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union."
+		"explanation": "Pluto was reclassified from planet to dwarf planet in 2006 by the International Astronomical Union."
 	},
 	{
-		"question": "Lead pencils contain lead.",
+		"question": "Pencil 'lead' contains lead.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Pencils contain graphite, not lead. The term 'lead' is a historical misnomer."
+		"explanation": "Pencils contain graphite and clay, not lead. The term 'lead' is a historical misnomer from when graphite was thought to be a form of lead."
 	},
 	{
-		"question": "Absolute zero is the coldest possible temperature.",
+		"question": "-273.15°C is the coldest possible temperature.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Absolute zero (-273.15°C or 0 Kelvin) is the theoretical point at which particles have minimum thermal motion."
+		"explanation": "Absolute zero (0 Kelvin or -273.15°C) is the theoretical point at which particles have minimum possible thermal motion."
 	},
 	{
 		"question": "Stalactites grow from the ceiling of caves.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Stalactites hang from cave ceilings, while stalagmites grow upward from the floor."
+		"explanation": "Stalactites hang from cave ceilings (remember: 'c' for ceiling), while stalagmites grow up from the floor ('g' for ground)."
 	},
 	{
 		"question": "The Pacific Ocean is larger than all the Earth's land area combined.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "The Pacific Ocean covers about 165 million km², while Earth's total land area is about 149 million km²."
 	},
 	{
 		"question": "Nitrogen makes up most of Earth's atmosphere.",
@@ -184,849 +188,901 @@
 	{
 		"question": "Vaccines work by introducing weakened or dead pathogens to stimulate immunity.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Traditional vaccines use weakened or killed pathogens. Modern vaccines may also use mRNA or protein subunits to trigger immune response."
 	},
 	{
 		"question": "A light-year measures time.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "A light-year is a measure of distance, specifically the distance light travels in one year."
+		"explanation": "A light-year is a measure of distance - the distance light travels in one year, approximately 9.46 trillion kilometers."
 	},
 	{
-		"question": "Drinking caffeinated beverages causes dehydration.",
+		"question": "Caffeinated beverages cause net dehydration.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "While caffeine has a mild diuretic effect, caffeinated beverages still provide net hydration."
+		"explanation": "While caffeine has a mild diuretic effect, caffeinated beverages still provide net hydration. The water content outweighs the diuretic effect."
 	},
 	{
 		"question": "The human appendix has no function.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Recent research suggests the appendix may serve as a reservoir for beneficial gut bacteria."
+		"explanation": "Recent research suggests the appendix serves as a reservoir for beneficial gut bacteria and may play a role in immune function."
 	},
 	{
 		"question": "Nuclear power plants can explode like nuclear bombs.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Nuclear reactors cannot explode like nuclear weapons due to different fuel enrichment levels and design."
+		"explanation": "Nuclear reactors use low-enriched uranium (3-5%) while bombs require highly enriched uranium (>90%) or plutonium. The physics prevent bomb-like explosions."
 	},
 	{
 		"question": "Silicon and silicone are the same substance.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Silicon is a chemical element, while silicone is a synthetic polymer containing silicon."
+		"explanation": "Silicon is a chemical element (Si), while silicone is a synthetic polymer containing silicon, oxygen, and other elements."
 	},
 	{
-		"question": "Metals expand when heated.",
+		"question": "Most metals expand when heated.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Thermal expansion occurs as increased kinetic energy causes atoms to vibrate more and take up more space."
 	},
 	{
 		"question": "The Earth's magnetic field protects us from solar radiation.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Earth's magnetosphere deflects charged particles from the solar wind."
+		"explanation": "Earth's magnetosphere deflects charged particles from the solar wind, preventing them from stripping away our atmosphere."
 	},
 	{
-		"question": "Graphite and diamond are both forms of carbon.",
+		"question": "Graphite and diamond are both forms of pure carbon.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Both are allotropes of carbon with different crystal structures, giving them vastly different properties."
 	},
 	{
-		"question": "Sugar causes hyperactivity in children.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Multiple scientific studies have found no direct link between sugar consumption and hyperactivity in children."
-	},
-	{
-		"question": "The Coriolis effect causes water to drain clockwise in the Southern Hemisphere.",
+		"question": "Sugar consumption directly causes hyperactivity in children.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The Coriolis effect is too weak to affect the direction of water draining in sinks or toilets. The drain direction is determined by the basin's shape."
+		"explanation": "Multiple controlled scientific studies have found no causal link between sugar consumption and hyperactivity in children."
+	},
+	{
+		"question": "The Coriolis effect determines the direction water drains in sinks.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Coriolis effect is too weak at small scales. Drain direction is determined by water movement and basin shape, not hemisphere."
 	},
 	{
 		"question": "Penicillin was the first antibiotic discovered.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Alexander Fleming discovered penicillin in 1928, marking the beginning of the antibiotic era."
+		"explanation": "Alexander Fleming discovered penicillin in 1928, though earlier antimicrobials existed, penicillin was the first true antibiotic identified."
 	},
 	{
 		"question": "Lightning never strikes the same place twice.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Lightning can and does strike the same place multiple times, especially tall structures."
+		"explanation": "Lightning often strikes the same place repeatedly, especially tall structures. The Empire State Building is struck about 25 times per year."
 	},
 	{
 		"question": "All radioactive materials glow in the dark.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Most radioactive materials do not glow. The glow associated with radioactivity in popular culture comes from radioluminescence in specific compounds."
+		"explanation": "Most radioactive materials don't glow. The green glow in popular culture comes from radium paint with phosphorescent zinc sulfide."
 	},
 	{
-		"question": "Ozone is composed of three oxygen atoms.",
+		"question": "Ozone molecules contain three oxygen atoms.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Ozone (O₃) consists of three oxygen atoms bonded together."
+		"explanation": "Ozone (O₃) consists of three oxygen atoms, unlike the oxygen we breathe (O₂) which has two."
 	},
 	{
 		"question": "The human brain stops developing at age 18.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The brain continues to develop into the mid-to-late 20s, particularly the prefrontal cortex."
+		"explanation": "The brain continues developing into the mid-20s, with the prefrontal cortex (decision-making) being the last to fully mature."
 	},
 	{
-		"question": "Tsunamis are caused by underwater earthquakes.",
+		"question": "Most tsunamis are caused by underwater earthquakes.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Most tsunamis are generated by underwater earthquakes, though underwater landslides and volcanic eruptions can also cause them."
+		"explanation": "About 80% of tsunamis are caused by underwater earthquakes. Volcanic eruptions and landslides cause the remainder."
 	},
 	{
 		"question": "Microwave ovens cook food from the inside out.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Microwaves penetrate food and cook it throughout, but they don't specifically cook from the inside out."
+		"explanation": "Microwaves penetrate food and heat water molecules throughout, but they actually heat more at the surface and outer layers."
 	},
 	{
-		"question": "Blood in veins is blue.",
+		"question": "Deoxygenated blood is blue.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Blood is always red. Veins appear blue due to how light penetrates and reflects off skin."
+		"explanation": "Blood is always red. Deoxygenated blood is dark red. Veins appear blue due to how skin absorbs and reflects light wavelengths."
 	},
 	{
-		"question": "Vitamin D can be produced by the human body when exposed to sunlight.",
+		"question": "Vitamin D can be synthesized by human skin when exposed to sunlight.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "UVB radiation triggers vitamin D3 synthesis in the skin, which is then converted to active vitamin D by the liver and kidneys."
 	},
 	{
 		"question": "Recycling aluminum saves more energy than recycling plastic.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Recycling aluminum saves about 95% of the energy needed to make new aluminum, compared to about 70% for plastic."
+		"explanation": "Recycling aluminum saves about 95% of the energy needed to make new aluminum, compared to 70-80% for most plastics."
 	},
 	{
-		"question": "The Big Bang Theory explains the origin of the universe.",
+		"question": "The Big Bang Theory explains how the universe began.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "The Big Bang Theory is the prevailing cosmological model explaining the universe's expansion from an extremely hot, dense initial state 13.8 billion years ago."
 	},
 	{
 		"question": "Carbon dioxide is the most abundant greenhouse gas in Earth's atmosphere.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Water vapor is the most abundant greenhouse gas, though CO₂ is the most significant anthropogenic one."
+		"explanation": "Water vapor is the most abundant greenhouse gas (1-4%), though CO₂ (0.04%) is the primary driver of human-caused climate change."
 	},
 	{
 		"question": "Rainbows can only be seen when the sun is behind you.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "For a rainbow to be visible, the sun must be behind the observer and raindrops must be in front."
+		"explanation": "For a primary rainbow to be visible, the sun must be behind the observer with water droplets in front at a 42° angle."
 	},
 	{
-		"question": "The human stomach produces a new layer of mucus every two weeks.",
+		"question": "The human stomach completely replaces its lining every 3-4 days.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The stomach lining regenerates itself to protect against its own digestive acids."
+		"explanation": "The stomach lining regenerates every 3-4 days to protect against its own digestive acids with pH around 1.5-2."
 	},
 	{
 		"question": "Conduction, convection, and radiation are the three methods of heat transfer.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Conduction transfers heat through direct contact, convection through fluid movement, and radiation through electromagnetic waves."
 	},
 	{
-		"question": "Organic foods are pesticide-free.",
+		"question": "Organic foods are completely pesticide-free.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Organic farming does use pesticides, but they must be naturally derived rather than synthetic."
+		"explanation": "Organic farming can use naturally-derived pesticides like copper sulfate and pyrethrin. 'Organic' restricts synthetic pesticides, not all pesticides."
 	},
 	{
 		"question": "The speed of sound is faster than the speed of light.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Light travels at about 300,000 km/s while sound travels at only about 343 m/s in air."
+		"explanation": "Light travels at about 300,000 km/s in vacuum while sound travels at only about 343 m/s in air at 20°C."
 	},
 	{
-		"question": "Earthquakes can be accurately predicted days in advance.",
+		"question": "Earthquakes can be accurately predicted weeks in advance.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Despite advances in seismology, accurately predicting earthquakes days in advance remains impossible."
+		"explanation": "Despite advances in seismology, scientists cannot predict the exact time and location of earthquakes. Only probability estimates are possible."
 	},
 	{
 		"question": "Uranium is the heaviest naturally occurring element.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Uranium, with atomic number 92, is the heaviest element that occurs naturally in significant quantities."
+		"explanation": "Uranium (atomic number 92) is the heaviest element found naturally in significant quantities. Trace amounts of neptunium and plutonium exist naturally."
 	},
 	{
 		"question": "The adult human body is approximately 60% water.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Adult males average 60% water, females 55%. This varies with age, with infants at 75% and elderly at 50%."
 	},
 	{
 		"question": "Shaving makes hair grow back thicker.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Shaving has no effect on hair thickness, color, or rate of growth."
+		"explanation": "Shaving cuts hair at the surface and has no effect on the follicle. The blunt edge may feel coarser but doesn't change thickness."
 	},
 	{
-		"question": "The wavelength of red light is longer than blue light.",
+		"question": "Red light has a longer wavelength than blue light.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Red light has wavelengths around 700nm while blue light is around 450nm. Longer wavelengths have lower frequency and energy."
 	},
 	{
-		"question": "Pasteurization kills all bacteria in milk.",
+		"question": "The Pacific Ring of Fire contains 75% of the world's volcanoes.",
 		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Pasteurization kills most harmful bacteria but not all bacteria. Sterilization would kill all bacteria."
-	},
-	{
-		"question": "The Pacific Ring of Fire is an area with frequent earthquakes and volcanic activity.",
-		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "This horseshoe-shaped zone around the Pacific Ocean contains about 75% of active and dormant volcanoes and 90% of earthquakes."
 	},
 	{
 		"question": "Dry ice is frozen water.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Dry ice is frozen carbon dioxide, not water."
+		"explanation": "Dry ice is solid carbon dioxide (CO₂) that sublimates directly to gas at -78.5°C. Regular ice is frozen water."
 	},
 	{
 		"question": "Photosynthesis produces oxygen as a byproduct.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Plants use CO₂ and water to produce glucose, releasing oxygen as a waste product. This oxygen supports most life on Earth."
 	},
 	{
-		"question": "All viruses can be killed by antibiotics.",
+		"question": "Viruses can be killed by antibiotics.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Antibiotics are ineffective against viruses; they only work on bacteria."
+		"explanation": "Antibiotics only work against bacteria. Viruses require antiviral medications or must be fought by the immune system."
 	},
 	{
-		"question": "Neptune is farther from the sun than Pluto.",
+		"question": "Pluto is always farther from the sun than Neptune.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "While Pluto's orbit sometimes brings it closer than Neptune, on average Pluto is farther from the sun."
+		"explanation": "Pluto's elliptical orbit brings it closer to the sun than Neptune for about 20 years of its 248-year orbit, last occurring 1979-1999."
 	},
 	{
-		"question": "Stalactites and stalagmites are formed by dripping water containing dissolved minerals.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The pH scale ranges from 0 to 14.",
+		"question": "Stalactites and stalagmites are formed by mineral deposition from dripping water.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Solutions with pH less than 7 are acidic, 7 is neutral, and greater than 7 is basic."
+		"explanation": "Water containing dissolved calcium carbonate deposits minerals as it evaporates, building these formations over thousands of years."
+	},
+	{
+		"question": "The pH scale typically ranges from 0 to 14.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The pH scale measures acidity (0-7) and alkalinity (7-14), with 7 being neutral. Extreme values outside 0-14 are possible but rare."
 	},
 	{
 		"question": "Identical twins have identical fingerprints.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "While identical twins share DNA, their fingerprints differ due to random environmental factors during development."
+		"explanation": "While identical twins share DNA, fingerprints form through random processes in the womb involving pressure and position."
 	},
 	{
-		"question": "Gold is the best conductor of electricity.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Silver is the best conductor of electricity, followed by copper, then gold."
-	},
-	{
-		"question": "The Great Red Spot on Jupiter is a massive storm.",
+		"question": "Silver is the best conductor of electricity.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Jupiter's Great Red Spot is an enormous storm that has been raging for at least 400 years."
+		"explanation": "Silver has the highest electrical conductivity of all elements, followed by copper, then gold. Copper is used more due to cost."
+	},
+	{
+		"question": "The Great Red Spot on Jupiter is a giant storm.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "This anticyclonic storm is 1.3 times Earth's diameter and has been observed for at least 350 years, possibly much longer."
 	},
 	{
 		"question": "Lava and magma are the same thing.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Magma is molten rock beneath the Earth's surface; lava is magma that has reached the surface."
+		"explanation": "Magma is molten rock beneath Earth's surface. When it erupts and reaches the surface, it's called lava."
 	},
 	{
 		"question": "The Richter scale measures earthquake magnitude.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Though the moment magnitude scale is now more commonly used, the Richter scale was the traditional measure."
+		"explanation": "The Richter scale measures magnitude, though the moment magnitude scale (Mw) is now preferred for large earthquakes."
 	},
 	{
-		"question": "Celsius and centigrade are different temperature scales.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Celsius and centigrade refer to the same temperature scale; centigrade is the older term."
-	},
-	{
-		"question": "The human heart is located on the left side of the chest.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "The heart is located near the center of the chest, though it does tilt slightly to the left."
-	},
-	{
-		"question": "Vaccines contain mercury in harmful amounts.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Most vaccines no longer contain thimerosal, and when it was used, amounts were far below harmful levels."
-	},
-	{
-		"question": "The color of a flame indicates its temperature.",
+		"question": "Celsius and centigrade are the same temperature scales.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Blue flames are hotter than orange or yellow flames."
+		"explanation": "Celsius and centigrade are the same scale. The name was officially changed from centigrade to Celsius in 1948."
 	},
 	{
-		"question": "Earthquakes only occur along tectonic plate boundaries.",
+		"question": "The human heart is located entirely on the left side of the chest.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "While most earthquakes occur at plate boundaries, intraplate earthquakes can occur within plates."
+		"explanation": "The heart is located in the center of the chest, slightly tilted to the left. About 1/3 is right of the midline."
 	},
 	{
-		"question": "Pure water is a perfect insulator.",
+		"question": "Most modern vaccines contain mercury in harmful amounts.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Thimerosal (containing ethylmercury) was removed from childhood vaccines by 2001 except some flu vaccines. When used, amounts were far below harmful levels."
+	},
+	{
+		"question": "Blue flames are typically hotter than yellow flames.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Perfectly pure water does not conduct electricity well, but most water contains impurities that make it conductive."
+		"explanation": "Blue flames indicate complete combustion at higher temperatures (1,500°C+) while yellow flames are cooler (1,000°C) with incomplete combustion."
 	},
 	{
-		"question": "Chromosomes contain genetic information.",
+		"question": "Earthquakes only occur at tectonic plate boundaries.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "False",
+		"explanation": "While 90% of earthquakes occur at plate boundaries, intraplate earthquakes can occur within plates due to ancient faults."
+	},
+	{
+		"question": "Perfectly pure water does not conduct electricity.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Pure water has very low conductivity (about 0.055 μS/cm). Dissolved ions in normal water enable electrical conduction."
+	},
+	{
+		"question": "Chromosomes are structures that contain DNA.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Chromosomes are organized structures of DNA and proteins found in cells. Humans have 23 pairs of chromosomes."
 	},
 	{
 		"question": "The coldest temperature ever recorded on Earth was in Antarctica.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The coldest natural temperature ever directly recorded at ground level on Earth was −89.2°C at Vostok Station in Antarctica."
+		"explanation": "The coldest reliably measured temperature was -89.2°C at Soviet Vostok Station, Antarctica, on July 21, 1983."
 	},
 	{
 		"question": "All metals are solid at room temperature.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Mercury is a metal that is liquid at room temperature."
+		"explanation": "Mercury is liquid at room temperature (melting point -38.8°C). Gallium melts at 29.8°C, just above room temperature."
 	},
 	{
-		"question": "Human blood is slightly alkaline.",
+		"question": "Normal human blood pH is slightly alkaline.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Normal blood pH is approximately 7.4, making it slightly basic or alkaline."
+		"explanation": "Normal blood pH ranges from 7.35 to 7.45, making it slightly alkaline. The body tightly regulates this range."
 	},
 	{
 		"question": "Chlorophyll gives plants their green color.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Chlorophyll absorbs red and blue light for photosynthesis but reflects green light, making plants appear green."
 	},
 	{
-		"question": "Glaciers are made of saltwater ice.",
+		"question": "Glaciers contain salt water.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Glaciers are formed from compacted snow and therefore consist of fresh water, not salt water."
+		"explanation": "Glaciers form from compressed snow and are freshwater. They contain about 69% of Earth's freshwater."
 	},
 	{
 		"question": "Nuclear fusion powers the sun.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The sun generates energy through nuclear fusion, combining hydrogen atoms to form helium."
+		"explanation": "The sun converts 600 million tons of hydrogen to helium every second through nuclear fusion, releasing enormous energy."
 	},
 	{
-		"question": "The Amazon rainforest produces 20% of the world's oxygen.",
+		"question": "The Amazon rainforest produces 20% of Earth's oxygen.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "While the Amazon produces significant oxygen, most of it is consumed by the ecosystem itself. Ocean phytoplankton produces most of Earth's oxygen."
+		"explanation": "The Amazon produces oxygen but consumes nearly all of it. Ocean phytoplankton produce 50-80% of Earth's oxygen."
 	},
 	{
-		"question": "Infrared light has a longer wavelength than visible light.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "All acids are dangerous and corrosive.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Many acids are weak and safe, such as citric acid in lemons and acetic acid in vinegar."
-	},
-	{
-		"question": "The boiling point of water increases with pressure.",
+		"question": "Infrared radiation has a longer wavelength than visible light.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Higher pressure raises the boiling point, which is why pressure cookers can cook food faster."
+		"explanation": "Infrared wavelengths range from 700nm to 1mm, longer than visible light (380-700nm). We feel infrared as heat."
+	},
+	{
+		"question": "All acids are corrosive and dangerous.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Many acids are weak and safe, including citric acid (lemons), acetic acid (vinegar), and carbonic acid (soda)."
+	},
+	{
+		"question": "Water's boiling point increases with atmospheric pressure.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Higher pressure raises the boiling point. Pressure cookers use this principle to cook food faster at temperatures above 100°C."
 	},
 	{
 		"question": "Fungi are classified as plants.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Fungi are their own separate kingdom, distinct from plants and animals."
+		"explanation": "Fungi form their own kingdom, separate from plants and animals."
 	},
 	{
 		"question": "LED lights are more energy-efficient than incandescent bulbs.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "LEDs use about 75% less energy than incandescent bulbs and last 25 times longer, converting more energy to light than heat."
 	},
 	{
 		"question": "Saturn is the only planet with rings.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Jupiter, Uranus, and Neptune also have ring systems, though Saturn's are the most prominent."
+		"explanation": "Jupiter, Uranus, and Neptune also have ring systems, discovered in 1979, 1977, and 1984 respectively. Saturn's are just the most visible."
 	},
 	{
 		"question": "The chemical symbol for gold is Au.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Au comes from the Latin word for gold, 'aurum'."
+		"explanation": "Au comes from the Latin word 'aurum' meaning gold. Many element symbols derive from Latin names."
 	},
 	{
-		"question": "A supernova is the explosion of a dying star.",
+		"question": "A supernova is the explosive death of a massive star.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Stars over 8 solar masses end their lives in supernova explosions, briefly outshining entire galaxies."
 	},
 	{
-		"question": "The half-life of a radioactive element is the time it takes to completely decay.",
+		"question": "Half-life is the time for a radioactive sample to completely decay.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Half-life is the time it takes for half of the material to decay, not all of it."
+		"explanation": "Half-life is the time for half of a radioactive sample to decay. Complete decay theoretically takes infinite time."
 	},
 	{
 		"question": "Greenhouse gases trap heat in Earth's atmosphere.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Greenhouse gases absorb and re-emit infrared radiation, warming the atmosphere. Without them, Earth would average -18°C."
 	},
 	{
-		"question": "All snowflakes have exactly six sides.",
+		"question": "All snowflakes have six-fold symmetry.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The molecular structure of ice crystals results in six-fold symmetry."
+		"explanation": "Water molecules form hexagonal ice crystals due to hydrogen bonding angles, creating six-fold symmetry in snowflakes."
 	},
 	{
-		"question": "GMO foods have been proven to be unsafe for human consumption.",
+		"question": "GMO foods have been proven unsafe for human consumption.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Major scientific organizations agree that GMO foods currently on the market are safe to eat."
+		"explanation": "Major scientific organizations worldwide agree that approved GMO foods are as safe as conventional foods based on extensive testing."
 	},
 	{
-		"question": "The stratosphere is the layer of atmosphere closest to Earth's surface.",
+		"question": "The troposphere is the atmospheric layer closest to Earth's surface.",
 		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "The troposphere is the layer closest to Earth's surface; the stratosphere is above it."
+		"answer": "True",
+		"explanation": "The troposphere extends from Earth's surface to about 10-15km altitude and contains 75% of the atmosphere's mass and nearly all weather."
 	},
 	{
 		"question": "Noble gases are highly reactive.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Noble gases are characterized by their lack of reactivity due to having full outer electron shells."
+		"explanation": "Noble gases (helium, neon, argon, etc.) have complete outer electron shells, making them extremely unreactive under normal conditions."
 	},
 	{
 		"question": "Metamorphic rocks form from heat and pressure.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Metamorphic rocks form when existing rocks are transformed by heat, pressure, and chemical processes without melting."
 	},
 	{
 		"question": "The chemical formula for table salt is NaCl.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Table salt is sodium chloride, represented by NaCl."
+		"explanation": "Table salt is sodium chloride, consisting of sodium (Na) and chlorine (Cl) ions in a 1:1 ratio."
 	},
 	{
 		"question": "Electrons have a positive charge.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Electrons have a negative charge; protons have a positive charge."
+		"explanation": "Electrons carry a negative charge of -1.6 × 10⁻¹⁹ coulombs. Protons carry the positive charge."
 	},
 	{
-		"question": "All elements heavier than iron were formed in supernova explosions.",
+		"question": "All elements heavier than iron were formed in stellar explosions.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Elements heavier than iron require more energy to form than is available in regular stellar fusion."
+		"explanation": "Elements heavier than iron require more energy to create than they release, only possible in supernovae or neutron star collisions."
 	},
 	{
 		"question": "The human body can produce its own vitamin C.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Humans, unlike most animals, cannot synthesize vitamin C and must obtain it from their diet."
+		"explanation": "Humans lack the enzyme L-gulonolactone oxidase needed to synthesize vitamin C, unlike most other mammals."
 	},
 	{
 		"question": "Sonar uses sound waves to detect objects underwater.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Sonar (Sound Navigation and Ranging) sends sound pulses and measures their echoes to detect and locate objects."
 	},
 	{
-		"question": "Lightning always travels from the ground up to the clouds.",
+		"question": "Lightning always travels from clouds to the ground.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Lightning typically travels from clouds to ground, though a return stroke does travel upward."
+		"explanation": "While most visible lightning is cloud-to-ground, lightning can also travel ground-to-cloud, within clouds, or between clouds."
 	},
 	{
-		"question": "The chemical element symbol Pb stands for lead.",
+		"question": "The symbol Pb represents lead on the periodic table.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Pb comes from the Latin word for lead, 'plumbum'."
+		"explanation": "Pb comes from the Latin word 'plumbum' for lead, which is why plumbers work with pipes (originally lead pipes)."
 	},
 	{
-		"question": "Dark matter can be directly observed with telescopes.",
+		"question": "Dark matter emits electromagnetic radiation.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Dark matter does not emit, absorb, or reflect light, so it cannot be directly observed."
+		"explanation": "Dark matter neither emits, absorbs, nor reflects electromagnetic radiation, making it invisible and detectable only through gravitational effects."
 	},
 	{
-		"question": "Gravity is weaker on the moon than on Earth.",
+		"question": "The moon's gravity is about one-sixth of Earth's gravity.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The moon's gravity is about 1/6th that of Earth's."
+		"explanation": "The moon's surface gravity is 1.62 m/s², about 16.5% of Earth's 9.81 m/s², allowing astronauts to jump much higher."
 	},
 	{
-		"question": "Red blood cells carry oxygen throughout the body.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "All plastics are recyclable.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Not all plastics can be economically or technically recycled, depending on their type and contamination."
-	},
-	{
-		"question": "The Doppler effect explains why a siren's pitch changes as it passes by.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Natural gas is the same as gasoline.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Natural gas is primarily methane, while gasoline is a liquid mixture of hydrocarbons refined from crude oil."
-	},
-	{
-		"question": "White light is composed of all colors of the visible spectrum.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The electron microscope uses beams of electrons instead of light.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Acid rain is caused by air pollution.",
+		"question": "Red blood cells transport oxygen using hemoglobin.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Acid rain forms when sulfur dioxide and nitrogen oxides from industrial emissions react with water in the atmosphere."
+		"explanation": "Hemoglobin proteins in red blood cells bind oxygen in the lungs and release it to tissues throughout the body."
 	},
 	{
-		"question": "Ultraviolet light has more energy than visible light.",
+		"question": "All plastics can be recycled indefinitely.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "False",
+		"explanation": "Plastics degrade during recycling, limiting reuse. Most plastics can only be recycled 2-3 times before becoming unusable."
+	},
+	{
+		"question": "The Doppler effect changes a wave's perceived frequency based on relative motion.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Doppler effect causes higher frequencies when source and observer approach, lower when they recede, affecting sound and light."
+	},
+	{
+		"question": "Natural gas and gasoline are the same substance.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Natural gas is primarily methane (CH₄), a gas at room temperature. Gasoline is a liquid mixture of heavier hydrocarbons."
+	},
+	{
+		"question": "White light contains all colors of the visible spectrum.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "White light is a mixture of all visible wavelengths, which can be separated by a prism into the rainbow spectrum."
+	},
+	{
+		"question": "Electron microscopes use beams of electrons instead of light.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Electron microscopes achieve much higher magnification than light microscopes because electrons have shorter wavelengths than visible light."
+	},
+	{
+		"question": "Acid rain is caused primarily by carbon dioxide emissions.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Acid rain is caused primarily by sulfur dioxide and nitrogen oxides, not CO₂. These form sulfuric and nitric acids in the atmosphere."
+	},
+	{
+		"question": "Ultraviolet light has more energy per photon than visible light.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "UV light has shorter wavelengths than visible light, meaning higher frequency and more energy per photon, which is why it can damage DNA."
 	},
 	{
 		"question": "All sugars have the same chemical formula.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Different sugars have different chemical formulas. For example, glucose is C₆H₁₂O₆ while sucrose is C₁₂H₂₂O₁₁."
+		"explanation": "Different sugars have different formulas. Glucose and fructose share C₆H₁₂O₆ but sucrose is C₁₂H₂₂O₁₁."
 	},
 	{
-		"question": "Black holes have such strong gravity that not even light can escape.",
+		"question": "Black holes have infinite density.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "False",
+		"explanation": "Black holes have extremely high but finite density. The singularity is theorized to have infinite density, but quantum effects likely prevent this."
 	},
 	{
 		"question": "The chemical formula for water is H₂O.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Water consists of two hydrogen atoms covalently bonded to one oxygen atom."
 	},
 	{
-		"question": "Stainless steel never rusts.",
+		"question": "Stainless steel is completely immune to rust.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Stainless steel is corrosion-resistant but can rust under certain conditions, especially when exposed to chlorides."
+		"explanation": "Stainless steel resists corrosion due to chromium content but can still rust under certain conditions, especially with chloride exposure."
 	},
 	{
 		"question": "The Hubble Space Telescope orbits Earth.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Hubble orbits Earth at an altitude of about 550 kilometers, completing one orbit every 95 minutes."
 	},
 	{
 		"question": "Friction always opposes motion.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Friction acts opposite to the direction of motion or potential motion between surfaces in contact."
 	},
 	{
 		"question": "All acids taste sour.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The sour taste is characteristic of acids, though you should never taste unknown chemicals."
+		"explanation": "Sour taste is characteristic of acids due to hydrogen ions. However, never taste unknown chemicals as many acids are dangerous."
 	},
 	{
-		"question": "Geothermal energy comes from heat within the Earth.",
+		"question": "Geothermal energy comes from radioactive decay in Earth's core.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "About 50% of Earth's internal heat comes from radioactive decay of uranium, thorium, and potassium. The rest is primordial heat."
 	},
 	{
 		"question": "Methane is a more potent greenhouse gas than carbon dioxide.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Methane is about 25-30 times more effective at trapping heat than CO₂ over a 100-year period."
+		"explanation": "Methane traps about 28-36 times more heat than CO₂ over 100 years, though it breaks down faster in the atmosphere."
 	},
 	{
-		"question": "The Arctic is land covered by ice.",
+		"question": "The Arctic is a continent covered by ice.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The Arctic is mostly frozen ocean surrounded by land, unlike Antarctica which is a continent."
+		"explanation": "The Arctic is a frozen ocean surrounded by continents. Antarctica is the continent covered by ice."
 	},
 	{
-		"question": "Protons and neutrons are found in the nucleus of an atom.",
+		"question": "Protons and neutrons are found in an atom's nucleus.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "The nucleus contains protons and neutrons (nucleons), while electrons orbit in shells around the nucleus."
 	},
 	{
-		"question": "Caffeine is a stimulant.",
+		"question": "Caffeine is a central nervous system stimulant.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Caffeine blocks adenosine receptors in the brain, preventing drowsiness and increasing alertness and focus."
 	},
 	{
 		"question": "Fossils can only form in sedimentary rock.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "While most fossils form in sedimentary rock, they can also be preserved in volcanic ash and amber."
+		"explanation": "While most fossils form in sedimentary rock, they can also be preserved in volcanic ash, tar pits, amber, and ice."
 	},
 	{
-		"question": "The sun is a yellow dwarf star.",
+		"question": "The sun is classified as a yellow dwarf star.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "The sun is a G-type main-sequence star (G2V), commonly called a yellow dwarf, though it actually appears white from space."
 	},
 	{
-		"question": "Aluminum is magnetic.",
+		"question": "Aluminum is strongly magnetic.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Aluminum is not magnetic under normal conditions; it is paramagnetic but very weakly so."
+		"explanation": "Aluminum is paramagnetic (very weakly attracted to magnets) but not ferromagnetic like iron, nickel, or cobalt."
 	},
 	{
-		"question": "Igneous rocks form from cooled magma or lava.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The chemical symbol for iron is Fe.",
+		"question": "Igneous rocks form from cooled and solidified magma or lava.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Fe comes from the Latin word for iron, 'ferrum'."
+		"explanation": "Intrusive igneous rocks form from magma cooling slowly underground; extrusive forms from lava cooling quickly at the surface."
 	},
 	{
-		"question": "All objects fall at the same rate in a vacuum.",
+		"question": "The chemical symbol Fe represents iron.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Without air resistance, all objects accelerate at the same rate due to gravity."
+		"explanation": "Fe comes from the Latin word 'ferrum' for iron. Iron is the most common element on Earth by mass."
 	},
 	{
-		"question": "Concrete and cement are the same thing.",
+		"question": "All objects fall at the same rate in a vacuum regardless of mass.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Without air resistance, all objects accelerate at 9.81 m/s² near Earth's surface, famously demonstrated on the moon with a hammer and feather."
+	},
+	{
+		"question": "Concrete and cement are the same material.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Cement is an ingredient in concrete; concrete is a mixture of cement, water, sand, and gravel."
+		"explanation": "Cement is the binding agent (10-15%) mixed with water, sand, and aggregate to make concrete. Cement is an ingredient, not the final product."
 	},
 	{
-		"question": "Tides are primarily caused by the moon's gravitational pull.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The Kelvin scale has no negative numbers.",
+		"question": "Ocean tides are caused primarily by the moon's gravity.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The Kelvin scale starts at absolute zero (0 K), the lowest possible temperature."
+		"explanation": "The moon causes about 70% of tidal effects, the sun 30%. Spring tides occur when sun and moon align."
 	},
 	{
-		"question": "Photons are particles of light.",
+		"question": "The Kelvin temperature scale has no negative values.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "The Kelvin scale starts at absolute zero (0 K = -273.15°C), the theoretical minimum temperature where molecular motion ceases."
 	},
 	{
-		"question": "All deserts are hot.",
+		"question": "Photons are massless particles of electromagnetic radiation.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Photons have no rest mass but carry energy and momentum, exhibiting both wave and particle properties."
+	},
+	{
+		"question": "All deserts are hot and sandy.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Deserts are defined by low precipitation, not temperature. Antarctica and the Arctic are cold deserts."
+		"explanation": "Deserts are defined by low precipitation (<250mm/year). Antarctica is the largest desert. Only 20% of deserts are sandy."
 	},
 	{
-		"question": "The chemical symbol for silver is Ag.",
+		"question": "The chemical symbol Ag represents silver.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Ag comes from the Latin word for silver, 'argentum'."
+		"explanation": "Ag comes from the Latin 'argentum' for silver. Argentina was named for the silver Spanish conquistadors hoped to find there."
 	},
 	{
-		"question": "Neutrons have no electrical charge.",
+		"question": "Neutrons have no electric charge.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Neutrons are electrically neutral, having no net charge despite containing charged quarks (one up, two down)."
 	},
 	{
 		"question": "The Milky Way is a spiral galaxy.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "The Milky Way is a barred spiral galaxy about 100,000 light-years in diameter containing 200-400 billion stars."
 	},
 	{
-		"question": "Evaporation only occurs at the boiling point.",
+		"question": "Water only evaporates at 100°C.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Evaporation can occur at any temperature, though it happens faster at higher temperatures."
+		"explanation": "Evaporation occurs at any temperature as individual molecules gain enough energy to escape. Boiling occurs when vapor pressure equals atmospheric pressure."
 	},
 	{
-		"question": "Quarks are fundamental particles that make up protons and neutrons.",
+		"question": "Quarks are smaller than electrons.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Quarks are fundamental particles that combine to form protons and neutrons. Electrons are also fundamental but not composed of quarks."
 	},
 	{
-		"question": "The ozone layer is located in the troposphere.",
+		"question": "The ozone layer is located in the stratosphere.",
 		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "The ozone layer is located in the stratosphere, above the troposphere."
+		"answer": "True",
+		"explanation": "The ozone layer is 15-35 km above Earth's surface in the stratosphere, absorbing 97-99% of harmful UV radiation."
 	},
 	{
 		"question": "Solar panels convert sunlight directly into electricity.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Solar photovoltaic panels convert light energy directly into electrical energy through the photovoltaic effect."
+		"explanation": "Photovoltaic cells use the photoelectric effect to convert photons directly into electrical current without moving parts."
 	},
 	{
-		"question": "The chemical formula for carbon dioxide is CO.",
+		"question": "Carbon monoxide has the formula CO₂.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The formula for carbon dioxide is CO₂. CO is carbon monoxide."
+		"explanation": "Carbon monoxide is CO (one oxygen). Carbon dioxide is CO₂ (two oxygens). CO is toxic, binding to hemoglobin."
 	},
 	{
-		"question": "Sublimation is the process of a solid turning directly into a gas.",
+		"question": "Sublimation is the phase transition from solid directly to gas.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Sublimation skips the liquid phase. Dry ice sublimes at -78.5°C. The reverse process is called deposition."
 	},
 	{
-		"question": "Alternating current (AC) flows in one direction only.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Alternating current periodically reverses direction, unlike direct current (DC)."
-	},
-	{
-		"question": "The element with atomic number 1 is hydrogen.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Inertia is an object's resistance to changes in motion.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "All waves require a medium to travel through.",
+		"question": "Alternating current (AC) flows in only one direction.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Electromagnetic waves, like light, can travel through a vacuum without a medium."
+		"explanation": "AC periodically reverses direction, typically 50-60 times per second. Direct current (DC) flows in one direction only."
 	},
 	{
-		"question": "Stalactites hang from the ground.",
+		"question": "Hydrogen is the first element on the periodic table.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Hydrogen has atomic number 1 with one proton. It's the most abundant element in the universe, making up 75% of normal matter."
+	},
+	{
+		"question": "Inertia is an object's resistance to changes in its state of motion.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Newton's first law states objects at rest stay at rest and objects in motion stay in motion unless acted upon by external force."
+	},
+	{
+		"question": "All waves require a medium to propagate.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Stalactites hang from the ceiling; stalagmites grow from the ground."
+		"explanation": "Mechanical waves need a medium (sound, water waves) but electromagnetic waves (light, radio) can travel through vacuum."
 	},
 	{
-		"question": "Mitosis is the process of cell division.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Aerobic respiration requires oxygen.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Wind turbines generate electricity from kinetic energy.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The chemical symbol for potassium is P.",
+		"question": "Stalagmites hang from cave ceilings.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The symbol for potassium is K (from kalium). P is the symbol for phosphorus."
+		"explanation": "Stalagmites grow up from the floor (remember 'g' for ground). Stalactites hang from the ceiling ('c' for ceiling)."
+	},
+	{
+		"question": "Mitosis produces two identical daughter cells.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Mitosis is cell division that produces two genetically identical diploid daughter cells for growth and repair."
+	},
+	{
+		"question": "Aerobic respiration requires oxygen to produce ATP.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Aerobic respiration uses oxygen as the final electron acceptor, producing up to 38 ATP molecules per glucose."
+	},
+	{
+		"question": "Wind turbines convert kinetic energy into electrical energy.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Wind turbines capture kinetic energy from moving air, turning blades that drive generators to produce electricity."
+	},
+	{
+		"question": "The chemical symbol K represents potassium.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "K comes from the Latin 'kalium'. Potassium is essential for nerve function and is highly reactive with water."
 	},
 	{
 		"question": "A parsec is a unit of time.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "A parsec is a unit of distance used in astronomy, equal to about 3.26 light-years."
+		"explanation": "A parsec (parallax arcsecond) is a unit of distance equal to 3.26 light-years, used in astronomy for stellar distances."
 	},
 	{
-		"question": "Static electricity is caused by an imbalance of electric charges.",
+		"question": "Static electricity results from an imbalance of electric charges.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Static electricity occurs when electrons transfer between materials, creating charge imbalance that discharges when grounded."
 	},
 	{
-		"question": "The Aurora Borealis occurs near the South Pole.",
+		"question": "The Aurora Borealis (Northern Lights) occurs near the South Pole.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The Aurora Borealis (Northern Lights) occurs near the North Pole. The Aurora Australis occurs near the South Pole."
+		"explanation": "Aurora Borealis occurs near the North Pole. Aurora Australis (Southern Lights) occurs near the South Pole."
 	},
 	{
 		"question": "Isotopes of an element have different numbers of neutrons.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "True",
+		"explanation": "Isotopes have the same number of protons but different neutrons. Carbon-12 has 6 neutrons, Carbon-14 has 8."
 	},
 	{
-		"question": "Resistors reduce the flow of electrical current.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The chemical formula for ammonia is NH₃.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "All stars are the same color.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Stars vary in color from red to blue depending on their temperature."
-	},
-	{
-		"question": "Kinetic energy is energy of motion.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "The periodic table is arranged by atomic mass.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "The modern periodic table is arranged by atomic number (number of protons), not atomic mass."
-	},
-	{
-		"question": "Glucose is a type of carbohydrate.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Magnetism and electricity are related phenomena.",
+		"question": "Electrical resistance is measured in ohms.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Electricity and magnetism are two aspects of the same fundamental force: electromagnetism."
+		"explanation": "Resistance (ohms, Ω) measures opposition to current flow. Ohm's law: V = I × R (voltage = current × resistance)."
+	},
+	{
+		"question": "Ammonia has the chemical formula NH₃.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Ammonia consists of one nitrogen and three hydrogen atoms. It's a common cleaning agent and fertilizer precursor."
+	},
+	{
+		"question": "All stars are approximately the same color.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Star color indicates temperature: red stars are coolest (3,000K), blue stars hottest (30,000K+). The sun appears white."
+	},
+	{
+		"question": "Kinetic energy depends on an object's mass and velocity.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Kinetic energy = ½mv², where m is mass and v is velocity. Doubling speed quadruples kinetic energy."
+	},
+	{
+		"question": "The periodic table is arranged by increasing atomic mass.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Modern periodic table is arranged by atomic number (protons). Mendeleev's original used atomic mass, causing some irregularities."
+	},
+	{
+		"question": "Glucose is a simple sugar (monosaccharide).",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Glucose (C₆H₁₂O₆) is the primary energy source for cells, produced by photosynthesis and broken down in cellular respiration."
+	},
+	{
+		"question": "Electricity and magnetism are completely separate phenomena.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Electricity and magnetism are unified as electromagnetism. Moving charges create magnetic fields; changing magnetic fields induce electric current."
 	},
 	{
 		"question": "Fossil fuels are renewable energy sources.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Fossil fuels take millions of years to form and are considered non-renewable."
+		"explanation": "Fossil fuels formed over millions of years from ancient organisms. They're non-renewable on human timescales."
 	},
 	{
-		"question": "The chemical symbol for sodium is Na.",
+		"question": "The chemical symbol So represents sodium.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The symbol for sodium is Na, which comes from the Latin 'natrium'. Sodium is highly reactive, stored under oil, and essential for nerve function."
+	},
+	{
+		"question": "Centripetal force acts away from the center of circular motion.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Centripetal force acts toward the center, keeping objects in circular paths. Centrifugal 'force' is the perceived outward effect."
+	},
+	{
+		"question": "All chemical reactions are exothermic (release energy).",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Exothermic reactions release energy (feel hot). Endothermic reactions absorb energy (feel cold), like photosynthesis."
+	},
+	{
+		"question": "The retina contains rod and cone photoreceptor cells.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Na comes from the Latin word for sodium, 'natrium'."
+		"explanation": "Rods detect light intensity for night vision. Cones detect color in bright light. Humans have ~120 million rods, 6 million cones."
 	},
 	{
-		"question": "Centripetal force pulls objects toward the center of a circular path.",
-		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "All chemical reactions release energy.",
+		"question": "Renewable energy sources produce zero carbon emissions.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Exothermic reactions release energy, but endothermic reactions absorb energy."
+		"explanation": "While operating emissions are minimal, manufacturing and installing renewable infrastructure produces some CO₂. Still far less than fossil fuels."
 	},
 	{
-		"question": "The human retina contains cells called rods and cones.",
+		"question": "There are more hydrogen atoms in a single molecule of water than there are stars in our entire Solar System.",
 		"options": ["True", "False"],
-		"answer": "True"
-	},
-	{
-		"question": "Renewable energy produces no greenhouse gas emissions.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "While renewable energy sources produce far fewer emissions than fossil fuels, manufacturing and installing renewable infrastructure does produce some emissions."
+		"answer": "True",
+		"explanation": "Water (H₂O) has 2 hydrogen atoms. Our Solar System has only 1 star (the Sun). 2 > 1, making this statement true."
 	}
 ]
