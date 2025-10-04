@@ -3,12 +3,26 @@
 	import AccuracyTable from '$lib/components/AccuracyTable.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 	import Paragraph from '$lib/components/Paragraph.svelte';
-	import { getAllAnswers } from '$lib/db';
+	import Button from '$lib/components/ui/Button.svelte';
+	import Menu from '$lib/components/ui/Menu.svelte';
+	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
+	import { getAnswersForQuestionSets, getConfig, updateConfig } from '$lib/db';
+	import { getExtendedCategories, type ExtendedCategory } from '$lib/questions/generate';
 	import { calculateCalibration, getCalibrationScore } from '$lib/utils/calibration';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
+	import { Cog6ToothIcon, EllipsisVerticalIcon } from '@sidekickicons/svelte/20/solid';
 
-	const answersQuery = stateQuery(() => getAllAnswers());
+	const allCategories = $derived(getExtendedCategories());
+
+	const configQuery = stateQuery(getConfig);
+	const config = $derived(configQuery.current);
+	const categories = $derived(config?.resultsCategories ?? allCategories);
+
+	const answersQuery = stateQuery(
+		() => getAnswersForQuestionSets(categories),
+		() => [categories]
+	);
 	const answers = $derived(answersQuery.current);
 
 	const results = $derived.by(() => {
@@ -18,12 +32,35 @@
 	});
 
 	const score = $derived(results ? getCalibrationScore(results) : 0);
+
+	let categoriesDialog = $state<MultiSelectDialog<ExtendedCategory>>();
 </script>
 
 <svelte:head><title>{createTitle('Results')}</title></svelte:head>
 
 <div class="flex flex-col gap-8">
-	<Heading level={2}>Results</Heading>
+	<div class="flex justify-between">
+		<Heading level={2}>Results</Heading>
+		<Menu
+			items={[
+				{
+					label: 'Select categories',
+					Icon: Cog6ToothIcon,
+					onSelect: () => {
+						if (!categoriesDialog) return;
+
+						categoriesDialog.setValues(categories);
+						categoriesDialog.open();
+					}
+				}
+			]}
+			class="flex items-center p-1"
+		>
+			{#snippet button(props)}
+				<Button size="xl" variant="text" LeftIcon={EllipsisVerticalIcon} class="p-1.5" {...props} />
+			{/snippet}
+		</Menu>
+	</div>
 	{#if results}
 		<div class="flex flex-col gap-8">
 			<Paragraph>Your calibration score is {score}/100.</Paragraph>
@@ -31,4 +68,18 @@
 			<AccuracyTable accuracyMap={results} />
 		</div>
 	{/if}
+</div>
+
+<div class="absolute">
+	<MultiSelectDialog
+		bind:this={categoriesDialog}
+		options={allCategories.map((category) => ({ value: category, label: category }))}
+		submit={(value) => {
+			const valueClone = [...value];
+			if (valueClone.length === 0) valueClone.push(...allCategories);
+
+			updateConfig({ resultsCategories: valueClone });
+		}}
+		label="Select which categories to show results for"
+	/>
 </div>

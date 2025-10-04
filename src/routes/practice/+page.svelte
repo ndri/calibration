@@ -4,9 +4,8 @@
 	import Button from '$lib/components/ui/Button.svelte';
 	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
 	import { addAnswer, getConfig, updateConfig } from '$lib/db';
-	import { generateQuestion, getAllCategories, type Category } from '$lib/questions/generate';
+	import { generateQuestion, getCategories, type Category } from '$lib/questions/generate';
 	import type { QuestionWithCategory } from '$lib/types';
-	import { createShortcutOnMount } from '$lib/utils/mousetrap';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
 	import {
@@ -27,7 +26,7 @@
 	const configQuery = stateQuery(getConfig);
 	const config = $derived(configQuery.current);
 	const categories = $derived(config?.infiniteCalibrationCategories);
-	const allCategories = $derived(getAllCategories());
+	const allCategories = $derived(getCategories());
 
 	function newQuestion() {
 		question = generateQuestion(categories);

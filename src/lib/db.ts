@@ -1,5 +1,10 @@
 import Dexie, { type EntityTable } from 'dexie';
-import { getAllCategories, type Category, type ExtendedCategory } from './questions/generate';
+import {
+	getCategories,
+	getExtendedCategories,
+	type Category,
+	type ExtendedCategory
+} from './questions/generate';
 
 export interface Answer {
 	id: number;
@@ -15,6 +20,7 @@ export interface Answer {
 export interface AppConfig {
 	id: number;
 	infiniteCalibrationCategories?: Category[];
+	resultsCategories?: ExtendedCategory[];
 	lastModified?: Date;
 }
 
@@ -46,7 +52,8 @@ const CONFIG_ID = 1;
 function getDefaultConfig(): AppConfig {
 	return {
 		id: CONFIG_ID,
-		infiniteCalibrationCategories: getAllCategories(),
+		infiniteCalibrationCategories: getCategories(),
+		resultsCategories: getExtendedCategories(),
 		lastModified: new Date()
 	};
 }
@@ -74,7 +81,11 @@ export async function getAllAnswers() {
 }
 
 export async function getAnswersForQuestionSet(questionSet: string) {
-	return db.answers.filter((answer) => answer.questionSet === questionSet).toArray();
+	return getAnswersForQuestionSets([questionSet]);
+}
+
+export async function getAnswersForQuestionSets(questionSets: string[]) {
+	return db.answers.filter((answer) => questionSets.includes(answer.questionSet)).toArray();
 }
 
 export async function addAnswer(

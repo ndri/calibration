@@ -9,13 +9,15 @@ const generateFunctions = {
 	'Animal Facts': () => chooseQuestion(animalFacts, 'Animal Facts')
 };
 
-type ExtraCategory = 'Scout Mindset';
+const extraCategories = ['Scout Mindset'] as const;
+
+type ExtraCategory = (typeof extraCategories)[number];
 
 export type Category = keyof typeof generateFunctions;
 
 export type ExtendedCategory = Category | ExtraCategory;
 
-export function getAllCategories() {
+export function getCategories() {
 	return Object.keys(generateFunctions) as Category[];
 }
 
@@ -28,7 +30,7 @@ function generateQuestionFromCategory(category: Category): QuestionWithCategory 
 }
 
 export function generateQuestion(selectedCategories?: Category[]) {
-	const categories = selectedCategories ?? getAllCategories();
+	const categories = selectedCategories ?? getCategories();
 
 	const randomIndex = Math.floor(Math.random() * categories.length);
 	const category = categories[randomIndex];
@@ -39,4 +41,8 @@ function chooseQuestion(questions: Question[], categoryName: Category): Question
 	const randomIndex = Math.floor(Math.random() * questions.length);
 	const question = questions[randomIndex];
 	return { ...question, questionSet: categoryName };
+}
+
+export function getExtendedCategories() {
+	return [...getCategories(), ...extraCategories];
 }
