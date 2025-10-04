@@ -2,11 +2,13 @@ import type { Question, QuestionWithCategory } from '$lib/types';
 import { generateCountryPopulationQuestion } from './countryPopulations';
 import { generateHistoricalFiguresQuestion } from './historicalFigures';
 import animalFacts from '$lib/data/animal_facts.json';
+import scienceFacts from '$lib/data/science_facts.json';
 
 const generateFunctions = {
 	'Country Populations': generateCountryPopulationQuestion,
 	'Historical Figures': generateHistoricalFiguresQuestion,
-	'Animal Facts': () => chooseQuestion(animalFacts, 'Animal Facts')
+	'Animal Facts': () => chooseQuestion(animalFacts, 'Animal Facts'),
+	'Science Facts': () => chooseQuestion(scienceFacts, 'Science Facts')
 };
 
 const extraCategories = ['Scout Mindset'] as const;
