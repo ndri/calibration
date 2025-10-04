@@ -65,9 +65,8 @@
 </script>
 
 <ButtonGroup
-	values={Object.keys(CONFIDENCES)}
+	buttons={Object.keys(CONFIDENCES).map((value) => ({ value, shortcutKey: String(value)[0] }))}
 	bind:selectedValue
 	{disabled}
 	highlightedValue={highlightSelected ? getKeyByValue(selectedConfidence) : undefined}
-	shortcuts={['5', '6', '7', '8', '9']}
 />

@@ -4,35 +4,33 @@
 	import { createShortcut } from '$lib/utils/mousetrap';
 
 	interface Props {
-		values: string[];
+		buttons: {
+			value: string;
+			label?: string;
+			shortcutKey?: string;
+		}[];
 		selectedValue?: string | undefined;
 		highlightedValue?: string | undefined;
 		disabled?: boolean;
-		shortcuts?: string[];
 	}
 
-	let {
-		values,
-		selectedValue = $bindable(),
-		highlightedValue,
-		disabled,
-		shortcuts
-	}: Props = $props();
+	let { buttons, selectedValue = $bindable(), highlightedValue, disabled }: Props = $props();
 
 	onMount(() => {
-		if (shortcuts) {
-			shortcuts.forEach((shortcut, i) => {
-				createShortcut(shortcut, () => {
-					if (disabled) return;
-					selectedValue = values[i];
-				});
+		buttons.forEach(({ value, shortcutKey }) => {
+			if (!shortcutKey) return;
+
+			createShortcut(shortcutKey, () => {
+				if (disabled) return;
+
+				selectedValue = value;
 			});
-		}
+		});
 	});
 </script>
 
 <div class="flex">
-	{#each values as value (value)}
+	{#each buttons as { value, label } (value)}
 		<GroupButton
 			selected={selectedValue === value}
 			highlighted={highlightedValue === value}
@@ -41,7 +39,7 @@
 				selectedValue = value;
 			}}
 		>
-			{value}
+			{label ?? value}
 		</GroupButton>
 	{/each}
 </div>

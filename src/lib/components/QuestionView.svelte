@@ -23,9 +23,8 @@
 <div class="flex flex-col gap-4">
 	<Heading level={3}>{question.question}</Heading>
 	<ButtonGroup
-		values={question.options}
+		buttons={question.options.map((value, i) => ({ value, shortcutKey: String(i + 1) }))}
 		bind:selectedValue={selectedAnswer}
-		shortcuts={['1', '2']}
 		disabled={answerMode}
 		highlightedValue={answerMode ? question.answer : undefined}
 	/>
