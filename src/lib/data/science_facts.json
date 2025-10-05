@@ -1,9 +1,9 @@
 [
 	{
-		"question": "Lightning is hotter than the surface of the sun.",
+		"question": "Lightning is hotter than the surface of the Sun.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Lightning can reach temperatures of about 30,000 Kelvin, while the sun's surface is around 5,800 Kelvin."
+		"explanation": "Lightning can reach temperatures of about 30,000 Kelvin, while the Sun's surface is around 5,800 Kelvin."
 	},
 	{
 		"question": "Sound travels faster in water than in air.",
@@ -51,7 +51,7 @@
 		"question": "Venus is the hottest planet in our solar system.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Despite being farther from the sun than Mercury, Venus's surface temperature reaches 462°C due to its thick CO₂ atmosphere causing a runaway greenhouse effect."
+		"explanation": "Despite being farther from the Sun than Mercury, Venus's surface temperature reaches 462°C due to its thick CO₂ atmosphere causing a runaway greenhouse effect."
 	},
 	{
 		"question": "Humans only use 10% of their brain.",
@@ -90,10 +90,10 @@
 		"explanation": "Seawater freezes at about -2°C due to salt lowering the freezing point, compared to 0°C for fresh water."
 	},
 	{
-		"question": "The Earth's inner core is hotter than the surface of the sun.",
+		"question": "The Earth's inner core is hotter than the surface of the Sun.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The Earth's inner core reaches about 5,200°C, while the sun's surface is about 5,500°C. They're very close in temperature."
+		"explanation": "The Earth's inner core reaches about 5,200°C, while the Sun's surface is about 5,500°C. They're very close in temperature."
 	},
 	{
 		"question": "Oxygen is the most abundant element in the Earth's crust.",
@@ -105,7 +105,7 @@
 		"question": "A year on Mercury is shorter than a day on Mercury.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Mercury takes 88 Earth days to orbit the sun but 59 Earth days for one rotation. One solar day on Mercury equals 176 Earth days."
+		"explanation": "Mercury takes 88 Earth days to orbit the Sun but 59 Earth days for one rotation. One solar day on Mercury equals 176 Earth days."
 	},
 	{
 		"question": "Pure distilled water conducts electricity.",
@@ -306,10 +306,10 @@
 		"explanation": "UVB radiation triggers vitamin D3 synthesis in the skin, which is then converted to active vitamin D by the liver and kidneys."
 	},
 	{
-		"question": "Recycling aluminum saves more energy than recycling plastic.",
+		"question": "Recycling aluminium saves more energy than recycling plastic.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Recycling aluminum saves about 95% of the energy needed to make new aluminum, compared to 70-80% for most plastics."
+		"explanation": "Recycling aluminium saves about 95% of the energy needed to make new aluminium, compared to 70-80% for most plastics."
 	},
 	{
 		"question": "The Big Bang Theory explains how the universe began.",
@@ -324,10 +324,10 @@
 		"explanation": "Water vapor is the most abundant greenhouse gas (1-4%), though CO₂ (0.04%) is the primary driver of human-caused climate change."
 	},
 	{
-		"question": "Rainbows can only be seen when the sun is behind you.",
+		"question": "Rainbows can only be seen when the Sun is behind you.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "For a primary rainbow to be visible, the sun must be behind the observer with water droplets in front at a 42° angle."
+		"explanation": "For a primary rainbow to be visible, the Sun must be behind the observer with water droplets in front at a 42° angle."
 	},
 	{
 		"question": "The human stomach completely replaces its lining every 3-4 days.",
@@ -384,7 +384,7 @@
 		"explanation": "Red light has wavelengths around 700nm while blue light is around 450nm. Longer wavelengths have lower frequency and energy."
 	},
 	{
-		"question": "The Pacific Ring of Fire contains 75% of the world's volcanoes.",
+		"question": "The Pacific Ring of Fire contains about 75% of the world's volcanoes.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "This horseshoe-shaped zone around the Pacific Ocean contains about 75% of active and dormant volcanoes and 90% of earthquakes."
@@ -408,10 +408,10 @@
 		"explanation": "Antibiotics only work against bacteria. Viruses require antiviral medications or must be fought by the immune system."
 	},
 	{
-		"question": "Pluto is always farther from the sun than Neptune.",
+		"question": "Pluto is always farther from the Sun than Neptune.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Pluto's elliptical orbit brings it closer to the sun than Neptune for about 20 years of its 248-year orbit, last occurring 1979-1999."
+		"explanation": "Pluto's elliptical orbit brings it closer to the Sun than Neptune for about 20 years of its 248-year orbit, last occurring 1979-1999."
 	},
 	{
 		"question": "Stalactites and stalagmites are formed by mineral deposition from dripping water.",
@@ -528,10 +528,10 @@
 		"explanation": "Glaciers form from compressed snow and are freshwater. They contain about 69% of Earth's freshwater."
 	},
 	{
-		"question": "Nuclear fusion powers the sun.",
+		"question": "Nuclear fusion powers the Sun.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The sun converts 600 million tons of hydrogen to helium every second through nuclear fusion, releasing enormous energy."
+		"explanation": "The Sun converts 600 million tons of hydrogen to helium every second through nuclear fusion, releasing enormous energy."
 	},
 	{
 		"question": "The Amazon rainforest produces 20% of Earth's oxygen.",
@@ -810,16 +810,16 @@
 		"explanation": "While most fossils form in sedimentary rock, they can also be preserved in volcanic ash, tar pits, amber, and ice."
 	},
 	{
-		"question": "The sun is classified as a yellow dwarf star.",
+		"question": "The Sun is classified as a yellow dwarf star.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The sun is a G-type main-sequence star (G2V), commonly called a yellow dwarf, though it actually appears white from space."
+		"explanation": "The Sun is a G-type main-sequence star (G2V), commonly called a yellow dwarf, though it actually appears white from space."
 	},
 	{
-		"question": "Aluminum is strongly magnetic.",
+		"question": "Aluminium is strongly magnetic.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Aluminum is paramagnetic (very weakly attracted to magnets) but not ferromagnetic like iron, nickel, or cobalt."
+		"explanation": "Aluminium is paramagnetic (very weakly attracted to magnets) but not ferromagnetic like iron, nickel, or cobalt."
 	},
 	{
 		"question": "Igneous rocks form from cooled and solidified magma or lava.",
@@ -831,7 +831,7 @@
 		"question": "The chemical symbol Fe represents iron.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Fe comes from the Latin word 'ferrum' for iron. Iron is the most common element on Earth by mass."
+		"explanation": "Fe comes from the Latin word 'ferrum' for iron."
 	},
 	{
 		"question": "All objects fall at the same rate in a vacuum regardless of mass.",
@@ -849,7 +849,7 @@
 		"question": "Ocean tides are caused primarily by the moon's gravity.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The moon causes about 70% of tidal effects, the sun 30%. Spring tides occur when sun and moon align."
+		"explanation": "The moon causes about 70% of tidal effects, the Sun 30%. Spring tides occur when Sun and moon align."
 	},
 	{
 		"question": "The Kelvin temperature scale has no negative values.",
@@ -1017,7 +1017,7 @@
 		"question": "All stars are approximately the same color.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Star color indicates temperature: red stars are coolest (3,000K), blue stars hottest (30,000K+). The sun appears white."
+		"explanation": "Star color indicates temperature: red stars are coolest (3,000K), blue stars hottest (30,000K+). The Sun appears white."
 	},
 	{
 		"question": "Kinetic energy depends on an object's mass and velocity.",
@@ -1083,6 +1083,144 @@
 		"question": "There are more hydrogen atoms in a single molecule of water than there are stars in our entire Solar System.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Water (H₂O) has 2 hydrogen atoms. Our Solar System has only 1 star (the Sun). 2 > 1, making this statement true."
+		"explanation": "Water (H₂O) has 2 hydrogen atoms. Our Solar System has only 1 star (the Sun)."
+	},
+	{
+		"question": "Bananas are naturally radioactive.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Bananas contain potassium-40, a radioactive isotope. Eating one banana exposes you to about 0.1 microsieverts of radiation."
+	},
+	{
+		"question": "Iron is the most common element on Earth by mass.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Iron is the most common element on Earth by mass, with about 10% of the Earth's mass being iron."
+	},
+	{
+		"question": "The Eiffel Tower grows about 15 centimeters taller in summer.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Metal expands when heated. The iron lattice of the Eiffel Tower expands in summer heat, making it measurably taller."
+	},
+	{
+		"question": "A day on Venus is longer than a year on Venus.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Venus rotates once every 243 Earth days but orbits the Sun in 225 Earth days, making its day longer than its year."
+	},
+	{
+		"question": "Stomach acid is strong enough to dissolve razor blades.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "With a pH of 1.5-2, stomach acid (hydrochloric acid) can dissolve metal, though this would take several days for a razor blade."
+	},
+	{
+		"question": "There are more possible games of chess than atoms in the observable universe.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Shannon number estimates 10^120 possible chess games, while there are about 10^80 atoms in the observable universe."
+	},
+	{
+		"question": "There are more trees on Earth than stars in the Milky Way galaxy.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Earth has about 3 trillion trees while the Milky Way contains an estimated 200-400 billion stars."
+	},
+	{
+		"question": "Antarctica has active volcanoes.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Mount Erebus on Ross Island is one of several active volcanoes in Antarctica, continuously erupting since at least 1972."
+	},
+	{
+		"question": "Pure gold is so soft you can mold it with your hands.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "24-karat gold is extremely malleable. One gram can be beaten into a sheet covering 1 square meter."
+	},
+	{
+		"question": "Sound can travel through a perfect vacuum.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Sound requires a medium (air, water, solid) to propagate. In the vacuum of space, no one can hear you scream."
+	},
+	{
+		"question": "There have been no new chemical elements discovered in the 21st century.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The last discovered element was Tennessine (117) in 2009."
+	},
+	{
+		"question": "There is no gravity on the International Space Station.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Astronauts in orbit have the sensation of being weightless because they are in free fall around the Earth, not because they are so far away from the Earth that its gravitational pull is negligible. On the International Space Station the Earth's gravity is nearly 90% as strong as at the surface."
+	},
+	{
+		"question": "The dark (far) side of the Moon receives almost no sunlight.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "It receives about the same amount of sunlight as the near side. It is called the \"dark\" side because it was never seen until humans sent spacecraft around the Moon."
+	},
+	{
+		"question": "No man-made object can be seen from low Earth orbit.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "City lights are easily visible from the night side of Earth from orbit."
+	},
+	{
+		"question": "Sunflowers always point to the Sun.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Flowering sunflowers face a fixed direction (often east) all day long, but do not necessarily face the Sun. However, before the appearance of flower heads, the immature buds do track the Sun (a phenomenon called heliotropism)."
+	},
+	{
+		"question": "Humans are animals.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Humans are animals, despite the fact that the word animal is colloquially used as an antonym for human."
+	},
+	{
+		"question": "Himalayan salt has lower levels of sodium than conventional table salt.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "This is a common misconception, but the sodium levels are similar."
+	},
+	{
+		"question": "Big rivers predominantly flow from north to south.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Rivers flow downhill in all compass directions, often changing direction along their course. Many major rivers flow northward, including the Nile, the Yenisey, the Ob, the Rhine, the Lena, and the Orinoco."
+	},
+	{
+		"question": "Urine is sterile.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Contrary to popular belief, urine is not sterile. This misconception may derive from urine bacterial screening tests, which return \"negative\" when bacteria levels are low, but nonzero"
+	},
+	{
+		"question": "Women have more ribs than men.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Both men and women have 24 ribs."
+	},
+	{
+		"question": "Smoke from burning wood is benign to humans.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Woodsmoke is as harmful as other common forms of air pollution such as diesel fumes."
+	},
+	{
+		"question": "More people died from the COVID-19 vaccine than from COVID-19 itself.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Severe adverse reactions from the vaccine are rare, while the death toll from the disease is in the millions."
+	},
+	{
+		"question": "The flu vaccine lasts from 2 to 5 years.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The flu virus changes constantly and needs a new vaccine every year."
 	}
 ]
