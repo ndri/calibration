@@ -41,6 +41,18 @@ export function generateQuestion(selectedCategories?: Category[]) {
 	return generateQuestionFromCategory(category);
 }
 
+export function generateNewishQuestionFromCategory(
+	selectedCategories: Category[] | undefined,
+	recentQuestions: string[] | undefined
+) {
+	let question;
+	for (let i = 0; i < 100; i++) {
+		question = generateQuestion(selectedCategories);
+		if (!recentQuestions || !recentQuestions.includes(question.question)) return question;
+	}
+	return question;
+}
+
 function chooseQuestion(questions: Question[], categoryName: Category): QuestionWithCategory {
 	const randomIndex = Math.floor(Math.random() * questions.length);
 	const question = questions[randomIndex];

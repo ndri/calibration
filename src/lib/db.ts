@@ -88,6 +88,12 @@ export async function getAnswersForQuestionSets(questionSets: string[]) {
 	return db.answers.filter((answer) => questionSets.includes(answer.questionSet)).toArray();
 }
 
+export async function getRecentQuestions(n: number) {
+	return (await db.answers.orderBy('id').reverse().limit(n).toArray()).map(
+		(answer) => answer.question
+	);
+}
+
 export async function addAnswer(
 	{
 		question,

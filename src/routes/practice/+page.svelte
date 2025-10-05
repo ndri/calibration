@@ -3,10 +3,15 @@
 	import QuestionView from '$lib/components/QuestionView.svelte';
 	import Button from '$lib/components/ui/Button.svelte';
 	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
-	import { addAnswer, getConfig, updateConfig } from '$lib/db';
-	import { generateQuestion, getCategories, type Category } from '$lib/questions/generate';
+	import { addAnswer, getConfig, getRecentQuestions, updateConfig } from '$lib/db';
+	import {
+		generateNewishQuestionFromCategory,
+		getCategories,
+		type Category
+	} from '$lib/questions/generate';
 	import type { QuestionWithCategory } from '$lib/types';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
+	import { explicitEffect } from '$lib/utils/svelte.svelte';
 	import { createTitle } from '$lib/utils/title';
 	import {
 		ArrowRightIcon,
@@ -28,8 +33,11 @@
 	const categories = $derived(config?.infiniteCalibrationCategories);
 	const allCategories = $derived(getCategories());
 
+	const recentAnswersQuery = stateQuery(() => getRecentQuestions(100));
+	const recentAnswers = $derived(recentAnswersQuery.current);
+
 	function newQuestion() {
-		question = generateQuestion(categories);
+		question = generateNewishQuestionFromCategory(categories, recentAnswers);
 		selectedAnswer = undefined;
 		selectedConfidence = undefined;
 		mode = 'question';
@@ -53,9 +61,12 @@
 		);
 	}
 
-	$effect(() => {
-		if (categories) newQuestion();
-	});
+	explicitEffect(
+		() => {
+			if (categories) newQuestion();
+		},
+		() => [categories]
+	);
 </script>
 
 <svelte:head><title>{createTitle()}</title></svelte:head>
