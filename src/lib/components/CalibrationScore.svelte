@@ -16,11 +16,11 @@
 	const numberOfStars = $derived.by(() => {
 		if (!accuracyMap) return 0;
 
-		if (score >= 95) return 5;
-		if (score >= 85) return 4;
-		if (score >= 70) return 3;
-		if (score >= 50) return 2;
-		if (score >= 25) return 1;
+		if (score >= 90) return 5;
+		if (score >= 80) return 4;
+		if (score >= 65) return 3;
+		if (score >= 45) return 2;
+		if (score >= 20) return 1;
 
 		return 0;
 	});
