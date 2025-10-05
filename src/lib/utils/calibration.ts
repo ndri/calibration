@@ -1,6 +1,15 @@
 import type { Answer } from '$lib/db';
 import { sum } from './array';
 
+export const CONFIDENCES = {
+	'55%': 0.55,
+	'65%': 0.65,
+	'75%': 0.75,
+	'85%': 0.85,
+	'95%': 0.95
+} as const;
+export const TOTAL_STARS = 5;
+
 export type AccuracyMap = Map<number, { correct: number; total: number }>;
 
 export function calculateCalibration(answers: Answer[]) {
@@ -39,4 +48,76 @@ export function getCalibrationScore(accuracyMap: AccuracyMap) {
 	const squaredAverageScore = averageScore ** 2;
 
 	return Math.round(squaredAverageScore * 100);
+}
+
+export function getAccuracyColor(confidence: number, accuracy: number) {
+	if (isNaN(accuracy)) return 'grey';
+
+	const diff = Math.round(Math.abs(confidence - accuracy) * 1000) / 1000;
+	if (diff <= 0.03) return 'cyan';
+	if (diff <= 0.1) return 'green';
+	if (diff <= 0.2) return 'yellow';
+	if (diff <= 0.3) return 'orange';
+	return 'red';
+}
+
+export function getScoreColor(score: number) {
+	if (score >= 90) return 'cyan';
+	if (score >= 80) return 'green';
+	if (score >= 65) return 'yellow';
+	if (score >= 45) return 'orange';
+	if (score >= 20) return 'red';
+	return 'grey';
+}
+
+export function getStarCount(score: number) {
+	const color = getScoreColor(score);
+	const colorStarCountMap = {
+		cyan: 5,
+		green: 4,
+		yellow: 3,
+		orange: 2,
+		red: 1,
+		grey: 0
+	} as const;
+	return colorStarCountMap[color];
+}
+
+function getAccuarcyEmoji(confidence: number, accuracy: number) {
+	const color = getAccuracyColor(confidence, accuracy);
+	return {
+		grey: '❓',
+		cyan: '🔵',
+		green: '🟢',
+		yellow: '🟡',
+		orange: '🟠',
+		red: '🔴'
+	}[color];
+}
+
+export function generateShareMessage(
+	accuracyMap: AccuracyMap,
+	{ quizName }: { quizName?: string } = {}
+) {
+	const score = getCalibrationScore(accuracyMap);
+
+	let message = '';
+
+	if (quizName === undefined) {
+		message += `I am ${score}% calibrated!\n\n`;
+	} else {
+		message += `I scored ${score}% on the ${quizName}!\n\n`;
+	}
+
+	for (const [confidenceLabel, confidenceValue] of Object.entries(CONFIDENCES)) {
+		const { correct, total } = accuracyMap.get(confidenceValue) ?? { correct: 0, total: 0 };
+		const accuracy = Math.round((correct / total) * 100);
+		const accuracyLabel = isNaN(accuracy) ? 'never' : `${accuracy}% accurate when I'm`;
+		const emoji = getAccuarcyEmoji(confidenceValue, accuracy / 100);
+		message += `${emoji} ⋅ I'm ${accuracyLabel} ${confidenceLabel} sure\n`;
+	}
+
+	message += '\nHow calibrated are you? ' + window.location.origin;
+
+	return message;
 }

@@ -27,7 +27,7 @@
 			{title}
 		</h3>
 		<div class="mt-2">
-			<p class="text-main-500 dark:text-main-400 text-sm">
+			<p class="text-sm whitespace-pre-line text-main-500 dark:text-main-400">
 				{description}
 			</p>
 		</div>

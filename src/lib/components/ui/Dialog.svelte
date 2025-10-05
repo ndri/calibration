@@ -32,52 +32,54 @@
 	}
 </script>
 
-{#if isOpen}
-	<div class="relative z-40" role="dialog" aria-modal="true">
-		<Transition
-			{show}
-			appear
-			enter="ease-out duration-100"
-			enterFrom="opacity-0"
-			enterTo="opacity-100"
-			leave="ease-in duration-200"
-		>
-			<div
-				class="fixed inset-0 bg-main-500/75 transition-opacity dark:bg-main-950/85"
-				aria-hidden="true"
-			></div>
-		</Transition>
-		<div class="fixed inset-0 z-40 w-screen overflow-y-auto" tabindex="-1">
-			<button
-				class="flex min-h-full w-full cursor-auto items-end justify-center p-4 text-center sm:items-center sm:p-0"
-				aria-label="Close dialog"
-				onclick={(e) => {
-					if (e.target === e.currentTarget) close();
-				}}
-				tabindex="-1"
+<div class="absolute">
+	{#if isOpen}
+		<div class="relative z-40" role="dialog" aria-modal="true">
+			<Transition
+				{show}
+				appear
+				enter="ease-out duration-100"
+				enterFrom="opacity-0"
+				enterTo="opacity-100"
+				leave="ease-in duration-200"
 			>
-				<Transition
-					{show}
-					appear
-					enter="ease-out duration-100"
-					enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-					enterTo="opacity-100 translate-y-0 sm:scale-100"
-					leave="ease-in duration-200"
+				<div
+					class="fixed inset-0 bg-main-500/75 transition-opacity dark:bg-main-950/85"
+					aria-hidden="true"
+				></div>
+			</Transition>
+			<div class="fixed inset-0 z-40 w-screen overflow-y-auto" tabindex="-1">
+				<button
+					class="flex min-h-full w-full cursor-auto items-end justify-center p-4 text-center sm:items-center sm:p-0"
+					aria-label="Close dialog"
+					onclick={(e) => {
+						if (e.target === e.currentTarget) close();
+					}}
+					tabindex="-1"
 				>
-					<div
-						class="relative w-full transform overflow-hidden rounded-lg text-left transition-all sm:my-8 sm:max-w-md"
+					<Transition
+						{show}
+						appear
+						enter="ease-out duration-100"
+						enterFrom="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+						enterTo="opacity-100 translate-y-0 sm:scale-100"
+						leave="ease-in duration-200"
 					>
-						<div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4 dark:bg-main-900">
-							{@render body()}
-						</div>
 						<div
-							class="flex flex-col gap-2 bg-main-50 px-4 py-3 sm:flex-row-reverse sm:px-6 dark:bg-main-800"
+							class="relative w-full transform overflow-hidden rounded-lg text-left transition-all sm:my-8 sm:max-w-md"
 						>
-							{@render footer()}
+							<div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4 dark:bg-main-900">
+								{@render body()}
+							</div>
+							<div
+								class="flex flex-col gap-2 bg-main-50 px-4 py-3 sm:flex-row-reverse sm:px-6 dark:bg-main-800"
+							>
+								{@render footer()}
+							</div>
 						</div>
-					</div>
-				</Transition>
-			</button>
+					</Transition>
+				</button>
+			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</div>

@@ -1,14 +1,6 @@
 <script lang="ts">
+	import { CONFIDENCES } from '$lib/utils/calibration';
 	import ButtonGroup from './ButtonGroup.svelte';
-	import { explicitEffect } from '$lib/utils/svelte.svelte';
-
-	const CONFIDENCES = {
-		'55%': 0.55,
-		'65%': 0.65,
-		'75%': 0.75,
-		'85%': 0.85,
-		'95%': 0.95
-	} as const;
 
 	interface Props {
 		selectedConfidence?: number;

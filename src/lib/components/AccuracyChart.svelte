@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { getAccuracyColor } from '$lib/utils/calibration';
+
 	interface Props {
 		accuracyMap: Map<number, { correct: number; total: number }>;
 	}
@@ -12,12 +14,15 @@
 	const xAxis = [0.55, 0.65, 0.75, 0.85, 0.95];
 
 	function bubbleColorClass(confidence: number, accuracy: number) {
-		const diff = Math.round(Math.abs(confidence - accuracy) * 1000) / 1000;
-		if (diff <= 0.03) return 'bg-cyan-500 dark:bg-cyan-600';
-		if (diff <= 0.1) return 'bg-green-500 dark:bg-green-700';
-		if (diff <= 0.2) return 'bg-yellow-400 dark:bg-yellow-600';
-		if (diff <= 0.3) return 'bg-orange-400 dark:bg-orange-600';
-		return 'bg-red-500 dark:bg-red-800';
+		const color = getAccuracyColor(confidence, accuracy);
+		return {
+			grey: 'bg-main-300 dark:bg-main-700',
+			cyan: 'bg-cyan-500 dark:bg-cyan-600',
+			green: 'bg-green-500 dark:bg-green-700',
+			yellow: 'bg-yellow-400 dark:bg-yellow-600',
+			orange: 'bg-orange-400 dark:bg-orange-600',
+			red: 'bg-red-500 dark:bg-red-800'
+		}[color];
 	}
 </script>
 
@@ -63,7 +68,7 @@
 			</svg>
 			{#each xAxis as x, i (x)}
 				{#if accuracyMap.has(x)}
-					{@const { correct, total } = accuracyMap.get(x)!}
+					{@const { correct, total } = accuracyMap.get(x) ?? { correct: 0, total: 0 }}
 					{@const accuracy = correct / total}
 
 					<div

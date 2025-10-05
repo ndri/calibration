@@ -126,16 +126,14 @@
 	{/if}
 </div>
 
-<div class="absolute">
-	<MultiSelectDialog
-		bind:this={categoriesDialog}
-		options={allCategories.map((category) => ({ value: category, label: category }))}
-		submit={(value) => {
-			const valueClone = [...value];
-			if (valueClone.length === 0) valueClone.push(...allCategories);
+<MultiSelectDialog
+	bind:this={categoriesDialog}
+	options={allCategories.map((category) => ({ value: category, label: category }))}
+	submit={(value) => {
+		const valueClone = [...value];
+		if (valueClone.length === 0) valueClone.push(...allCategories);
 
-			updateConfig({ infiniteCalibrationCategories: valueClone });
-		}}
-		label="Select which categories to get questions for"
-	/>
-</div>
+		updateConfig({ infiniteCalibrationCategories: valueClone });
+	}}
+	label="Select which categories to get questions for"
+/>

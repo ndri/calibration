@@ -61,16 +61,14 @@
 	{/if}
 </div>
 
-<div class="absolute">
-	<MultiSelectDialog
-		bind:this={categoriesDialog}
-		options={allCategories.map((category) => ({ value: category, label: category }))}
-		submit={(value) => {
-			const valueClone = [...value];
-			if (valueClone.length === 0) valueClone.push(...allCategories);
+<MultiSelectDialog
+	bind:this={categoriesDialog}
+	options={allCategories.map((category) => ({ value: category, label: category }))}
+	submit={(value) => {
+		const valueClone = [...value];
+		if (valueClone.length === 0) valueClone.push(...allCategories);
 
-			updateConfig({ resultsCategories: valueClone });
-		}}
-		label="Select which categories to show results for"
-	/>
-</div>
+		updateConfig({ resultsCategories: valueClone });
+	}}
+	label="Select which categories to show results for"
+/>
