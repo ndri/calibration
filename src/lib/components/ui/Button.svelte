@@ -9,7 +9,7 @@
 	import { createShortcut, type MousetrapKey } from '$lib/utils/mousetrap';
 
 	interface Props {
-		variant?: 'primary' | 'secondary' | 'text';
+		variant?: 'primary' | 'secondary' | 'text' | 'custom';
 		size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 		type?: 'button' | 'submit' | 'reset' | null;
 		disabled?: boolean | null;
@@ -18,6 +18,7 @@
 		onclick?: MouseEventHandler<HTMLButtonElement> | null;
 		children?: Snippet;
 		class?: ClassValue | null;
+		iconClass?: ClassValue | null;
 		LeftIcon?: Heroicon;
 		RightIcon?: Heroicon;
 		shortcutKey?: MousetrapKey;
@@ -35,6 +36,7 @@
 		onclick,
 		children,
 		class: className,
+		iconClass: iconClassName,
 		LeftIcon,
 		RightIcon,
 		shortcutKey,
@@ -64,7 +66,8 @@
 			'text-main-900 dark:text-white',
 			'ring-1 ring-inset ring-main-300 dark:ring-0'
 		],
-		text: ['hover:bg-main-200', 'dark:hover:bg-main-800']
+		text: ['hover:bg-main-200', 'dark:hover:bg-main-800'],
+		custom: ''
 	} as const;
 
 	const buttonClasses = [
@@ -77,20 +80,26 @@
 		className
 	];
 
-	const iconClasses = {
+	const iconVariantClasses = {
 		primary: [
 			'text-accent-200 dark:text-accent-400',
-			'group-hover/button:text-accent-300 dark:group-hover/button:text-accent-400'
+			'group-hover/button:text-accent-300 dark:group-hover/button:text-accent-400',
+			'group-active/button:text-accent-400 dark:group-active/button:text-accent-500'
 		],
 		secondary: [
 			'text-main-400 dark:text-main-500',
-			'group-hover/button:text-main-500 dark:group-hover/button:text-main-400'
+			'group-hover/button:text-main-500 dark:group-hover/button:text-main-400',
+			'group-active/button:text-main-600 dark:group-active/button:text-main-300'
 		],
 		text: [
 			'text-main-400 group-hover/button:text-main-500',
-			'dark:text-main-500 dark:group-hover/button:text-main-400'
-		]
+			'dark:text-main-500 dark:group-hover/button:text-main-400',
+			'group-active/button:text-main-400 dark:group-active/button:text-main-500'
+		],
+		custom: ''
 	};
+
+	const iconClasses = [iconVariantClasses[variant], iconClassName, 'shrink-0'];
 
 	$effect(() => {
 		if (shortcutKey && ref) {
@@ -104,14 +113,14 @@
 
 {#snippet contents()}
 	{#if LeftIcon}
-		<LeftIcon class={iconClasses[variant]} />
+		<LeftIcon class={iconClasses} />
 	{/if}
 	{#if label}
 		{label}
 	{/if}
 	{@render children?.()}
 	{#if RightIcon}
-		<RightIcon class={iconClasses[variant]} />
+		<RightIcon class={iconClasses} />
 	{/if}
 {/snippet}
 

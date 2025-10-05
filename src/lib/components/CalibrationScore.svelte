@@ -11,6 +11,8 @@
 	import Button from './ui/Button.svelte';
 	import { DocumentDuplicateIcon } from '@sidekickicons/svelte/24/solid';
 	import SimpleDialog from './ui/SimpleDialog.svelte';
+	import { shareOnBluesky } from '$lib/utils/share';
+	import BlueskyIcon from './icons/BlueskyIcon.svelte';
 
 	interface Props {
 		accuracyMap: AccuracyMap;
@@ -57,7 +59,7 @@
 			{/each}
 		</div>
 	</div>
-	<div class="flex">
+	<div class="grid grid-cols-1 gap-4 @lg:grid-cols-2">
 		<Button
 			size="xl"
 			variant="secondary"
@@ -71,6 +73,19 @@
 			}}
 		>
 			Copy share text
+		</Button>
+		<Button
+			size="xl"
+			variant="custom"
+			class="bg-[#1185FE] text-white hover:bg-[#0F77E4] active:bg-[#0D6ACB]"
+			iconClass="text-white"
+			LeftIcon={BlueskyIcon}
+			onclick={() => {
+				const shareMessage = generateShareMessage(accuracyMap, { quizName });
+				shareOnBluesky(shareMessage);
+			}}
+		>
+			Share on Bluesky
 		</Button>
 	</div>
 </div>
