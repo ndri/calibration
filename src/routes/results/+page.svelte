@@ -11,7 +11,7 @@
 	import { calculateCalibration, getCalibrationScore } from '$lib/utils/calibration';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
-	import { Cog6ToothIcon, EllipsisVerticalIcon } from '@sidekickicons/svelte/20/solid';
+	import { Cog6ToothIcon, EllipsisVerticalIcon } from '@sidekickicons/svelte/16/solid';
 
 	const allCategories = $derived(getExtendedCategories());
 
@@ -39,27 +39,21 @@
 <svelte:head><title>{createTitle('Results')}</title></svelte:head>
 
 <div class="flex flex-col gap-8">
-	<div class="flex justify-between">
+	<div class="flex items-center justify-between">
 		<Heading level={2}>Results</Heading>
-		<Menu
-			items={[
-				{
-					label: 'Select categories',
-					Icon: Cog6ToothIcon,
-					onSelect: () => {
-						if (!categoriesDialog) return;
+		<Button
+			size="xs"
+			variant="secondary"
+			onclick={() => {
+				if (!categoriesDialog) return;
 
-						categoriesDialog.setValues(categories);
-						categoriesDialog.open();
-					}
-				}
-			]}
-			class="flex items-center p-1"
+				categoriesDialog.setValues(categories);
+				categoriesDialog.open();
+			}}
+			LeftIcon={Cog6ToothIcon}
 		>
-			{#snippet button(props)}
-				<Button size="xl" variant="text" LeftIcon={EllipsisVerticalIcon} class="p-1.5" {...props} />
-			{/snippet}
-		</Menu>
+			{categories.length}/{allCategories.length} categories
+		</Button>
 	</div>
 	{#if results}
 		<div class="flex flex-col gap-8">
