@@ -28,13 +28,15 @@ export function getCalibrationScore(accuracyMap: AccuracyMap) {
 
 	for (const [confidence, entry] of accuracyMap.entries()) {
 		const result = entry.correct / entry.total;
-		const score = (1 - Math.abs(result - confidence) / confidence) * 100;
+		const score = 1 - Math.abs(result - confidence) / confidence;
 		scoreMap.set(confidence, score);
 	}
 
 	const averageScore = sum(Array.from(scoreMap.values())) / scoreMap.size;
-
 	if (isNaN(averageScore)) return 0;
 
-	return Math.round(averageScore);
+	// Square the score to make higher scores harder to achieve
+	const squaredAverageScore = averageScore ** 2;
+
+	return Math.round(squaredAverageScore * 100);
 }
