@@ -1,17 +1,16 @@
 <script lang="ts">
 	import AccuracyChart from '$lib/components/AccuracyChart.svelte';
 	import AccuracyTable from '$lib/components/AccuracyTable.svelte';
+	import CalibrationScore from '$lib/components/CalibrationScore.svelte';
 	import Heading from '$lib/components/Heading.svelte';
-	import Paragraph from '$lib/components/Paragraph.svelte';
 	import Button from '$lib/components/ui/Button.svelte';
-	import Menu from '$lib/components/ui/Menu.svelte';
 	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
 	import { getAnswersForQuestionSets, getConfig, updateConfig } from '$lib/db';
 	import { getExtendedCategories, type ExtendedCategory } from '$lib/questions/generate';
-	import { calculateCalibration, getCalibrationScore } from '$lib/utils/calibration';
+	import { calculateCalibration } from '$lib/utils/calibration';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';
-	import { Cog6ToothIcon, EllipsisVerticalIcon } from '@sidekickicons/svelte/16/solid';
+	import { Cog6ToothIcon } from '@sidekickicons/svelte/16/solid';
 
 	const allCategories = $derived(getExtendedCategories());
 
@@ -30,8 +29,6 @@
 
 		return calculateCalibration(answers);
 	});
-
-	const score = $derived(results ? getCalibrationScore(results) : 0);
 
 	let categoriesDialog = $state<MultiSelectDialog<ExtendedCategory>>();
 </script>
@@ -57,7 +54,7 @@
 	</div>
 	{#if results}
 		<div class="flex flex-col gap-8">
-			<Paragraph>Your calibration score is {score}/100.</Paragraph>
+			<CalibrationScore accuracyMap={results} />
 			<AccuracyChart accuracyMap={results} />
 			<AccuracyTable accuracyMap={results} />
 		</div>

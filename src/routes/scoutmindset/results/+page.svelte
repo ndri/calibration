@@ -13,6 +13,7 @@
 	import AccuracyTable from '$lib/components/AccuracyTable.svelte';
 	import QuizProgress from '$lib/components/QuizProgress.svelte';
 	import { calculateCalibration } from '$lib/utils/calibration';
+	import CalibrationScore from '$lib/components/CalibrationScore.svelte';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -43,6 +44,7 @@
 			<div class="flex flex-col gap-4">
 				<Heading level={3}>Results</Heading>
 				<div class="flex flex-col gap-8">
+					<CalibrationScore accuracyMap={results} />
 					<Paragraph>
 						Being perfectly calibrated would mean that your “X% sure” claims are in fact correct X
 						percent of the time. Perfect calibration is an abstract ideal, not something that's

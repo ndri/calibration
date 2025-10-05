@@ -30,11 +30,30 @@
 		<Disclosure question="What does it mean to be perfectly calibrated?">
 			<p>
 				Perfect calibration means that when you say you're "X% sure" about something, you're
-				actually correct X% of the time. For example, if you're 70% confident in a series of
-				predictions, you should be right about 70% of them. In reality, perfect calibration is an
+				actually correct X% of the time. For example, if you're 65% confident in a series of
+				predictions, you should be right about 65% of them. In reality, perfect calibration is an
 				ideal that's hard to achieve, but it's a useful benchmark to strive for. The goal is to get
 				as close to perfect calibration as possible, which can help you make better decisions and
 				improve your judgment.
+			</p>
+		</Disclosure>
+		<Disclosure question="How is my calibration score calculated?">
+			<ol
+				class="flex list-decimal flex-col gap-3 pl-6 marker:text-main-500 dark:marker:text-main-400"
+			>
+				<li>
+					For each confidence level, we measure the gap between your actual accuracy and expected
+					accuracy. A maximum gap means 0 points, and no gap means 100 points. If you selected 85%
+					confidence but got 75% correct, that's a 10% gap and a score of 75 ÷ 85 ≈ 88.
+				</li>
+				<li>We create an overall score by averaging the scores across all confidence levels.</li>
+				<li>We then square the result to make higher scores more challenging to reach.</li>
+				<li>The final score is presented as number from 0 to 100.</li>
+			</ol>
+			<p>
+				A score of 100 means perfect calibration where your confidence exactly matches your accuracy
+				at every level. This is very hard to reach without deliberately nudging accuracies towards
+				perfection. Anything above 85 is a great result.
 			</p>
 		</Disclosure>
 		<Disclosure question="Are there other ways to practice confidence calibration?">

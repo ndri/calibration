@@ -234,12 +234,6 @@
 		"explanation": "The skin on a turkey's head and neck can change color based on their emotions."
 	},
 	{
-		"question": "Ants never sleep.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Ants do sleep, but in very short power naps of about 1 minute, around 250 times a day."
-	},
-	{
 		"question": "A rhinoceros horn is made of hair.",
 		"options": ["True", "False"],
 		"answer": "True",

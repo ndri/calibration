@@ -1,7 +1,7 @@
 import type { Answer } from '$lib/db';
 import { sum } from './array';
 
-type AccuracyMap = Map<number, { correct: number; total: number }>;
+export type AccuracyMap = Map<number, { correct: number; total: number }>;
 
 export function calculateCalibration(answers: Answer[]) {
 	const resultsMap: AccuracyMap = new Map();
@@ -35,7 +35,7 @@ export function getCalibrationScore(accuracyMap: AccuracyMap) {
 	const averageScore = sum(Array.from(scoreMap.values())) / scoreMap.size;
 	if (isNaN(averageScore)) return 0;
 
-	// Square the score to make higher scores harder to achieve
+	// Square the score to make higher scores more challenging to achieve
 	const squaredAverageScore = averageScore ** 2;
 
 	return Math.round(squaredAverageScore * 100);
