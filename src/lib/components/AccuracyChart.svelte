@@ -12,9 +12,11 @@
 	const xAxis = [0.55, 0.65, 0.75, 0.85, 0.95];
 
 	function bubbleColorClass(confidence: number, accuracy: number) {
-		const diff = Math.abs(confidence - accuracy);
-		if (diff <= 0.1) return 'bg-green-500 dark:bg-green-800';
-		if (diff <= 0.2) return 'bg-yellow-500 dark:bg-yellow-800';
+		const diff = Math.round(Math.abs(confidence - accuracy) * 1000) / 1000;
+		if (diff <= 0.03) return 'bg-cyan-500 dark:bg-cyan-600';
+		if (diff <= 0.1) return 'bg-green-500 dark:bg-green-700';
+		if (diff <= 0.2) return 'bg-yellow-400 dark:bg-yellow-600';
+		if (diff <= 0.3) return 'bg-orange-400 dark:bg-orange-600';
 		return 'bg-red-500 dark:bg-red-800';
 	}
 </script>
