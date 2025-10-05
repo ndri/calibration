@@ -90,7 +90,7 @@ export async function getAnswersForQuestionSets(questionSets: string[]) {
 
 export async function getRecentQuestions(n: number) {
 	return (await db.answers.orderBy('id').reverse().limit(n).toArray()).map(
-		(answer) => answer.question
+		(answer) => answer.question + answer.explanation
 	);
 }
 
