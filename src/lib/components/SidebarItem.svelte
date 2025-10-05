@@ -15,8 +15,8 @@
 
 	const iconClasses = $derived([
 		'shrink-0',
-		active ? 'text-accent-600' : 'text-main-400',
-		'group-hover:text-accent-600',
+		active ? 'text-accent-700' : 'text-main-400',
+		'group-hover:text-accent-700',
 		active ? 'dark:text-accent-400' : 'dark:text-main-600',
 		'dark:group-hover:text-accent-400'
 	]);
@@ -27,10 +27,10 @@
 	class={[
 		'group flex items-center gap-3 truncate rounded-lg px-2.5 py-1.5 text-sm',
 		active ? 'font-semibold' : 'font-medium',
-		active ? 'bg-accent-50 text-accent-600' : 'text-main-600',
-		'hover:bg-accent-50 hover:text-accent-600',
-		active ? 'dark:text-accent-400 dark:bg-main-800' : 'dark:text-main-400',
-		'dark:hover:text-accent-400 dark:hover:bg-main-800',
+		active ? 'bg-accent-100 text-accent-700' : 'text-main-600',
+		'hover:bg-accent-100 hover:text-accent-700',
+		active ? 'dark:bg-main-800 dark:text-accent-400' : 'dark:text-main-400',
+		'dark:hover:bg-main-800 dark:hover:text-accent-400',
 		'focus-outline'
 	]}
 	{onclick}
