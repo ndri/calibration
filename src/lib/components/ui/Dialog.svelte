@@ -49,13 +49,15 @@
 				></div>
 			</Transition>
 			<div class="fixed inset-0 z-40 w-screen overflow-y-auto" tabindex="-1">
-				<button
+				<!-- svelte-ignore a11y_click_events_have_key_events -->
+				<div
 					class="flex min-h-full w-full cursor-auto items-end justify-center p-4 text-center sm:items-center sm:p-0"
-					aria-label="Close dialog"
 					onclick={(e) => {
 						if (e.target === e.currentTarget) close();
 					}}
+					role="button"
 					tabindex="-1"
+					aria-label="Close dialog"
 				>
 					<Transition
 						{show}
@@ -65,8 +67,10 @@
 						enterTo="opacity-100 translate-y-0 sm:scale-100"
 						leave="ease-in duration-200"
 					>
+						<!-- svelte-ignore a11y_no_static_element_interactions -->
 						<div
 							class="relative w-full transform overflow-hidden rounded-lg text-left transition-all sm:my-8 sm:max-w-md"
+							onclick={(e) => e.stopPropagation()}
 						>
 							<div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4 dark:bg-main-900">
 								{@render body()}
@@ -78,7 +82,7 @@
 							</div>
 						</div>
 					</Transition>
-				</button>
+				</div>
 			</div>
 		</div>
 	{/if}
