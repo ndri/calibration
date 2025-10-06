@@ -510,9 +510,10 @@
 		"explanation": "They're the only bats capable of these terrestrial movements."
 	},
 	{
-		"question": "Swordfish can swim at speeds over 60 mph.",
+		"question": "Swordfish can swim at speeds over 100 km/h.",
 		"options": ["True", "False"],
-		"answer": "True"
+		"answer": "False",
+		"explanation": "Research suggests a more likely maximum speed of 36 km/h."
 	},
 	{
 		"question": "Pandas are born pink and hairless.",

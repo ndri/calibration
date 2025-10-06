@@ -444,12 +444,6 @@
 		"explanation": "This anticyclonic storm is 1.3 times Earth's diameter and has been observed for at least 350 years, possibly much longer."
 	},
 	{
-		"question": "Lava and magma are the same thing.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Magma is molten rock beneath Earth's surface. When it erupts and reaches the surface, it's called lava."
-	},
-	{
 		"question": "The Richter scale measures earthquake magnitude.",
 		"options": ["True", "False"],
 		"answer": "True",
