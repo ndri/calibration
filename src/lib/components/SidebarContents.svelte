@@ -2,7 +2,7 @@
 	import { page } from '$app/state';
 	import {
 		ChartBarIcon,
-		ChartBarSquareIcon,
+		ChatBubbleBottomCenterTextIcon,
 		CircleStackIcon,
 		HomeIcon,
 		PlayIcon,
@@ -36,6 +36,12 @@
 			text: 'FAQ',
 			href: '/faq',
 			Icon: QuestionMarkCircleIcon
+		},
+		{
+			text: 'Feedback',
+			href: 'https://tally.so/r/wLREo2',
+			Icon: ChatBubbleBottomCenterTextIcon,
+			newTab: true
 		}
 	];
 </script>
