@@ -41,8 +41,8 @@
 </script>
 
 <div class="flex flex-col gap-8 rounded-xl bg-main-50 p-8 dark:bg-main-900">
-	<div class="flex flex-col items-center justify-between gap-8 sm:flex-row">
-		<div class="flex flex-col gap-2">
+	<div class="flex flex-col items-center justify-between gap-8 @lg:flex-row">
+		<div class="flex flex-col items-center gap-4 text-center @lg:items-start @lg:gap-2">
 			<div class="text-sm text-main-500 dark:text-main-400">Your calibration score is</div>
 			<div class="flex items-end gap-1.5">
 				<span class="text-5xl font-semibold">{score}</span>
