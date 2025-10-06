@@ -48,7 +48,9 @@ export function generateNewishQuestionFromCategory(
 	let question;
 	for (let i = 0; i < 100; i++) {
 		question = generateQuestion(selectedCategories);
-		if (!recentQuestions || !recentQuestions.includes(question.question)) return question;
+		if (!recentQuestions || !recentQuestions.includes(question.question + question.explanation)) {
+			return question;
+		}
 	}
 	return question;
 }
