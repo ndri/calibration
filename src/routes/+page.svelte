@@ -40,6 +40,7 @@
 <CardLink href="/practice" title="Infinite Calibration">
 	{#snippet description()}
 		Answer never-ending trivia questions and choose your confidence in your answers to improve your
-		calibration skills. Choose between topics such as country populations and maybe more.
+		calibration skills. Choose between topics such as country populations, historical figures,
+		animal facts, science facts and more.
 	{/snippet}
 </CardLink>
