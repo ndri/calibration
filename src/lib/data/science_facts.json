@@ -510,6 +510,12 @@
 		"explanation": "Normal blood pH ranges from 7.35 to 7.45, making it slightly alkaline. The body tightly regulates this range."
 	},
 	{
+		"question": "Normal human blood pH is slightly acidic.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Normal blood pH ranges from 7.35 to 7.45, making it slightly alkaline. The body tightly regulates this range."
+	},
+	{
 		"question": "Chlorophyll gives plants their green color.",
 		"options": ["True", "False"],
 		"answer": "True",
