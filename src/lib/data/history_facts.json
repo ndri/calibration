@@ -1,0 +1,122 @@
+[
+	{
+		"question": "Napoleon Bonaparte was taller than the average Frenchman of his time.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Napoleon was about 170 cm tall, which was average or slightly above average for French men in the early 1800s. The myth of his short stature came from British propaganda and confusion between French and English measurement units."
+	},
+	{
+		"question": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cleopatra lived around 30 BCE, about 2,500 years after the Great Pyramid was built (2560 BCE) but only 2,000 years before the 1969 Moon landing."
+	},
+	{
+		"question": "Vikings wore horned helmets into battle.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Archaeological evidence shows Vikings wore simple iron or leather helmets without horns. The horned helmet myth originated from 19th-century romantic art and Wagner's operas."
+	},
+	{
+		"question": "The Great Wall of China was built by Mongols.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Great Wall was built by various Chinese dynasties to defend against northern invaders, including the Mongols. The most famous sections were built during the Ming Dynasty (1368-1644 CE)."
+	},
+	{
+		"question": "Oxford University is older than the Aztec Empire.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Teaching began at Oxford around 1096 CE, while the Aztec Empire was founded around 1428 CE, making Oxford over 300 years older than the Aztec civilization."
+	},
+	{
+		"question": "The Colosseum in Rome could be flooded for naval battle reenactments.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Early in its history, the Colosseum was flooded about 1.5 meters deep for staged naval battles called 'naumachiae' before underground chambers were added."
+	},
+	{
+		"question": "Woolly mammoths were still alive when the Egyptian pyramids were built.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The last woolly mammoths survived on Wrangel Island until around 1650 BCE, while the Great Pyramid of Giza was completed around 2560 BCE."
+	},
+	{
+		"question": "Medieval people believed the Earth was flat.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Educated medieval Europeans knew the Earth was spherical. Ancient Greek calculations of Earth's circumference were well-known to medieval scholars."
+	},
+	{
+		"question": "The Eiffel Tower was originally intended for Barcelona.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Gustave Eiffel first pitched his tower design to Barcelona for the 1888 Universal Exposition, but the city rejected it as too unconventional."
+	},
+	{
+		"question": "The Statue of Liberty was gifted to the United States by the United Kingdom.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Statue of Liberty was gifted to the United States by France in 1886."
+	},
+	{
+		"question": "Ancient Egyptians mummified cats.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cats were sacred in ancient Egypt, associated with the goddess Bastet. Millions of cat mummies have been discovered, some buried with mummified mice for the afterlife."
+	},
+	{
+		"question": "The shortest war in history lasted less than an hour.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Anglo-Zanzibar War of 1896 lasted between 38 and 45 minutes, making it the shortest recorded war in history."
+	},
+	{
+		"question": "Gladiator fights in ancient Rome usually ended in death.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Most gladiatorial contests ended when one fighter was wounded or exhausted. Gladiators were expensive to train and maintain, so deaths were relatively uncommon - perhaps 1 in 5 or 1 in 10 fights."
+	},
+	{
+		"question": "The ancient city of Troy was thought to be purely mythical until the 19th century.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Troy was considered legend until Heinrich Schliemann's excavations in the 1870s revealed the ancient city in modern-day Turkey, proving Homer's epic had a historical basis."
+	},
+	{
+		"question": "Stonehenge is older than the Great Pyramid of Giza.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Stonehenge's construction began around 3000 BCE and continued until 2000 BCE, while the Great Pyramid was built around 2560 BCE."
+	},
+	{
+		"question": "Ancient Greeks and Romans painted their statues in bright colors.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Classical statues were vibrantly painted with reds, blues, and golds. The paint wore off over millennia, leaving the white marble we associate with ancient art today."
+	},
+	{
+		"question": "The Leaning Tower of Pisa wasn't originally supposed to lean.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The tower began leaning during construction in the 12th century due to soft ground on one side. It wasn't an intentional design feature but a construction flaw."
+	},
+	{
+		"question": "Forks were considered sacrilegious in medieval Europe.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "When forks were introduced from Byzantium in the 11th century, the Church condemned them as 'artificial hands' that insulted God's natural design of human fingers."
+	},
+	{
+		"question": "The Rosetta Stone was discovered by Napoleon's troops.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "French Army officer Pierre-François Bouchard discovered the Rosetta Stone in 1799 during Napoleon's campaign in Egypt, though it later ended up in British hands."
+	},
+	{
+		"question": "Ancient Olympic athletes competed naked.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Greek Olympic athletes competed nude from 720 BCE onwards. The word 'gymnasium' comes from the Greek 'gymnos,' meaning naked."
+	}
+]

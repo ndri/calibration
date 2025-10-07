@@ -3,12 +3,14 @@ import { generateCountryPopulationQuestion } from './countryPopulations';
 import { generateHistoricalFiguresQuestion } from './historicalFigures';
 import animalFacts from '$lib/data/animal_facts.json';
 import scienceFacts from '$lib/data/science_facts.json';
+import historyFacts from '$lib/data/history_facts.json';
 
 const generateFunctions = {
 	'Country Populations': generateCountryPopulationQuestion,
 	'Historical Figures': generateHistoricalFiguresQuestion,
 	'Animal Facts': () => chooseQuestion(animalFacts, 'Animal Facts'),
-	'Science Facts': () => chooseQuestion(scienceFacts, 'Science Facts')
+	'Science Facts': () => chooseQuestion(scienceFacts, 'Science Facts'),
+	'History Facts': () => chooseQuestion(historyFacts, 'History Facts')
 };
 
 const extraCategories = ['Scout Mindset'] as const;
