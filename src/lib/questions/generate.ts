@@ -1,9 +1,15 @@
-import type { Question, QuestionWithCategory } from '$lib/types';
 import { generateCountryPopulationQuestion } from './countryPopulations';
 import { generateHistoricalFiguresQuestion } from './historicalFigures';
 import animalFacts from '$lib/data/animal_facts.json';
 import scienceFacts from '$lib/data/science_facts.json';
 import historyFacts from '$lib/data/history_facts.json';
+import {
+	getCategories,
+	questionToString,
+	type Category,
+	type Question,
+	type QuestionWithCategory
+} from './questions';
 
 const generateFunctions = {
 	'Country Populations': generateCountryPopulationQuestion,
@@ -12,20 +18,6 @@ const generateFunctions = {
 	'Science Facts': () => chooseQuestion(scienceFacts, 'Science Facts'),
 	'History Facts': () => chooseQuestion(historyFacts, 'History Facts')
 };
-
-const extraCategories = ['Scout Mindset'] as const;
-
-type ExtraCategory = (typeof extraCategories)[number];
-
-export type Category = keyof typeof generateFunctions;
-
-export type ExtendedCategory = Category | ExtraCategory;
-
-export function getCategories() {
-	const keys = Object.keys(generateFunctions);
-	const sorted = keys.sort((a, b) => a.localeCompare(b));
-	return sorted as Category[];
-}
 
 function generateQuestionFromCategory(category: Category): QuestionWithCategory {
 	const generateFunction = generateFunctions[category];
@@ -50,7 +42,7 @@ export function generateNewishQuestionFromCategory(
 	let question;
 	for (let i = 0; i < 100; i++) {
 		question = generateQuestion(selectedCategories);
-		if (!recentQuestions || !recentQuestions.includes(question.question + question.explanation)) {
+		if (!recentQuestions || !recentQuestions.includes(questionToString(question))) {
 			return question;
 		}
 	}
@@ -61,8 +53,4 @@ function chooseQuestion(questions: Question[], categoryName: Category): Question
 	const randomIndex = Math.floor(Math.random() * questions.length);
 	const question = questions[randomIndex];
 	return { ...question, questionSet: categoryName };
-}
-
-export function getExtendedCategories() {
-	return [...getCategories(), ...extraCategories];
 }

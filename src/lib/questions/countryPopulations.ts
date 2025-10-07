@@ -1,5 +1,5 @@
 import countryPopulations from '$lib/data/country_populations.json';
-import type { Question } from '$lib/types';
+import type { Question } from '$lib/questions/questions';
 import { chooseNearbyPair } from '$lib/utils/array';
 import { formatNumber } from '$lib/utils/numbers';
 

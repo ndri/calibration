@@ -5,11 +5,11 @@
 	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
 	import { addAnswer, getConfig, getRecentQuestions, updateConfig } from '$lib/db';
 	import {
-		generateNewishQuestionFromCategory,
 		getCategories,
-		type Category
-	} from '$lib/questions/generate';
-	import type { QuestionWithCategory } from '$lib/types';
+		type Category,
+		type QuestionWithCategory
+	} from '$lib/questions/questions';
+	import { generateNewishQuestionFromCategory } from '$lib/questions/generate';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { explicitEffect } from '$lib/utils/svelte.svelte';
 	import { createTitle } from '$lib/utils/title';

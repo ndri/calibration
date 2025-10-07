@@ -6,7 +6,7 @@
 	import Button from '$lib/components/ui/Button.svelte';
 	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
 	import { getAnswersForQuestionSets, getConfig, updateConfig } from '$lib/db';
-	import { getExtendedCategories, type ExtendedCategory } from '$lib/questions/generate';
+	import { getExtendedCategories, type ExtendedCategory } from '$lib/questions/questions';
 	import { calculateCalibration } from '$lib/utils/calibration';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { createTitle } from '$lib/utils/title';

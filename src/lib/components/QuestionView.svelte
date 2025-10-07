@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Question } from '$lib/types';
+	import type { Question } from '$lib/questions/questions';
 	import ButtonGroup from './ButtonGroup.svelte';
 	import ConfidenceSelector from './ConfidenceSelector.svelte';
 	import Heading from './Heading.svelte';

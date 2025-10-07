@@ -1,10 +1,11 @@
 import Dexie, { type EntityTable } from 'dexie';
 import {
+	generateQuestionString,
 	getCategories,
 	getExtendedCategories,
 	type Category,
 	type ExtendedCategory
-} from './questions/generate';
+} from '$lib/questions/questions';
 
 export interface Answer {
 	id: number;
@@ -89,8 +90,8 @@ export async function getAnswersForQuestionSets(questionSets: string[]) {
 }
 
 export async function getRecentQuestions(n: number) {
-	return (await db.answers.orderBy('id').reverse().limit(n).toArray()).map(
-		(answer) => answer.question + answer.explanation
+	return (await db.answers.orderBy('id').reverse().limit(n).toArray()).map((answer) =>
+		generateQuestionString(answer.question, answer.correctAnswer, answer.userAnswer)
 	);
 }
 

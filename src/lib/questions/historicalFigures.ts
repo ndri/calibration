@@ -1,5 +1,5 @@
 import historicalFigures from '$lib/data/historical_figures.json';
-import type { Question } from '$lib/types';
+import type { Question } from '$lib/questions/questions';
 import { chooseNearbyPair } from '$lib/utils/array';
 
 function yearToString(year: number): string {
