@@ -108,6 +108,30 @@
 		"explanation": "Mercury takes 88 Earth days to orbit the Sun but 59 Earth days for one rotation. One solar day on Mercury equals 176 Earth days."
 	},
 	{
+		"question": "A day on Venus is longer than a year on Venus.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Venus rotates once every 243 Earth days but orbits the Sun in 225 Earth days, making its day longer than its year."
+	},
+	{
+		"question": "A day on Mars is longer than a year on Mars.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Mars rotates once every 1.04 Earth days but orbits the Sun in 687 Earth days, making its day shorter than its year."
+	},
+	{
+		"question": "Venus is bigger than Earth.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The radius of Venus is about 5% smaller than Earth's."
+	},
+	{
+		"question": "Mars is smaller than Venus.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The radius of Mars is about 44% smaller than that of Venus."
+	},
+	{
 		"question": "Pure distilled water conducts electricity.",
 		"options": ["True", "False"],
 		"answer": "False",
@@ -1102,12 +1126,6 @@
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Metal expands when heated. The iron lattice of the Eiffel Tower expands in summer heat, making it measurably taller."
-	},
-	{
-		"question": "A day on Venus is longer than a year on Venus.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "Venus rotates once every 243 Earth days but orbits the Sun in 225 Earth days, making its day longer than its year."
 	},
 	{
 		"question": "Stomach acid is strong enough to dissolve razor blades.",

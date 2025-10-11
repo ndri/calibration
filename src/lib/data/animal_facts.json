@@ -1196,5 +1196,11 @@
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "All mammals need to surface for air, as they breathe through lungs."
+	},
+	{
+		"question": "Sharks are fish.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Sharks are a group of elasmobranch cartilaginous fishes."
 	}
 ]
