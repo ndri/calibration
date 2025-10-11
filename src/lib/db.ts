@@ -10,9 +10,10 @@ import {
 export interface Answer {
 	id: number;
 	question: string;
+	options?: string[]; // optional due to legacy reasons, should always be defined for new answers
 	userAnswer: string;
 	correctAnswer: string;
-	explanation?: string;
+	explanation?: string; // legacy
 	confidence: number;
 	questionSet: ExtendedCategory;
 	answeredAt: Date;
@@ -91,16 +92,16 @@ export async function getAnswersForQuestionSets(questionSets: string[]) {
 
 export async function getRecentQuestions(n: number) {
 	return (await db.answers.orderBy('id').reverse().limit(n).toArray()).map((answer) =>
-		generateQuestionString(answer.question, answer.correctAnswer, answer.userAnswer)
+		generateQuestionString(answer.question, answer.options ?? [])
 	);
 }
 
 export async function addAnswer(
 	{
 		question,
+		options,
 		userAnswer,
 		correctAnswer,
-		explanation,
 		confidence,
 		questionSet
 	}: Omit<Answer, 'id' | 'answeredAt'>,
@@ -109,10 +110,10 @@ export async function addAnswer(
 	if (index === undefined) {
 		return db.answers.add({
 			question,
+			options,
 			userAnswer,
 			correctAnswer,
 			confidence,
-			explanation,
 			questionSet,
 			answeredAt: new Date()
 		});
@@ -128,20 +129,20 @@ export async function addAnswer(
 
 		return db.answers.update(answer.id, {
 			question,
+			options,
 			userAnswer,
 			correctAnswer,
 			confidence,
-			explanation,
 			answeredAt: new Date()
 		});
 	}
 
 	return db.answers.add({
 		question,
+		options,
 		userAnswer,
 		correctAnswer,
 		confidence,
-		explanation,
 		questionSet,
 		answeredAt: new Date()
 	});

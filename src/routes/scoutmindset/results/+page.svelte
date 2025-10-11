@@ -14,6 +14,7 @@
 	import QuizProgress from '$lib/components/QuizProgress.svelte';
 	import { calculateCalibration } from '$lib/utils/calibration';
 	import CalibrationScore from '$lib/components/CalibrationScore.svelte';
+	import { getExplanation } from '$lib/questions/questions';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -61,6 +62,9 @@
 				{/snippet}
 				<div class="flex flex-col divide-y divide-main-200 dark:divide-main-800">
 					{#each answers as answer, i}
+						{@const explanation =
+							answer.explanation ??
+							(answer.options ? getExplanation(answer.question, answer.options) : undefined)}
 						<div class="flex flex-col gap-3 py-5 text-sm first:pt-0 last:pb-0">
 							<div>
 								<span class="text-main-600 dark:text-main-300">Question {i + 1}:</span>
@@ -84,10 +88,10 @@
 									<span class={['font-semibold']}>{answer.correctAnswer}</span>
 								</div>
 							{/if}
-							{#if answer.explanation}
+							{#if explanation}
 								<div>
 									<span class="text-main-600 dark:text-main-300">Explanation:</span>
-									<span>{answer.explanation}</span>
+									<span>{explanation}</span>
 								</div>
 							{/if}
 						</div>

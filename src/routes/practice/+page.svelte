@@ -51,10 +51,10 @@
 		addAnswer(
 			{
 				question: question.question,
-				userAnswer: selectedAnswer!,
+				options: $state.snapshot(question.options),
+				userAnswer: selectedAnswer,
 				correctAnswer: question.answer,
-				explanation: question.explanation,
-				confidence: selectedConfidence!,
+				confidence: selectedConfidence,
 				questionSet: question.questionSet
 			},
 			undefined

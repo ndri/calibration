@@ -36,9 +36,9 @@
 		await addAnswer(
 			{
 				question: currentQuestion.question,
+				options: $state.snapshot(currentQuestion.options),
 				userAnswer: selectedAnswer,
 				correctAnswer: currentQuestion.answer,
-				explanation: currentQuestion.explanation,
 				confidence: selectedConfidence,
 				questionSet: QUESTION_SET
 			},

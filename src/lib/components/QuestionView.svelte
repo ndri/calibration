@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Question } from '$lib/questions/questions';
+	import { getExplanation, type Question } from '$lib/questions/questions';
 	import ButtonGroup from './ButtonGroup.svelte';
 	import ConfidenceSelector from './ConfidenceSelector.svelte';
 	import Heading from './Heading.svelte';
@@ -30,13 +30,14 @@
 	/>
 	<Paragraph>
 		{#if answerMode}
+			{@const explanation = getExplanation(question.question, question.options)}
 			{#if selectedAnswer === question.answer}
 				Correct!
 			{:else}
 				Incorrect.
 			{/if}
-			{#if question.explanation}
-				{question.explanation}
+			{#if explanation}
+				{explanation}
 			{/if}
 		{:else}
 			How confident are you in your answer?
