@@ -120,44 +120,6 @@
 			/>
 		</section>
 	{/if}
-
-	<section class="flex flex-col gap-4">
-		<Heading level={3}>Storage estimate</Heading>
-		{#await showEstimatedQuota()}
-			<p>Loading...</p>
-		{:then estimatedQuota}
-			{#if estimatedQuota && estimatedQuota.quota && estimatedQuota.usage}
-				{@const usagePercentage = Math.round((estimatedQuota.usage / estimatedQuota.quota) * 100)}
-				<div class="flex flex-col gap-2">
-					<div>
-						<span class="font-medium">
-							{formatBytes(estimatedQuota.usage)} ({usagePercentage}%)
-						</span>
-						<span class="text-main-500 dark:text-main-400">used of your browser's</span>
-						<span class="font-medium">
-							{formatBytes(estimatedQuota.quota)}
-						</span>
-						<span class="text-main-500 dark:text-main-400">quota.</span>
-					</div>
-					<ProgressBar progress={estimatedQuota.usage} total={estimatedQuota.quota} size="lg" />
-					<p class="text-sm text-main-500 dark:text-main-400">
-						This is just an estimate by the browser and can be wildly wrong at times.
-					</p>
-				</div>
-			{:else}
-				<p>Unable to estimate storage.</p>
-				<p>
-					Your browser might not support the <Link
-						href="https://developer.mozilla.org/en-US/docs/Web/API/StorageManager"
-						newTab
-					>
-						StorageManager API
-					</Link>.
-				</p>
-				<p>Consider upgrading your web browser.</p>
-			{/if}
-		{/await}
-	</section>
 	<section class="flex flex-col gap-4">
 		<Heading level={3}>Persistence</Heading>
 		<div
