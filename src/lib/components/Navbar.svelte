@@ -1,11 +1,78 @@
 <script lang="ts">
 	import { Bars3Icon, XMarkIcon } from '@sidekickicons/svelte/24/outline';
 	import SidebarContents from './SidebarContents.svelte';
-	import { fade, fly } from 'svelte/transition';
 	import Button from './ui/Button.svelte';
+	import { on } from 'svelte/events';
+	import { onMount } from 'svelte';
 
-	let sidebarOpen = $state(false);
+	const TRANSITION_DURATION = 150;
+
+	let sidebarOpenPercentage = $state(0);
 	let sidebarElement = $state<HTMLElement | null>(null);
+
+	let holdGesture = $state(false);
+	let openGesture = $state(false);
+
+	function openSidebarToPercentage(percentage: number) {
+		sidebarOpenPercentage = 1;
+		setTimeout(() => {
+			sidebarOpenPercentage = percentage;
+		}, 0);
+	}
+
+	function openSidebar() {
+		openSidebarToPercentage(100);
+	}
+
+	function closeSidebar() {
+		sidebarOpenPercentage = 1;
+		setTimeout(() => {
+			sidebarOpenPercentage = 0;
+		}, TRANSITION_DURATION);
+	}
+
+	onMount(() => {
+		[
+			on(document, 'touchstart', (e) => {
+				const touchStartX = e.touches[0].clientX;
+				console.log('touchstart', touchStartX);
+
+				if (touchStartX < 25) {
+					holdGesture = true;
+					setTimeout(() => {
+						if (holdGesture) {
+							openGesture = true;
+							openSidebarToPercentage(10);
+						}
+					}, 200);
+				}
+			}),
+			on(document, 'touchend', () => {
+				console.log('touchend');
+				holdGesture = false;
+
+				if (openGesture) {
+					openGesture = false;
+					if (sidebarOpenPercentage < 25) {
+						closeSidebar();
+					} else {
+						openSidebar();
+					}
+				}
+			}),
+			on(document, 'touchmove', (e) => {
+				const touchMoveX = e.touches[0].clientX;
+				console.log('touchmove', touchMoveX);
+
+				if (openGesture && sidebarElement) {
+					sidebarOpenPercentage = Math.min(
+						100,
+						Math.max(0, touchMoveX / sidebarElement.clientWidth) * 100
+					);
+				}
+			})
+		].forEach((removeListener) => removeListener());
+	});
 </script>
 
 <header
@@ -15,37 +82,42 @@
 		<Button
 			size="xl"
 			variant="text"
-			LeftIcon={sidebarOpen ? XMarkIcon : Bars3Icon}
-			onclick={() => (sidebarOpen = !sidebarOpen)}
+			LeftIcon={sidebarOpenPercentage ? XMarkIcon : Bars3Icon}
+			onclick={sidebarOpenPercentage ? closeSidebar : openSidebar}
 			class="p-1"
-			aria-label={sidebarOpen ? 'Close sidebar' : 'Open sidebar'}
+			aria-label={sidebarOpenPercentage ? 'Close sidebar' : 'Open sidebar'}
 		/>
 		<h1 class="grow text-xl font-medium">Calibration Practice</h1>
 	</div>
 </header>
 
 <aside class={['h-screen pt-4 pl-4', 'hidden lg:flex']}>
-	<SidebarContents onclick={() => (sidebarOpen = false)} />
+	<SidebarContents onclick={closeSidebar} />
 </aside>
 
-{#if sidebarOpen}
+{#if sidebarOpenPercentage}
 	<button
-		class="fixed inset-0 z-10 cursor-default bg-main-500/75 transition-opacity lg:hidden dark:bg-main-950/85"
+		class={[
+			'fixed inset-0 z-10 cursor-default bg-main-500/75 lg:hidden dark:bg-main-950/85',
+			!openGesture && 'transition-opacity'
+		]}
+		style="opacity: {sidebarOpenPercentage}%; transition-duration: {TRANSITION_DURATION}ms"
 		aria-hidden="true"
 		aria-label="Close sidebar"
-		onclick={() => (sidebarOpen = false)}
-		transition:fade={{ duration: 150 }}
+		onclick={closeSidebar}
 		tabindex="-1"
 	></button>
 	<aside
 		class={[
 			'fixed left-0 z-20 h-screen px-4 pt-[68px]',
 			'bg-main-50 dark:bg-main-900',
-			'lg:hidden'
+			'lg:hidden',
+			!openGesture && 'transition-transform'
 		]}
-		transition:fly={{ x: -(sidebarElement?.clientWidth ?? 0), opacity: 1, duration: 150 }}
+		style="transform: translateX(-{100 -
+			sidebarOpenPercentage}%); transition-duration: {TRANSITION_DURATION}ms"
 		bind:this={sidebarElement}
 	>
-		<SidebarContents onclick={() => (sidebarOpen = false)} hideTitle />
+		<SidebarContents onclick={closeSidebar} hideTitle />
 	</aside>
 {/if}
