@@ -118,5 +118,532 @@
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Greek Olympic athletes competed nude from 720 BCE onwards. The word 'gymnasium' comes from the Greek 'gymnos,' meaning naked."
+	},
+	{
+		"question": "The Roman Empire fell before the Mayan civilization collapsed.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Western Roman Empire fell in 476 CE, while the Classic Maya civilization didn't collapse until around 900 CE, over 400 years later."
+	},
+	{
+		"question": "Beethoven and Mozart never met in person.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The young Beethoven met Mozart in Vienna in 1787 when Beethoven was 16 years old, though their interaction was brief."
+	},
+	{
+		"question": "The first university in the world was established in Africa.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The University of al-Qarawiyyin in Fez, Morocco, founded in 859 CE, is recognized by UNESCO as the oldest continuously operating degree-granting university."
+	},
+	{
+		"question": "Samurai could legally test their swords on commoners.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The practice called 'tsujigiri' allowed samurai to test new swords on travelers and commoners, though it was eventually outlawed in the Edo period."
+	},
+	{
+		"question": "The Black Death killed more people than World War I.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Black Death (1347-1351) killed an estimated 75-200 million people, while World War I resulted in approximately 15-22 million deaths."
+	},
+	{
+		"question": "Ancient Rome had a population of over 1 million people.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "At its peak in the 2nd century CE, Rome was the first city in history to reach a population of 1 million inhabitants."
+	},
+	{
+		"question": "The Hundred Years' War lasted exactly 100 years.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Hundred Years' War between England and France lasted 116 years, from 1337 to 1453 CE."
+	},
+	{
+		"question": "Coca-Cola originally contained cocaine.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "When created in 1886, Coca-Cola contained coca leaf extract with trace amounts of cocaine, which was removed from the formula in 1903."
+	},
+	{
+		"question": "The Ottoman Empire existed during World War I.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Ottoman Empire fought in World War I as part of the Central Powers and was dissolved in 1922 following its defeat."
+	},
+	{
+		"question": "Harvard University was founded before calculus was invented.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Harvard was founded in 1636, while Newton and Leibniz independently developed calculus in the 1660s-1670s."
+	},
+	{
+		"question": "Submarines were used in the 1600s.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Dutch inventor Cornelis Drebbel built the first navigable submarine in 1620, which was tested in the Thames River."
+	},
+	{
+		"question": "Ancient Persians invented the postal system.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Persian Empire under Cyrus the Great created the first postal system around 550 BCE, with mounted couriers delivering messages across the empire."
+	},
+	{
+		"question": "Ketchup was originally sold as medicine.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In the 1830s, tomato ketchup was sold as a medicine claiming to cure ailments like diarrhea, indigestion, and rheumatism."
+	},
+	{
+		"question": "The Incas had a written language.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Inca civilization used a system of knotted strings called 'quipu' for record-keeping but had no written language."
+	},
+	{
+		"question": "King Tutankhamun's tomb was discovered intact.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Howard Carter discovered Tutankhamun's tomb in 1922 largely intact, making it the most complete ancient Egyptian royal tomb ever found."
+	},
+	{
+		"question": "The first programmable computer was designed in the 1800s.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Charles Babbage designed the Analytical Engine in 1837, which had all the fundamental elements of a modern computer, though it was never fully built."
+	},
+	{
+		"question": "Ancient Babylonians created the first written laws.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Code of Hammurabi, created around 1754 BCE in Babylon, is one of the earliest and most complete written legal codes."
+	},
+	{
+		"question": "The Taj Mahal was built as a palace for a living queen.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Taj Mahal was built as a mausoleum by Emperor Shah Jahan in memory of his deceased wife Mumtaz Mahal, completed in 1643."
+	},
+	{
+		"question": "The first photographs required exposure times of several hours.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first photograph by Niépce in 1826 required an 8-hour exposure time. Early daguerreotypes in the 1840s still needed several minutes."
+	},
+	{
+		"question": "The Berlin Wall fell in 1989.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Berlin Wall fell on November 9, 1989, marking the beginning of German reunification and the end of the Cold War era."
+	},
+	{
+		"question": "The Berlin Wall fell in 1990.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Berlin Wall fell in 1989, not in 1990."
+	},
+	{
+		"question": "Genghis Khan never lost a major battle.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Throughout his military career from 1206 to 1227, Genghis Khan never lost a major battle, creating the largest contiguous land empire in history."
+	},
+	{
+		"question": "The first traffic light was installed before cars were invented.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first traffic light was installed in London in 1868 for horse carriages, nearly 20 years before the first automobile."
+	},
+	{
+		"question": "Ancient Sparta had two kings ruling simultaneously.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Sparta uniquely had a dual monarchy with two hereditary kings from different dynasties ruling together, balancing each other's power."
+	},
+	{
+		"question": "The Aztecs founded their capital city on a lake.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Tenochtitlan, the Aztec capital, was built on an island in Lake Texcoco in 1325 CE, connected to the mainland by causeways."
+	},
+	{
+		"question": "Plastic was invented before the American Civil War.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The first synthetic plastic, Bakelite, was invented in 1907, over 40 years after the American Civil War ended in 1865."
+	},
+	{
+		"question": "The last execution by guillotine happened after Star Wars was released.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "France's last execution by guillotine occurred in September 1977, four months after the first Star Wars film was released in May 1977."
+	},
+	{
+		"question": "Ancient Egyptians practiced brain surgery.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Evidence shows ancient Egyptians performed trepanation (skull surgery) as early as 3000 BCE, with some patients surviving the procedure."
+	},
+	{
+		"question": "Vending machines were invented around 2000 years ago.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first vending machine was created by Hero of Alexandria around the 1st century CE to dispense holy water in Egyptian temples."
+	},
+	{
+		"question": "Dentures used to be made from the teeth of dead soldiers.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In the 1800s, teeth from dead soldiers were commonly used to make dentures. 'Waterloo teeth' became popular after the 1815 battle."
+	},
+	{
+		"question": "The Mongol Empire was larger than the British Empire.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The British Empire at its peak covered about 35.5 million square kilometers, while the Mongol Empire covered about 24 million square kilometers."
+	},
+	{
+		"question": "Ancient Greeks used stones as toilet paper.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Ancient Greeks used smooth stones called 'pessoi' or pottery shards called 'ostraka' for hygiene purposes, before paper was available."
+	},
+	{
+		"question": "Computer bugs were named after actual insects.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In 1947, Grace Hopper found a moth trapped in a Harvard Mark II computer, coining the term 'computer bug' for technical glitches."
+	},
+	{
+		"question": "The ancient Library of Alexandria was destroyed in a single fire.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Library of Alexandria declined gradually through multiple incidents over centuries, including several fires and budget cuts, rather than one catastrophic event."
+	},
+	{
+		"question": "Abraham Lincoln created the Secret Service on the day he was assassinated.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Lincoln signed legislation creating the Secret Service on April 14, 1865, the same day he was assassinated at Ford's Theatre. The agency was created primarily to combat counterfeiting of currency and the protective role for the president was developed later."
+	},
+	{
+		"question": "The Mona Lisa was stolen from the Louvre.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Mona Lisa was stolen in 1911 by Italian handyman Vincenzo Peruggia and was missing for two years before being recovered."
+	},
+	{
+		"question": "The first Olympic Games had only one event.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first recorded Olympic Games in 776 BCE featured only one event: the stadion, a running race of about 192 meters."
+	},
+	{
+		"question": "Typewriters were invented before the telephone.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first practical typewriter was patented in 1868, while Alexander Graham Bell patented the telephone in 1876."
+	},
+	{
+		"question": "The Terracotta Army was discovered by farmers.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In 1974, local farmers digging a well near Xi'an, China, accidentally discovered the first terracotta warriors of Emperor Qin's army."
+	},
+	{
+		"question": "Ancient Egyptians invented bowling.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Archaeological evidence from 3200 BCE shows ancient Egyptians played a game similar to bowling with stone balls and pins."
+	},
+	{
+		"question": "The Eiffel Tower was almost demolished in 1909.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Eiffel Tower was intended as a temporary structure for the 1889 World's Fair and was saved from demolition only because of its value as a radio antenna."
+	},
+	{
+		"question": "Horses originated in North America.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Horses evolved in North America 55 million years ago, migrated to other continents, then went extinct in the Americas about 10,000 years ago until reintroduced by Europeans."
+	},
+	{
+		"question": "The Spanish flu originated in America.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "It was called the Spanish flu because Spain, a neutral country in WWI, was the first to report on it. Belligerent nations censored the weakness during the wartime."
+	},
+	{
+		"question": "Ancient Vikings used crystals for navigation.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Vikings likely used 'sunstones' (crystals like calcite) to locate the sun through clouds and navigate in the foggy North Atlantic."
+	},
+	{
+		"question": "The shortest-serving U.S. president served for less than a day.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "William Henry Harrison served only 31 days as president in 1841 before dying of pneumonia, making his the shortest presidency."
+	},
+	{
+		"question": "The Panama Canal opened before the Suez Canal.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Suez Canal opened in 1869, while the Panama Canal didn't open until 1914, a difference of 45 years."
+	},
+	{
+		"question": "Bubble wrap was originally invented as wallpaper.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In 1957, engineers created bubble wrap while trying to develop a textured wallpaper. It failed as wallpaper but succeeded as packaging material."
+	},
+	{
+		"question": "The first Olympic marathon was won by a mailman.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Greek postal worker Spyridon Louis won the first Olympic marathon at the 1896 Athens Games, becoming a national hero."
+	},
+	{
+		"question": "Ancient Mesopotamians invented the wheel.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The wheel was invented in Mesopotamia around 3500 BCE, initially used for pottery before being adapted for transportation."
+	},
+	{
+		"question": "The Kremlin was once painted white.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Moscow Kremlin walls were painted white from the late 1600s until 1947, when they were restored to their original red brick color."
+	},
+	{
+		"question": "Cambridge University was founded by scholars fleeing Oxford.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Cambridge University was founded in 1209 by scholars who fled Oxford after disputes with townspeople led to the execution of two scholars."
+	},
+	{
+		"question": "The Titanic had a sister ship that also sank.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Britannic, Titanic's sister ship, sank in 1916 after hitting a mine in the Aegean Sea while serving as a hospital ship during World War I."
+	},
+	{
+		"question": "The Titanic is to this day the largest passenger ship ever built.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Titanic was the largest at the time, but it was surpassed next year by the SS Imperator. Modern ships have more than 5 times the capacity of the Titanic."
+	},
+	{
+		"question": "The Titanic was the largest passenger ship in water at the time.",
+		"options": ["True", "False"],
+		"answer": "True"
+	},
+	{
+		"question": "The Titanic sank in the 19th century.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Titanic sank in 1912."
+	},
+	{
+		"question": "Ancient Egyptians had a 365-day calendar.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Ancient Egyptians developed a 365-day calendar around 3000 BCE, one of the first solar calendars in human history."
+	},
+	{
+		"question": "The first animated feature film was made by Disney.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Argentina's 'El Apóstol' (1917) was the first animated feature film, predating Disney's 'Snow White' (1937) by 20 years."
+	},
+	{
+		"question": "Marilyn Monroe and Queen Elizabeth II were born in the same year.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Both Marilyn Monroe and Queen Elizabeth II were born in 1926, just 39 days apart."
+	},
+	{
+		"question": "Ancient Chinese ate ice cream.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "As early as 200 BCE, Chinese nobility enjoyed a frozen mixture of milk and rice, an early form of ice cream."
+	},
+	{
+		"question": "The longest year in history had 445 days.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The year 46 BCE had 445 days when Julius Caesar added extra months to transition from the Roman to Julian calendar."
+	},
+	{
+		"question": "Canned food was invented before the can opener.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Canned food was invented in 1810, but the can opener wasn't invented until 1858. People used hammers and chisels to open the cans."
+	},
+	{
+		"question": "Ancient Greeks competed in music at the Olympics.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "While ancient Greeks held music competitions at other festivals, the Olympics were strictly athletic competitions without musical events."
+	},
+	{
+		"question": "The longest-reigning monarch in history was a queen.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Louis XIV of France reigned for 72 years (1643-1715), longer than any other monarch in recorded history."
+	},
+	{
+		"question": "The first message sent over the internet was 'LO'.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In 1969, the intended first ARPANET message was 'LOGIN,' but the system crashed after 'LO,' making that the first internet message."
+	},
+	{
+		"question": "Ancient Babylon had skyscrapers.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "While Babylon had impressive structures like ziggurats, their tallest buildings were only about 90 meters high, not comparable to modern skyscrapers."
+	},
+	{
+		"question": "The first person to break the sound barrier was a civilian pilot.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Chuck Yeager, a U.S. Air Force officer, was the first person to break the sound barrier in level flight on October 14, 1947."
+	},
+	{
+		"question": "The Chernobyl disaster happened in Russia.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Chernobyl nuclear disaster occurred on April 26, 1986, in northern Ukraine."
+	},
+	{
+		"question": "Jeans were invented for gold miners.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Levi Strauss created denim jeans in 1873 specifically for California gold miners who needed durable work pants."
+	},
+	{
+		"question": "The first webcam was created to monitor a coffee pot.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "In 1991, Cambridge University researchers created the first webcam to monitor their coffee pot without leaving their desks."
+	},
+	{
+		"question": "The ancient Olympics included a race in full armor.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The 'hoplitodromos' was an Olympic race where athletes ran 400 meters wearing bronze helmets, greaves, and carrying shields."
+	},
+	{
+		"question": "Easter Island statues have full bodies buried underground.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The famous Easter Island heads (moai) have full bodies extending deep underground, some reaching 7 meters below the surface."
+	},
+	{
+		"question": "The first commercial flight had only one passenger.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first scheduled commercial airline flight in 1914 carried one passenger, flying 34 kilometers between two cities in Florida."
+	},
+	{
+		"question": "Ancient Romans had central heating.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Romans used a hypocaust system, circulating hot air under floors and through walls, an early form of central heating."
+	},
+	{
+		"question": "The first credit card was made of cardboard.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Diners Club card, introduced in 1950 as the first credit card, was made of cardboard before plastic cards became standard."
+	},
+	{
+		"question": "Marie Curie's notebooks are still radioactive.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Marie Curie's notebooks remain radioactive and will be for another 1,500 years. They're stored in lead-lined boxes in Paris."
+	},
+	{
+		"question": "The longest tennis match lasted over 11 hours.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The 2010 Wimbledon match between Isner and Mahut lasted 11 hours and 5 minutes over three days, the longest match in tennis history."
+	},
+	{
+		"question": "Ancient Egyptians played board games.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Egyptians played Senet, one of the world's oldest board games, dating back to 3100 BCE. Game boards were found in many tombs."
+	},
+	{
+		"question": "Paper was invented in ancient Egypt.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Paper as we know it today was invented in China around 100 CE. Ancient Egyptians used papyrus, a precursor to paper that is thicker and more fragile."
+	},
+	{
+		"question": "The first bicycle had no pedals.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first bicycle, called a 'draisine' or 'hobby horse' invented in 1817, was propelled by pushing feet against the ground."
+	},
+	{
+		"question": "Antarctica has active volcanoes.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Mount Erebus in Antarctica is one of the world's most active volcanoes and has been continuously erupting since at least 1972."
+	},
+	{
+		"question": "The first human in space was American.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Soviet cosmonaut Yuri Gagarin became the first human in space on April 12, 1961, beating American Alan Shepard by three weeks."
+	},
+	{
+		"question": "Ancient Romans had shopping malls.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Trajan's Market in Rome, built around 110 CE, was a multi-level complex with over 150 shops, essentially an ancient shopping mall."
+	},
+	{
+		"question": "The shortest complete war between nations lasted 38 minutes.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Anglo-Zanzibar War of 1896 lasted between 38 and 45 minutes, with Zanzibar surrendering after British naval bombardment."
+	},
+	{
+		"question": "The Great Fire of London killed thousands of people.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Despite destroying more than 13,000 houses, the Great Fire of London in 1666 killed only around 6 people."
+	},
+	{
+		"question": "Nintendo was founded in the 19th century.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Nintendo was founded in 1889 as a playing card company, 90 years before releasing their first video game console."
+	},
+	{
+		"question": "The chainsaw was originally invented for childbirth.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The chainsaw was invented in 1780 by two Scottish doctors to help with difficult childbirth by cutting through pelvic bone."
+	},
+	{
+		"question": "In Switzerland, women were not allowed to vote until the 1970s.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Women in Switzerland gained the right to vote in federal elections after a referendum in February 1971."
+	},
+	{
+		"question": "World War I lasted longer than World War II.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "World War I lasted from 1914 to 1918, while World War II lasted from 1939 to 1945."
 	}
 ]
