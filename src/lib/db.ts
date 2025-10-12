@@ -167,7 +167,16 @@ export async function getAnswerInQuestionSet(questionSet: string, index: number)
 export async function countAllData() {
 	const answers = await db.answers.count();
 
-	return { answers };
+	const questionSetCounts: Record<string, number> = {};
+	await db.answers.orderBy('questionSet').eachKey((questionSet) => {
+		if (typeof questionSet !== 'string') return;
+
+		if (!questionSetCounts[questionSet]) questionSetCounts[questionSet] = 0;
+
+		questionSetCounts[questionSet]++;
+	});
+
+	return { ...questionSetCounts, 'Total answers': answers };
 }
 
 export async function deleteAllData() {

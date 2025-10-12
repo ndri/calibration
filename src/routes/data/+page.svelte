@@ -3,7 +3,6 @@
 	import { ArrowDownTrayIcon, ArrowUpTrayIcon, TrashIcon } from '@sidekickicons/svelte/20/solid';
 	import { CheckCircleIcon, ExclamationTriangleIcon } from '@sidekickicons/svelte/24/outline';
 	import Link from '$lib/components/Link.svelte';
-	import ProgressBar from '$lib/components/ProgressBar.svelte';
 	import Button from '$lib/components/ui/Button.svelte';
 	import SimpleDialog from '$lib/components/ui/SimpleDialog.svelte';
 	import { countAllData, deleteAllData, exportDatabase, importDatabase } from '$lib/db';
@@ -16,7 +15,7 @@
 
 	const countsQuery = stateQuery(countAllData);
 	const counts = $derived(countsQuery.current);
-	const anyAnswers = $derived(counts?.answers && counts.answers > 0 ? true : false);
+	const anyAnswers = $derived(counts?.['Total answers'] ? true : false);
 
 	let deleteDialog = $state<SimpleDialog>();
 	let alertDialog = $state<SimpleDialog>();
@@ -69,7 +68,7 @@
 			const newCounts = await countAllData();
 			alertDialogTitle = 'Import successful!';
 			alertDialogDescription = `You have successfully imported ${formatNumber(
-				newCounts.answers
+				newCounts['Total answers']
 			)} answers.`;
 			alertDialog?.open();
 		} catch (error) {
@@ -106,12 +105,7 @@
 		<section class="flex flex-col gap-4">
 			<Heading level={3}>Summary</Heading>
 			<DataList
-				data={[
-					{
-						key: 'Number of answers',
-						value: formatNumber(counts.answers)
-					}
-				]}
+				data={Object.entries(counts).map(([key, value]) => ({ key, value: formatNumber(value) }))}
 			/>
 		</section>
 	{/if}
