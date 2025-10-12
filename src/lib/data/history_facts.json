@@ -1,9 +1,15 @@
 [
 	{
-		"question": "Napoleon Bonaparte was taller than the average Frenchman of his time.",
+		"question": "The Great Pyramid of Giza was built by slaves.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "Napoleon was about 170 cm tall, which was average or slightly above average for French men in the early 1800s. The myth of his short stature came from British propaganda and confusion between French and English measurement units."
+		"answer": "False",
+		"explanation": "Archaeological evidence shows the pyramids were built by paid workers who received food, beer, and proper burials, not slaves."
+	},
+	{
+		"question": "Cleopatra was ethnically Egyptian.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Cleopatra was of Macedonian Greek descent, from the Ptolemaic dynasty that ruled Egypt after Alexander the Great's conquest."
 	},
 	{
 		"question": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid.",
@@ -12,10 +18,16 @@
 		"explanation": "Cleopatra lived around 30 BCE, about 2,500 years after the Great Pyramid was built (2560 BCE) but only 2,000 years before the 1969 Moon landing."
 	},
 	{
-		"question": "Vikings wore horned helmets into battle.",
+		"question": "The Colosseum was the largest amphitheater in the Roman Empire.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Colosseum could hold 50,000-80,000 spectators, making it the largest amphitheater ever built by the Romans."
+	},
+	{
+		"question": "Christopher Columbus was the first European to reach the Americas.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Archaeological evidence shows Vikings wore simple iron or leather helmets without horns. The horned helmet myth originated from 19th-century romantic art and Wagner's operas."
+		"explanation": "Viking explorer Leif Erikson reached North America around 1000 CE, nearly 500 years before Columbus."
 	},
 	{
 		"question": "The Great Wall of China was built by Mongols.",
@@ -27,13 +39,25 @@
 		"question": "Oxford University is older than the Aztec Empire.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Teaching began at Oxford around 1096 CE, while the Aztec Empire was founded around 1428 CE, making Oxford over 300 years older than the Aztec civilization."
+		"explanation": "Teaching began at Oxford around 1096 CE, while the Aztec Empire was founded around 1428 CE, making Oxford over 300 years older."
 	},
 	{
-		"question": "The Colosseum in Rome could be flooded for naval battle reenactments.",
+		"question": "The Aztecs invented chocolate.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "Early in its history, the Colosseum was flooded about 1.5 meters deep for staged naval battles called 'naumachiae' before underground chambers were added."
+		"answer": "False",
+		"explanation": "The Olmecs first cultivated cacao around 1500 BCE, followed by the Maya. The Aztecs popularized it but didn't invent it."
+	},
+	{
+		"question": "Paper money was first used in Europe.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Paper money was first used in China during the Tang Dynasty (618-907 CE), centuries before it appeared in Europe."
+	},
+	{
+		"question": "The compass was invented by ancient Greeks.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The magnetic compass was invented in China during the Han Dynasty (206 BCE - 220 CE) for feng shui before being adapted for navigation."
 	},
 	{
 		"question": "Woolly mammoths were still alive when the Egyptian pyramids were built.",
@@ -42,10 +66,10 @@
 		"explanation": "The last woolly mammoths survived on Wrangel Island until around 1650 BCE, while the Great Pyramid of Giza was completed around 2560 BCE."
 	},
 	{
-		"question": "Medieval people believed the Earth was flat.",
+		"question": "The Roman Empire invented concrete.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Educated medieval Europeans knew the Earth was spherical. Ancient Greek calculations of Earth's circumference were well-known to medieval scholars."
+		"explanation": "While Romans perfected concrete, earlier forms were used by ancient Egyptians and Greeks. Romans did invent a unique underwater-setting concrete."
 	},
 	{
 		"question": "The Eiffel Tower was originally intended for Barcelona.",
@@ -60,22 +84,10 @@
 		"explanation": "The Statue of Liberty was gifted to the United States by France in 1886."
 	},
 	{
-		"question": "Ancient Egyptians mummified cats.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "Cats were sacred in ancient Egypt, associated with the goddess Bastet. Millions of cat mummies have been discovered, some buried with mummified mice for the afterlife."
-	},
-	{
-		"question": "The shortest war in history lasted less than an hour.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Anglo-Zanzibar War of 1896 lasted between 38 and 45 minutes, making it the shortest recorded war in history."
-	},
-	{
 		"question": "Gladiator fights in ancient Rome usually ended in death.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Most gladiatorial contests ended when one fighter was wounded or exhausted. Gladiators were expensive to train and maintain, so deaths were relatively uncommon - perhaps 1 in 5 or 1 in 10 fights."
+		"explanation": "Most gladiatorial contests ended when one fighter was wounded or exhausted. Gladiators were expensive to train and maintain, so deaths were relatively uncommon - perhaps 1 in 5 or 10 fights."
 	},
 	{
 		"question": "The ancient city of Troy was thought to be purely mythical until the 19th century.",
@@ -90,28 +102,40 @@
 		"explanation": "Stonehenge's construction began around 3000 BCE and continued until 2000 BCE, while the Great Pyramid was built around 2560 BCE."
 	},
 	{
+		"question": "The Black Death originated in Europe.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The Black Death originated in Central Asia and spread to Europe via trade routes in the 1340s."
+	},
+	{
 		"question": "Ancient Greeks and Romans painted their statues in bright colors.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Classical statues were vibrantly painted with reds, blues, and golds. The paint wore off over millennia, leaving the white marble we associate with ancient art today."
 	},
 	{
-		"question": "The Leaning Tower of Pisa wasn't originally supposed to lean.",
+		"question": "The printing press was invented in Germany.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The tower began leaning during construction in the 12th century due to soft ground on one side. It wasn't an intentional design feature but a construction flaw."
+		"answer": "False",
+		"explanation": "While Gutenberg invented the movable type printing press in Germany around 1440, printing presses were used in China centuries earlier."
 	},
 	{
 		"question": "Forks were considered sacrilegious in medieval Europe.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "When forks were introduced from Byzantium in the 11th century, the Church condemned them as 'artificial hands' that insulted God's natural design of human fingers."
+		"explanation": "When forks were introduced from Byzantium in the 11th century, the Church condemned them as 'artificial hands' that insulted God's natural design."
+	},
+	{
+		"question": "Diamonds were first discovered in South Africa.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Diamonds were first discovered and mined in India around the 4th century BCE. South African diamonds weren't discovered until 1866."
 	},
 	{
 		"question": "The Rosetta Stone was discovered by Napoleon's troops.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "French Army officer Pierre-François Bouchard discovered the Rosetta Stone in 1799 during Napoleon's campaign in Egypt, though it later ended up in British hands."
+		"explanation": "French Army officer Pierre-François Bouchard discovered the Rosetta Stone in 1799 during Napoleon's campaign in Egypt."
 	},
 	{
 		"question": "Ancient Olympic athletes competed naked.",
@@ -126,10 +150,16 @@
 		"explanation": "The Western Roman Empire fell in 476 CE, while the Classic Maya civilization didn't collapse until around 900 CE, over 400 years later."
 	},
 	{
+		"question": "Coffee originated in South America.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Coffee originated in Ethiopia and was first cultivated in Yemen. It only reached South America in the 18th century."
+	},
+	{
 		"question": "Beethoven and Mozart never met in person.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The young Beethoven met Mozart in Vienna in 1787 when Beethoven was 16 years old, though their interaction was brief."
+		"explanation": "They met in Vienna in 1787 when Beethoven was 17 years old."
 	},
 	{
 		"question": "The first university in the world was established in Africa.",
@@ -138,10 +168,10 @@
 		"explanation": "The University of al-Qarawiyyin in Fez, Morocco, founded in 859 CE, is recognized by UNESCO as the oldest continuously operating degree-granting university."
 	},
 	{
-		"question": "Samurai could legally test their swords on commoners.",
+		"question": "Gunpowder was invented for warfare.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The practice called 'tsujigiri' allowed samurai to test new swords on travelers and commoners, though it was eventually outlawed in the Edo period."
+		"answer": "False",
+		"explanation": "Chinese alchemists invented gunpowder in the 9th century while searching for an elixir of immortality. Military use came later."
 	},
 	{
 		"question": "The Black Death killed more people than World War I.",
@@ -162,6 +192,12 @@
 		"explanation": "The Hundred Years' War between England and France lasted 116 years, from 1337 to 1453 CE."
 	},
 	{
+		"question": "Tomatoes were originally thought to be poisonous in Europe.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Europeans believed tomatoes were poisonous for about 200 years because wealthy people got sick after eating them off lead pewter plates, which leached lead."
+	},
+	{
 		"question": "Coca-Cola originally contained cocaine.",
 		"options": ["True", "False"],
 		"answer": "True",
@@ -180,22 +216,34 @@
 		"explanation": "Harvard was founded in 1636, while Newton and Leibniz independently developed calculus in the 1660s-1670s."
 	},
 	{
+		"question": "Antarctica was the last continent to be discovered.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Antarctica was the last continent discovered, first sighted in 1820 by Russian, British, and American expeditions."
+	},
+	{
+		"question": "The wheel was invented in ancient Egypt.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The wheel was invented in Mesopotamia around 3500 BCE. Egyptians adopted it later from their neighbors."
+	},
+	{
 		"question": "Submarines were used in the 1600s.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Dutch inventor Cornelis Drebbel built the first navigable submarine in 1620, which was tested in the Thames River."
 	},
 	{
-		"question": "Ancient Persians invented the postal system.",
+		"question": "Silk was first produced in India.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Persian Empire under Cyrus the Great created the first postal system around 550 BCE, with mounted couriers delivering messages across the empire."
+		"answer": "False",
+		"explanation": "Silk production (sericulture) originated in China around 3000 BCE and was a closely guarded secret for millennia."
 	},
 	{
-		"question": "Ketchup was originally sold as medicine.",
+		"question": "The Inca Empire used wheels for transportation.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "In the 1830s, tomato ketchup was sold as a medicine claiming to cure ailments like diarrhea, indigestion, and rheumatism."
+		"answer": "False",
+		"explanation": "Despite their engineering achievements, the Incas never used wheels for transportation, possibly due to mountainous terrain and lack of draft animals."
 	},
 	{
 		"question": "The Incas had a written language.",
@@ -216,34 +264,52 @@
 		"explanation": "Charles Babbage designed the Analytical Engine in 1837, which had all the fundamental elements of a modern computer, though it was never fully built."
 	},
 	{
-		"question": "Ancient Babylonians created the first written laws.",
+		"question": "Glass windows were common in medieval castles.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Code of Hammurabi, created around 1754 BCE in Babylon, is one of the earliest and most complete written legal codes."
+		"answer": "False",
+		"explanation": "Glass was extremely expensive in medieval times. Most castle windows used wooden shutters, oiled cloth, or animal skins."
 	},
 	{
-		"question": "The Taj Mahal was built as a palace for a living queen.",
+		"question": "The Mongol Empire was larger than the Roman Empire.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The Mongol Empire covered about 24 million square kilometers at its peak, while the Roman Empire covered only about 5 million square kilometers."
+	},
+	{
+		"question": "The Mongol Empire was larger than the British Empire.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The British Empire at its peak covered about 35.5 million square kilometers, while the Mongol Empire covered about 24 million square kilometers."
+	},
+	{
+		"question": "The Taj Mahal was built as a palace for a queen to live in.",
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "The Taj Mahal was built as a mausoleum by Emperor Shah Jahan in memory of his deceased wife Mumtaz Mahal, completed in 1643."
 	},
 	{
-		"question": "The first photographs required exposure times of several hours.",
+		"question": "Sugar was once more valuable than gold.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The first photograph by Niépce in 1826 required an 8-hour exposure time. Early daguerreotypes in the 1840s still needed several minutes."
+		"explanation": "In medieval Europe, sugar was so rare and expensive it was kept in locked boxes and was worth more than gold by weight."
 	},
 	{
 		"question": "The Berlin Wall fell in 1989.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "The Berlin Wall fell on November 9, 1989, marking the beginning of German reunification and the end of the Cold War era."
+		"explanation": "The Berlin Wall fell on November 9, 1989, marking the beginning of German reunification and symbolizing the end of the Cold War."
 	},
 	{
 		"question": "The Berlin Wall fell in 1990.",
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "The Berlin Wall fell in 1989, not in 1990."
+	},
+	{
+		"question": "Potatoes originated in Ireland.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Potatoes originated in the Andes mountains of South America and were brought to Europe by Spanish conquistadors in the 16th century."
 	},
 	{
 		"question": "Genghis Khan never lost a major battle.",
@@ -258,10 +324,28 @@
 		"explanation": "The first traffic light was installed in London in 1868 for horse carriages, nearly 20 years before the first automobile."
 	},
 	{
+		"question": "Chess was invented in India.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Chess originated in India during the Gupta Empire (around 600 CE) as a game called Chaturanga before spreading to Persia and then Europe."
+	},
+	{
+		"question": "The telescope was invented by Galileo.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The telescope was invented by Dutch spectacle makers around 1608. Galileo improved it and was the first to use it for astronomy."
+	},
+	{
 		"question": "Ancient Sparta had two kings ruling simultaneously.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Sparta uniquely had a dual monarchy with two hereditary kings from different dynasties ruling together, balancing each other's power."
+	},
+	{
+		"question": "Tea originated in India.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Tea originated in China around 2700 BCE. It was introduced to India by the British in the 19th century for commercial cultivation."
 	},
 	{
 		"question": "The Aztecs founded their capital city on a lake.",
@@ -270,10 +354,16 @@
 		"explanation": "Tenochtitlan, the Aztec capital, was built on an island in Lake Texcoco in 1325 CE, connected to the mainland by causeways."
 	},
 	{
-		"question": "Plastic was invented before the American Civil War.",
+		"question": "Plastic was not invented until the 20th century.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "The first synthetic plastic, Bakelite, was invented in 1907."
+	},
+	{
+		"question": "Rubber originated in Africa.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The first synthetic plastic, Bakelite, was invented in 1907, over 40 years after the American Civil War ended in 1865."
+		"explanation": "Natural rubber comes from trees native to South America. The Maya and Aztecs used rubber for balls and waterproofing."
 	},
 	{
 		"question": "The last execution by guillotine happened after Star Wars was released.",
@@ -282,10 +372,16 @@
 		"explanation": "France's last execution by guillotine occurred in September 1977, four months after the first Star Wars film was released in May 1977."
 	},
 	{
-		"question": "Ancient Egyptians practiced brain surgery.",
+		"question": "Algebra was invented by Arabs.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Evidence shows ancient Egyptians performed trepanation (skull surgery) as early as 3000 BCE, with some patients surviving the procedure."
+		"explanation": "The Persian mathematician Al-Khwarizmi developed algebra in Baghdad around 820 CE. The word 'algebra' comes from Arabic 'al-jabr'."
+	},
+	{
+		"question": "The microscope was invented before the telescope.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The telescope was invented around 1608, while the compound microscope was invented around 1620, though simple magnifying lenses existed earlier."
 	},
 	{
 		"question": "Vending machines were invented around 2000 years ago.",
@@ -294,46 +390,46 @@
 		"explanation": "The first vending machine was created by Hero of Alexandria around the 1st century CE to dispense holy water in Egyptian temples."
 	},
 	{
-		"question": "Dentures used to be made from the teeth of dead soldiers.",
+		"question": "Sushi originated in China.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "In the 1800s, teeth from dead soldiers were commonly used to make dentures. 'Waterloo teeth' became popular after the 1815 battle."
+		"explanation": "The technique of fermenting fish with rice originated in Southeast Asia and China before being adopted and refined in Japan."
 	},
 	{
-		"question": "The Mongol Empire was larger than the British Empire.",
+		"question": "Horses were native to the Americas before European colonization.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The British Empire at its peak covered about 35.5 million square kilometers, while the Mongol Empire covered about 24 million square kilometers."
-	},
-	{
-		"question": "Ancient Greeks used stones as toilet paper.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "Ancient Greeks used smooth stones called 'pessoi' or pottery shards called 'ostraka' for hygiene purposes, before paper was available."
+		"explanation": "Horses went extinct in the Americas about 10,000 years ago and were reintroduced by Spanish conquistadors in the 16th century."
 	},
 	{
 		"question": "Computer bugs were named after actual insects.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "In 1947, Grace Hopper found a moth trapped in a Harvard Mark II computer, coining the term 'computer bug' for technical glitches."
+		"explanation": "In 1947, Grace Hopper found a moth trapped in a Harvard Mark II computer, popularizing the term 'computer bug' for technical glitches."
 	},
 	{
-		"question": "The ancient Library of Alexandria was destroyed in a single fire.",
+		"question": "Eyeglasses were invented in China.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "The Library of Alexandria declined gradually through multiple incidents over centuries, including several fires and budget cuts, rather than one catastrophic event."
+		"explanation": "Eyeglasses were invented in Italy around 1286 CE. China had earlier used crystals for magnification but not wearable spectacles."
 	},
 	{
-		"question": "Abraham Lincoln created the Secret Service on the day he was assassinated.",
+		"question": "Carrots were originally purple.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Lincoln signed legislation creating the Secret Service on April 14, 1865, the same day he was assassinated at Ford's Theatre. The agency was created primarily to combat counterfeiting of currency and the protective role for the president was developed later."
+		"explanation": "Wild carrots were purple, white, or yellow. Orange carrots were selectively bred by Dutch farmers in the 16th-17th centuries."
 	},
 	{
-		"question": "The Mona Lisa was stolen from the Louvre.",
+		"question": "The Mona Lisa was once stolen from the Louvre.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "The Mona Lisa was stolen in 1911 by Italian handyman Vincenzo Peruggia and was missing for two years before being recovered."
+	},
+	{
+		"question": "Champagne was invented by accident.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Sparkling champagne was originally considered a wine fault. Dom Pérignon actually tried to eliminate bubbles, not create them."
 	},
 	{
 		"question": "The first Olympic Games had only one event.",
@@ -342,9 +438,15 @@
 		"explanation": "The first recorded Olympic Games in 776 BCE featured only one event: the stadion, a running race of about 192 meters."
 	},
 	{
-		"question": "Typewriters were invented before the telephone.",
+		"question": "Coca leaves were used as currency.",
 		"options": ["True", "False"],
-		"answer": "True",
+		"answer": "False",
+		"explanation": "While coca leaves were valuable and sacred to the Incas, they used other items like cacao beans and textiles as currency, not coca leaves."
+	},
+	{
+		"question": "Typewriters were invented after the telephone.",
+		"options": ["True", "False"],
+		"answer": "False",
 		"explanation": "The first practical typewriter was patented in 1868, while Alexander Graham Bell patented the telephone in 1876."
 	},
 	{
@@ -354,10 +456,28 @@
 		"explanation": "In 1974, local farmers digging a well near Xi'an, China, accidentally discovered the first terracotta warriors of Emperor Qin's army."
 	},
 	{
+		"question": "Perfume was invented to mask bad smells in medieval times.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Perfume was invented by ancient Mesopotamians and Egyptians around 3000 BCE for religious ceremonies, long before medieval times."
+	},
+	{
 		"question": "Ancient Egyptians invented bowling.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Archaeological evidence from 3200 BCE shows ancient Egyptians played a game similar to bowling with stone balls and pins."
+	},
+	{
+		"question": "Ancient Egyptians invented basketball.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Basketball was invented in the United States in 1891 by James Naismith."
+	},
+	{
+		"question": "Rice originated in Africa.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Rice was first domesticated in China around 8000 BCE. African rice is a different species domesticated independently around 1500 BCE."
 	},
 	{
 		"question": "The Eiffel Tower was almost demolished in 1909.",
@@ -366,10 +486,22 @@
 		"explanation": "The Eiffel Tower was intended as a temporary structure for the 1889 World's Fair and was saved from demolition only because of its value as a radio antenna."
 	},
 	{
+		"question": "Bagpipes originated in Scotland.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Bagpipes likely originated in the Middle East around 1000 BCE and spread throughout Europe. Scotland adopted them much later."
+	},
+	{
 		"question": "Horses originated in North America.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Horses evolved in North America 55 million years ago, migrated to other continents, then went extinct in the Americas about 10,000 years ago until reintroduced by Europeans."
+	},
+	{
+		"question": "Croissants originated in France.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Croissants originated in Austria as 'kipferl'. They were introduced to France in the 1830s and became associated with French cuisine."
 	},
 	{
 		"question": "The Spanish flu originated in America.",
@@ -390,16 +522,34 @@
 		"explanation": "William Henry Harrison served only 31 days as president in 1841 before dying of pneumonia, making his the shortest presidency."
 	},
 	{
+		"question": "Toothbrushes were invented in Europe.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "The first toothbrush with bristles was invented in China during the Tang Dynasty (619-907 CE) using pig hair and bamboo handles."
+	},
+	{
 		"question": "The Panama Canal opened before the Suez Canal.",
 		"options": ["True", "False"],
 		"answer": "False",
 		"explanation": "The Suez Canal opened in 1869, while the Panama Canal didn't open until 1914, a difference of 45 years."
 	},
 	{
+		"question": "Kites were originally used for military purposes.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Chinese military forces used kites around 500 BCE for signaling, measuring distances, and testing wind conditions before they became toys."
+	},
+	{
 		"question": "Bubble wrap was originally invented as wallpaper.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "In 1957, engineers created bubble wrap while trying to develop a textured wallpaper. It failed as wallpaper but succeeded as packaging material."
+		"explanation": "In 1957, engineers created bubble wrap while trying to develop textured wallpaper. It failed as wallpaper but succeeded as packaging material."
+	},
+	{
+		"question": "Mirrors were invented in Venice.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Polished stone mirrors existed in Turkey around 6000 BCE. Venice became famous for glass mirror production but didn't invent mirrors."
 	},
 	{
 		"question": "The first Olympic marathon was won by a mailman.",
@@ -408,22 +558,34 @@
 		"explanation": "Greek postal worker Spyridon Louis won the first Olympic marathon at the 1896 Athens Games, becoming a national hero."
 	},
 	{
-		"question": "Ancient Mesopotamians invented the wheel.",
+		"question": "Soap was invented by ancient Romans.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The wheel was invented in Mesopotamia around 3500 BCE, initially used for pottery before being adapted for transportation."
+		"answer": "False",
+		"explanation": "Soap was invented by ancient Babylonians around 2800 BCE. Romans initially preferred oil and scrapers before adopting soap."
 	},
 	{
-		"question": "The Kremlin was once painted white.",
+		"question": "Denim fabric originated in America.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Moscow Kremlin walls were painted white from the late 1600s until 1947, when they were restored to their original red brick color."
+		"answer": "False",
+		"explanation": "Denim originated in Nîmes, France ('de Nîmes' became 'denim'). The fabric was later used by Levi Strauss to make jeans in America."
+	},
+	{
+		"question": "Ice cream was invented in Italy.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Ice cream's earliest form appeared in China around 200 BCE. Italy perfected gelato much later but didn't invent frozen desserts."
 	},
 	{
 		"question": "Cambridge University was founded by scholars fleeing Oxford.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Cambridge University was founded in 1209 by scholars who fled Oxford after disputes with townspeople led to the execution of two scholars."
+	},
+	{
+		"question": "Windmills were invented in the Netherlands.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Windmills were invented in Persia around 915 CE. The Dutch became famous for windmills but adopted them from Middle Eastern designs."
 	},
 	{
 		"question": "The Titanic had a sister ship that also sank.",
@@ -449,16 +611,22 @@
 		"explanation": "The Titanic sank in 1912."
 	},
 	{
+		"question": "Pencils were invented before pens.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Reed pens were used in ancient Egypt around 3000 BCE, while graphite pencils weren't invented until the 16th century CE."
+	},
+	{
 		"question": "Ancient Egyptians had a 365-day calendar.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Ancient Egyptians developed a 365-day calendar around 3000 BCE, one of the first solar calendars in human history."
 	},
 	{
-		"question": "The first animated feature film was made by Disney.",
+		"question": "The umbrella was invented for rain protection.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Argentina's 'El Apóstol' (1917) was the first animated feature film, predating Disney's 'Snow White' (1937) by 20 years."
+		"explanation": "Umbrellas were invented around 3400 years ago in Egypt and China for shade from the sun. Waterproof umbrellas came much later."
 	},
 	{
 		"question": "Marilyn Monroe and Queen Elizabeth II were born in the same year.",
@@ -467,10 +635,10 @@
 		"explanation": "Both Marilyn Monroe and Queen Elizabeth II were born in 1926, just 39 days apart."
 	},
 	{
-		"question": "Ancient Chinese ate ice cream.",
+		"question": "Playing cards originated in Europe.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "As early as 200 BCE, Chinese nobility enjoyed a frozen mixture of milk and rice, an early form of ice cream."
+		"answer": "False",
+		"explanation": "Playing cards were invented in China during the Tang Dynasty (618-907 CE) and reached Europe via Islamic lands in the 14th century."
 	},
 	{
 		"question": "The longest year in history had 445 days.",
@@ -482,7 +650,13 @@
 		"question": "Canned food was invented before the can opener.",
 		"options": ["True", "False"],
 		"answer": "True",
-		"explanation": "Canned food was invented in 1810, but the can opener wasn't invented until 1858. People used hammers and chisels to open the cans."
+		"explanation": "Canned food was invented in 1810, but the can opener wasn't invented until 1858. People used hammers and chisels before then."
+	},
+	{
+		"question": "Buttons were invented before zippers.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Buttons date back to ancient civilizations around 2000 BCE, while zippers weren't invented until 1893."
 	},
 	{
 		"question": "Ancient Greeks competed in music at the Olympics.",
@@ -509,10 +683,10 @@
 		"explanation": "While Babylon had impressive structures like ziggurats, their tallest buildings were only about 90 meters high, not comparable to modern skyscrapers."
 	},
 	{
-		"question": "The first person to break the sound barrier was a civilian pilot.",
+		"question": "Pandas were unknown to the Western world until the 20th century.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Chuck Yeager, a U.S. Air Force officer, was the first person to break the sound barrier in level flight on October 14, 1947."
+		"explanation": "French missionary Armand David introduced pandas to the Western world in 1869, though live pandas didn't reach the West until 1936."
 	},
 	{
 		"question": "The Chernobyl disaster happened in Russia.",
@@ -527,16 +701,10 @@
 		"explanation": "Levi Strauss created denim jeans in 1873 specifically for California gold miners who needed durable work pants."
 	},
 	{
-		"question": "The first webcam was created to monitor a coffee pot.",
+		"question": "Tobacco originated in Europe.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "In 1991, Cambridge University researchers created the first webcam to monitor their coffee pot without leaving their desks."
-	},
-	{
-		"question": "The ancient Olympics included a race in full armor.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The 'hoplitodromos' was an Olympic race where athletes ran 400 meters wearing bronze helmets, greaves, and carrying shields."
+		"answer": "False",
+		"explanation": "Tobacco is native to the Americas and was introduced to Europe by Spanish explorers in the 16th century."
 	},
 	{
 		"question": "Easter Island statues have full bodies buried underground.",
@@ -545,10 +713,10 @@
 		"explanation": "The famous Easter Island heads (moai) have full bodies extending deep underground, some reaching 7 meters below the surface."
 	},
 	{
-		"question": "The first commercial flight had only one passenger.",
+		"question": "Corn (maize) was originally yellow.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The first scheduled commercial airline flight in 1914 carried one passenger, flying 34 kilometers between two cities in Florida."
+		"answer": "False",
+		"explanation": "Original corn came in various colors including red, blue, and purple. Yellow corn became dominant through selective breeding."
 	},
 	{
 		"question": "Ancient Romans had central heating.",
@@ -557,10 +725,10 @@
 		"explanation": "Romans used a hypocaust system, circulating hot air under floors and through walls, an early form of central heating."
 	},
 	{
-		"question": "The first credit card was made of cardboard.",
+		"question": "Fireworks were invented for entertainment.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Diners Club card, introduced in 1950 as the first credit card, was made of cardboard before plastic cards became standard."
+		"answer": "False",
+		"explanation": "Fireworks were accidentally invented by Chinese alchemists searching for immortality. They were first used to ward off evil spirits."
 	},
 	{
 		"question": "Marie Curie's notebooks are still radioactive.",
@@ -569,34 +737,16 @@
 		"explanation": "Marie Curie's notebooks remain radioactive and will be for another 1,500 years. They're stored in lead-lined boxes in Paris."
 	},
 	{
-		"question": "The longest tennis match lasted over 11 hours.",
+		"question": "The boomerang was invented by Australian Aboriginals.",
 		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The 2010 Wimbledon match between Isner and Mahut lasted 11 hours and 5 minutes over three days, the longest match in tennis history."
+		"answer": "False",
+		"explanation": "While Australian Aboriginals used boomerangs, similar throwing sticks were used in ancient Egypt, Europe, and other regions independently."
 	},
 	{
 		"question": "Ancient Egyptians played board games.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Egyptians played Senet, one of the world's oldest board games, dating back to 3100 BCE. Game boards were found in many tombs."
-	},
-	{
-		"question": "Paper was invented in ancient Egypt.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "Paper as we know it today was invented in China around 100 CE. Ancient Egyptians used papyrus, a precursor to paper that is thicker and more fragile."
-	},
-	{
-		"question": "The first bicycle had no pedals.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The first bicycle, called a 'draisine' or 'hobby horse' invented in 1817, was propelled by pushing feet against the ground."
-	},
-	{
-		"question": "Antarctica has active volcanoes.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "Mount Erebus in Antarctica is one of the world's most active volcanoes and has been continuously erupting since at least 1972."
 	},
 	{
 		"question": "The first human in space was American.",
@@ -611,16 +761,16 @@
 		"explanation": "Trajan's Market in Rome, built around 110 CE, was a multi-level complex with over 150 shops, essentially an ancient shopping mall."
 	},
 	{
-		"question": "The shortest complete war between nations lasted 38 minutes.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "The Anglo-Zanzibar War of 1896 lasted between 38 and 45 minutes, with Zanzibar surrendering after British naval bombardment."
-	},
-	{
 		"question": "The Great Fire of London killed thousands of people.",
 		"options": ["True", "False"],
 		"answer": "False",
-		"explanation": "Despite destroying more than 13,000 houses, the Great Fire of London in 1666 killed only around 6 people."
+		"explanation": "Despite destroying more than 13,000 houses, the Great Fire of London in 1666 officially killed only 6 people, though the true number may be higher."
+	},
+	{
+		"question": "The piano was invented in Italy.",
+		"options": ["True", "False"],
+		"answer": "True",
+		"explanation": "Bartolomeo Cristofori invented the piano in Italy around 1700 as an instrument that could play both soft (piano) and loud (forte)."
 	},
 	{
 		"question": "Nintendo was founded in the 19th century.",
@@ -635,15 +785,15 @@
 		"explanation": "The chainsaw was invented in 1780 by two Scottish doctors to help with difficult childbirth by cutting through pelvic bone."
 	},
 	{
+		"question": "Antibiotics were discovered before World War I.",
+		"options": ["True", "False"],
+		"answer": "False",
+		"explanation": "Alexander Fleming discovered penicillin in 1928, a decade after World War I ended. Antibiotics weren't widely available until World War II."
+	},
+	{
 		"question": "In Switzerland, women were not allowed to vote until the 1970s.",
 		"options": ["True", "False"],
 		"answer": "True",
 		"explanation": "Women in Switzerland gained the right to vote in federal elections after a referendum in February 1971."
-	},
-	{
-		"question": "World War I lasted longer than World War II.",
-		"options": ["True", "False"],
-		"answer": "False",
-		"explanation": "World War I lasted from 1914 to 1918, while World War II lasted from 1939 to 1945."
 	}
 ]
