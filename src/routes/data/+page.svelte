@@ -10,12 +10,7 @@
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { downloadJSON, uploadTextFile } from '$lib/utils/browser';
 	import { formatNumber } from '$lib/utils/numbers';
-	import {
-		formatBytes,
-		persist,
-		showEstimatedQuota,
-		tryPersistWithoutPromtingUser
-	} from '$lib/utils/storage';
+	import { persist, tryPersistWithoutPromptingUser } from '$lib/utils/storage';
 	import { createTitle } from '$lib/utils/title';
 	import Heading from '$lib/components/Heading.svelte';
 
@@ -128,7 +123,7 @@
 				'border-main-200 bg-main-50 dark:border-main-800 dark:bg-main-900 '
 			]}
 		>
-			{#await tryPersistWithoutPromtingUser()}
+			{#await tryPersistWithoutPromptingUser()}
 				<p>Loading...</p>
 			{:then result}
 				{#if result === 'persisted'}
@@ -158,6 +153,8 @@
 										alertDialogDescription =
 											'Your browser did not allow enabling persistent storage. Try to use the app some more and then try again. Alternatively, upgrade your web browser or try another one.';
 										alertDialog?.open();
+									} else {
+										window.location.reload();
 									}
 								}}
 							>
