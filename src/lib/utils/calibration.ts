@@ -54,7 +54,7 @@ export function getAccuracyColor(confidence: number, accuracy: number) {
 	if (isNaN(accuracy)) return 'grey';
 
 	const diff = Math.round(Math.abs(confidence - accuracy) * 1000) / 1000;
-	if (diff <= 0.03) return 'cyan';
+	if (diff <= 0.02) return 'cyan';
 	if (diff <= 0.1) return 'green';
 	if (diff <= 0.2) return 'yellow';
 	if (diff <= 0.3) return 'orange';
@@ -86,12 +86,24 @@ export function getStarCount(score: number) {
 function getAccuarcyEmoji(confidence: number, accuracy: number) {
 	const color = getAccuracyColor(confidence, accuracy);
 	return {
-		grey: '❓',
 		cyan: '🔵',
 		green: '🟢',
 		yellow: '🟡',
 		orange: '🟠',
-		red: '🔴'
+		red: '🔴',
+		grey: '❓'
+	}[color];
+}
+
+function getScoreEmoji(score: number) {
+	const color = getScoreColor(score);
+	return {
+		cyan: '🔥💯🎯',
+		green: '😎',
+		yellow: '😅',
+		orange: '😬',
+		red: '💩',
+		grey: '⁉️'
 	}[color];
 }
 
@@ -104,9 +116,9 @@ export function generateShareMessage(
 	let message = '';
 
 	if (quizName === undefined) {
-		message += `My calibration score is ${score}/100!\n\n`;
+		message += `My calibration score: ${score} ${getScoreEmoji(score)}\n\n`;
 	} else {
-		message += `I scored ${score}% on the ${quizName}!\n\n`;
+		message += `I scored ${score}% on the ${quizName}! ${getScoreEmoji(score)}\n\n`;
 	}
 
 	for (const [confidenceLabel, confidenceValue] of Object.entries(CONFIDENCES)) {
@@ -114,7 +126,7 @@ export function generateShareMessage(
 		const accuracy = Math.round((correct / total) * 100);
 		const accuracyLabel = isNaN(accuracy) ? 'never' : `${accuracy}% accurate when I'm`;
 		const emoji = getAccuarcyEmoji(confidenceValue, accuracy / 100);
-		message += `${emoji} ⋅ I'm ${accuracyLabel} ${confidenceLabel} sure\n`;
+		message += `• I'm ${accuracyLabel} ${confidenceLabel} sure ${emoji} \n`;
 	}
 
 	message += '\nHow well are you calibrated? ' + window.location.origin;
