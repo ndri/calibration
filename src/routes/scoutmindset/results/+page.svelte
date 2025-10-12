@@ -102,7 +102,9 @@
 				<Heading level={3}>What's next?</Heading>
 				<ul class="list-disc pl-6 marker:text-main-300 dark:marker:text-main-500">
 					<li>
-						Practice similar questions with <Link href="/practice">Infinite Calibration</Link>.
+						Continue practicing on similar questions with <Link href="/practice"
+							>Infinite Calibration</Link
+						>.
 					</li>
 					<li>
 						Read <Link href="https://search.worldcat.org/title/1164823768" newTab
@@ -141,8 +143,9 @@
 						>.
 					</li>
 					<li>
-						Use a prediction market like <Link href="https://manifold.markets?r=YW5kcmk" newTab
-							>Manifold Markets</Link
+						Use the play-money prediction market <Link
+							href="https://manifold.markets?r=YW5kcmk"
+							newTab>Manifold Markets</Link
 						> and bet on future events.
 					</li>
 				</ul>

@@ -104,7 +104,7 @@ export function generateShareMessage(
 	let message = '';
 
 	if (quizName === undefined) {
-		message += `I am ${score}% calibrated!\n\n`;
+		message += `My calibration score is ${score}/100!\n\n`;
 	} else {
 		message += `I scored ${score}% on the ${quizName}!\n\n`;
 	}
@@ -117,7 +117,7 @@ export function generateShareMessage(
 		message += `${emoji} ⋅ I'm ${accuracyLabel} ${confidenceLabel} sure\n`;
 	}
 
-	message += '\nHow calibrated are you? ' + window.location.origin;
+	message += '\nHow well are you calibrated? ' + window.location.origin;
 
 	return message;
 }
