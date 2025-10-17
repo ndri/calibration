@@ -36,7 +36,7 @@
 			on(document, 'touchstart', (e) => {
 				const touchStartX = e.touches[0].clientX;
 
-				if (touchStartX < 25) {
+				if (sidebarOpenPercentage === 0 && touchStartX < 25) {
 					holdGesture = true;
 					setTimeout(() => {
 						if (holdGesture) {
@@ -44,6 +44,14 @@
 							openSidebarToPercentage(10);
 						}
 					}, 200);
+				}
+
+				if (
+					sidebarElement &&
+					sidebarOpenPercentage === 100 &&
+					touchStartX > sidebarElement?.clientWidth - 25
+				) {
+					openGesture = true;
 				}
 			}),
 			on(document, 'touchend', () => {
