@@ -35,7 +35,6 @@
 		[
 			on(document, 'touchstart', (e) => {
 				const touchStartX = e.touches[0].clientX;
-				console.log('touchstart', touchStartX);
 
 				if (touchStartX < 25) {
 					holdGesture = true;
@@ -48,7 +47,6 @@
 				}
 			}),
 			on(document, 'touchend', () => {
-				console.log('touchend');
 				holdGesture = false;
 
 				if (openGesture) {
@@ -62,7 +60,6 @@
 			}),
 			on(document, 'touchmove', (e) => {
 				const touchMoveX = e.touches[0].clientX;
-				console.log('touchmove', touchMoveX);
 
 				if (openGesture && sidebarElement) {
 					sidebarOpenPercentage = Math.min(
