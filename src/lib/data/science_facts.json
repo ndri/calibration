@@ -144,12 +144,6 @@
 		"explanation": "Light travels slower through materials like water (75% of c) and glass (67% of c) than through a vacuum."
 	},
 	{
-		"question": "Hot water can freeze faster than cold water under certain conditions.",
-		"options": ["True", "False"],
-		"answer": "True",
-		"explanation": "This is known as the Mpemba effect. While controversial, it has been observed under specific conditions involving evaporation, convection, and supercooling."
-	},
-	{
 		"question": "DNA stands for Deoxyribonucleic Acid.",
 		"options": ["True", "False"],
 		"answer": "True",
