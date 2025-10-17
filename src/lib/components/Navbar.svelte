@@ -108,11 +108,11 @@
 		class={[
 			'fixed left-0 z-20 h-screen px-4 pt-[68px]',
 			'bg-main-50 dark:bg-main-900',
-			'lg:hidden',
-			!openGesture && 'transition-transform'
+			'lg:hidden'
 		]}
-		style="transform: translateX(-{100 -
-			sidebarOpenPercentage}%); transition-duration: {TRANSITION_DURATION}ms"
+		style="transform: translateX(-{100 - sidebarOpenPercentage}%); transition-duration: {openGesture
+			? 0
+			: TRANSITION_DURATION}ms"
 		bind:this={sidebarElement}
 	>
 		<SidebarContents onclick={closeSidebar} hideTitle />
