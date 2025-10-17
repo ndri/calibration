@@ -7,7 +7,7 @@
 
 <svelte:head><title>{createTitle('FAQ')}</title></svelte:head>
 
-<section class="flex flex-col gap-4">
+<section class="flex w-full flex-col gap-4">
 	<Heading level={2}>Frequently Asked Questions</Heading>
 	<div class="flex flex-col gap-4">
 		<Disclosure question="Why should I calibrate my confidence?">

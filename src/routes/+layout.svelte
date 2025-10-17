@@ -20,7 +20,7 @@
 
 <div
 	class={[
-		'relative flex min-h-full flex-col items-center justify-start p-0',
+		'relative flex h-full flex-col items-center justify-start p-0',
 		'md:justify-center',
 		'lg:flex-row lg:items-start',
 		'bg-white text-main-800 lg:bg-main-50',
@@ -28,17 +28,19 @@
 	]}
 >
 	<Navbar />
-	<main class={['flex h-screen w-full flex-col overflow-y-auto p-0', 'lg:p-4']} tabindex="-1">
+	<main class="h-screen w-full overflow-y-auto p-0 lg:p-4" tabindex="-1">
 		<div
 			class={[
 				'@container',
-				'flex justify-center p-4 pt-24',
+				'flex min-h-full justify-center p-4 pt-24',
 				'border-main-200 bg-white',
 				'dark:border-main-800 dark:bg-main-950',
 				'lg:rounded-lg lg:border lg:p-16'
 			]}
 		>
-			<div class="flex w-full max-w-3xl flex-col gap-8">{@render children()}</div>
+			<div class="flex min-h-full w-full max-w-3xl flex-col items-center gap-8">
+				{@render children()}
+			</div>
 		</div>
 	</main>
 </div>

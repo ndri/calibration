@@ -1,14 +1,12 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import Button from '$lib/components/ui/Button.svelte';
-	import Heading from '$lib/components/Heading.svelte';
-	import QuizProgress from '$lib/components/QuizProgress.svelte';
 	import questions from '$lib/data/scout_mindset_questions.json';
 	import { addAnswer, getAnswerInQuestionSet, getQuestionSetProgress } from '$lib/db';
 	import { stateQuery } from '$lib/utils/stateQuery.svelte';
 	import { ArrowLeftIcon, ArrowRightIcon } from '@sidekickicons/svelte/20/solid';
 	import type { PageProps } from './$types';
-	import QuestionView from '$lib/components/QuestionView.svelte';
+	import QuizView from '$lib/components/QuizView.svelte';
 
 	const QUESTION_SET = 'Scout Mindset';
 
@@ -93,23 +91,29 @@
 	});
 </script>
 
-<div class="flex flex-col gap-10">
-	<Heading level={2}>Scout Mindset Calibration Quiz</Heading>
-
-	{#if progress !== undefined && currentQuestion}
-		<QuizProgress {progress} total={questions.length} />
-		<QuestionView question={currentQuestion} bind:selectedAnswer bind:selectedConfidence />
-
-		<div class="flex justify-between">
-			<Button
-				size="lg"
-				LeftIcon={ArrowLeftIcon}
-				variant="secondary"
-				onclick={previousQuestion}
-				shortcutKey="backspace"
-			>
-				Back
-			</Button>
+<QuizView
+	title="Scout Mindset Calibration Quiz"
+	question={currentQuestion}
+	bind:selectedAnswer
+	bind:selectedConfidence
+	progressBar={progress !== undefined
+		? {
+				progress,
+				total: questions.length
+			}
+		: undefined}
+>
+	{#snippet buttons()}
+		<Button
+			size="lg"
+			LeftIcon={ArrowLeftIcon}
+			variant="secondary"
+			onclick={previousQuestion}
+			shortcutKey="backspace"
+		>
+			Back
+		</Button>
+		{#if progress !== undefined}
 			<Button
 				size="lg"
 				RightIcon={ArrowRightIcon}
@@ -124,6 +128,6 @@
 					Finish
 				{/if}
 			</Button>
-		</div>
-	{/if}
-</div>
+		{/if}
+	{/snippet}
+</QuizView>

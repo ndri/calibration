@@ -33,7 +33,7 @@
 	75%, 85%, and 95%. Just select the one that best represents how sure you are.
 </Paragraph>
 
-<div class="flex justify-between">
+<div class="flex w-full justify-between">
 	<Button href="/" size="lg" LeftIcon={ArrowLeftIcon} variant="secondary" shortcutKey="backspace">
 		Back
 	</Button>

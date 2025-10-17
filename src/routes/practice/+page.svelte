@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Heading from '$lib/components/Heading.svelte';
-	import QuestionView from '$lib/components/QuestionView.svelte';
+	import QuizView from '$lib/components/QuizView.svelte';
 	import Button from '$lib/components/ui/Button.svelte';
 	import MultiSelectDialog from '$lib/components/ui/MultiSelectDialog.svelte';
 	import { addAnswer, getConfig, getRecentQuestions, updateConfig } from '$lib/db';
@@ -71,60 +70,54 @@
 
 <svelte:head><title>{createTitle()}</title></svelte:head>
 
-<div class="flex flex-col gap-10">
-	<Heading level={2} class="sr-only">Infinite Calibration</Heading>
-
-	{#if question && categories}
-		<QuestionView
-			{question}
-			bind:selectedAnswer
-			bind:selectedConfidence
-			answerMode={mode === 'answer'}
-		/>
+<QuizView
+	title="Infinite Calibration"
+	{question}
+	bind:selectedAnswer
+	bind:selectedConfidence
+	answerMode={mode === 'answer'}
+>
+	{#snippet buttons()}
 		{#if mode === 'question'}
-			<div class="flex justify-between">
-				<Button
-					size="lg"
-					variant="secondary"
-					onclick={() => {
-						if (!categoriesDialog) return;
+			<Button
+				size="lg"
+				variant="secondary"
+				onclick={() => {
+					if (!categories || !categoriesDialog) return;
 
-						categoriesDialog.setValues(categories);
-						categoriesDialog.open();
-					}}
-					LeftIcon={Cog6ToothIcon}
-				>
-					{categories.length}/{allCategories.length} categories selected
-				</Button>
-				<Button
-					size="lg"
-					LeftIcon={CheckIcon}
-					variant="primary"
-					onclick={showAnswer}
-					disabled={!selectedAnswer || !selectedConfidence}
-					shortcutKey="enter"
-				>
-					Answer
-				</Button>
-			</div>
+					categoriesDialog.setValues(categories);
+					categoriesDialog.open();
+				}}
+				LeftIcon={Cog6ToothIcon}
+			>
+				{categories?.length ?? 0}/{allCategories.length} categories selected
+			</Button>
+			<Button
+				size="lg"
+				LeftIcon={CheckIcon}
+				variant="primary"
+				onclick={showAnswer}
+				disabled={!selectedAnswer || !selectedConfidence}
+				shortcutKey="enter"
+			>
+				Answer
+			</Button>
 		{:else}
-			<div class="flex justify-between">
-				<Button size="lg" LeftIcon={ChartBarIcon} variant="secondary" href="/results">
-					See results
-				</Button>
-				<Button
-					size="lg"
-					RightIcon={ArrowRightIcon}
-					variant="primary"
-					onclick={newQuestion}
-					shortcutKey="enter"
-				>
-					Next Question
-				</Button>
-			</div>
+			<Button size="lg" LeftIcon={ChartBarIcon} variant="secondary" href="/results">
+				See results
+			</Button>
+			<Button
+				size="lg"
+				RightIcon={ArrowRightIcon}
+				variant="primary"
+				onclick={newQuestion}
+				shortcutKey="enter"
+			>
+				Next Question
+			</Button>
 		{/if}
-	{/if}
-</div>
+	{/snippet}
+</QuizView>
 
 <MultiSelectDialog
 	bind:this={categoriesDialog}

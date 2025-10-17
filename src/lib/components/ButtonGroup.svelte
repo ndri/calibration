@@ -10,18 +10,26 @@
 		selectedValue?: T | undefined;
 		highlightedValue?: T | undefined;
 		disabled?: boolean;
+		buttonSize?: 'sm' | 'lg';
 	}
 
-	let { buttons, selectedValue = $bindable(), highlightedValue, disabled }: Props = $props();
+	let {
+		buttons,
+		selectedValue = $bindable(),
+		highlightedValue,
+		disabled,
+		buttonSize = 'sm'
+	}: Props = $props();
 </script>
 
-<div class="flex">
+<div class="grid grid-cols-repeat-(--cols)" style="--cols: {buttons.length}">
 	{#each buttons as { value, label, shortcutKey } (value)}
 		<GroupButton
 			selected={selectedValue === value}
 			highlighted={highlightedValue === value}
 			{disabled}
 			{shortcutKey}
+			size={buttonSize}
 			onclick={() => {
 				selectedValue = value;
 			}}

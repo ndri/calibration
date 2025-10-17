@@ -20,34 +20,39 @@
 	}: Props = $props();
 </script>
 
-<div class="flex flex-col gap-4">
-	<Heading level={3}>{question.question}</Heading>
-	<ButtonGroup
-		buttons={question.options.map((value, i) => ({ value, shortcutKey: String(i + 1) }))}
-		bind:selectedValue={selectedAnswer}
-		disabled={answerMode}
-		highlightedValue={answerMode ? question.answer : undefined}
-	/>
-	<Paragraph>
-		{#if answerMode}
-			{@const explanation = getExplanation(question.question, question.options)}
-			{#if selectedAnswer === question.answer}
-				Correct!
+<div class="flex flex-col gap-8">
+	<div class="flex flex-col gap-4">
+		<Heading level={3}>{question.question}</Heading>
+		<ButtonGroup
+			buttons={question.options.map((value, i) => ({ value, shortcutKey: String(i + 1) }))}
+			bind:selectedValue={selectedAnswer}
+			disabled={answerMode}
+			highlightedValue={answerMode ? question.answer : undefined}
+			buttonSize="lg"
+		/>
+	</div>
+	<div class="flex flex-col gap-4">
+		<Paragraph>
+			{#if answerMode}
+				{@const explanation = getExplanation(question.question, question.options)}
+				{#if selectedAnswer === question.answer}
+					Correct!
+				{:else}
+					Incorrect.
+				{/if}
+				{#if explanation}
+					{explanation}
+				{/if}
 			{:else}
-				Incorrect.
+				How confident are you in your answer?
 			{/if}
-			{#if explanation}
-				{explanation}
-			{/if}
-		{:else}
-			How confident are you in your answer?
-		{/if}
-	</Paragraph>
-	<ConfidenceSelector
-		bind:selectedConfidence
-		disabled={answerMode}
-		highlightSelected={answerMode}
-	/>
+		</Paragraph>
+		<ConfidenceSelector
+			bind:selectedConfidence
+			disabled={answerMode}
+			highlightSelected={answerMode}
+		/>
+	</div>
 	{#if answerMode && selectedAnswer !== question.answer}
 		<Paragraph>
 			{#if selectedConfidence === 0.95}
